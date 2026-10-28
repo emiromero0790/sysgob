@@ -22,6 +22,19 @@ INDICE_VECTORES = INDICES / "vectores.npy"
 INDICE_FAISS = INDICES / "vectorial.faiss"
 INDICE_LSA = INDICES / "lsa.joblib"
 INDICE_META = INDICES / "meta.json"
+INDICE_TFIDF = INDICES / "matriz_tfidf.npz"
+INDICE_VOCABULARIO = INDICES / "vocabulario.json.gz"
+INDICE_ESTRUCTURA = INDICES / "estructura.json"
+
+ANALISIS_TEXTO = ANALISIS / "texto.json"
+
+NO_RELACIONAL = DATOS / "no_relacional"
+JSON_OFERTAS = PROCESADO / "ofertas.json"
+JSONL_OFERTAS = PROCESADO / "ofertas.jsonl"
+CSV_TECNOLOGIAS = PROCESADO / "tecnologias.csv"
+CSV_EMPRESAS = PROCESADO / "empresas.csv"
+CSV_FUENTES = PROCESADO / "fuentes.csv"
+CSV_OFERTA_TECNOLOGIA = PROCESADO / "ofertas_tecnologias.csv"
 
 AGENTE = "SysJobsBot/1.0 (proyecto academico de Recuperacion de Informacion, TecNM campus Morelia)"
 PAUSA = 1.5
@@ -59,6 +72,24 @@ SITIOS_HTML = [
 ]
 
 UMBRAL_CASI_DUPLICADO = 0.9
+
+# --- Preprocesamiento de texto -------------------------------------------
+# Estrategia usada para reducir cada palabra antes de indexar:
+#   "lema"     -> lematización (recomendada: conserva palabras legibles)
+#   "derivada" -> derivación / stemming (raíces más agresivas)
+#   "palabra"  -> solo normalización (minúsculas y sin acentos)
+ESTRATEGIA_TOKENS = "lema"
+QUITAR_NUMEROS = True
+MIN_LONGITUD_TOKEN = 2
+NGRAMAS = (2, 3)
+TOP_TERMINOS = 60
+TOP_NGRAMAS = 25
+
+# --- Exportacion ----------------------------------------------------------
+FORMATOS_EXPORTACION = ("csv", "json", "jsonl", "sqlite", "mongodb")
+MONGO_URI = "mongodb://localhost:27017"
+MONGO_BD = "sysjobs"
+MONGO_COLECCION = "ofertas"
 
 BM25_K1 = 1.5
 BM25_B = 0.75

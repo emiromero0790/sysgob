@@ -1,0 +1,4128 @@
+[
+  {
+    "_id": "Grupo Mariposa",
+    "total_ofertas": 5,
+    "fuentes": {
+      "getonboard": 5
+    },
+    "modalidades": {
+      "remoto": 5
+    },
+    "tecnologias": {
+      "azure": 3,
+      "ci/cd": 2,
+      "typescript": 1,
+      "dart": 1,
+      "html": 1,
+      "css": 1,
+      "angular": 1,
+      "flutter": 1,
+      "api rest": 2,
+      "git": 1,
+      "scrum": 1,
+      "figma": 1,
+      "python": 1,
+      "kafka": 1,
+      "aws": 1,
+      "gcp": 2,
+      "machine learning": 1,
+      "unity": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "23people",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "java": 1,
+      "sql": 1,
+      "gcp": 1,
+      "machine learning": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "Xintec",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "hibrido": 3
+    },
+    "tecnologias": {
+      "gcp": 2,
+      "ci/cd": 2,
+      "selenium": 1,
+      "cypress": 1,
+      "java": 2,
+      "node.js": 1,
+      "terraform": 1,
+      "sql": 1,
+      "postgresql": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "BC Tecnología",
+    "total_ofertas": 49,
+    "fuentes": {
+      "getonboard": 49
+    },
+    "modalidades": {
+      "presencial": 8,
+      "hibrido": 27,
+      "remoto": 14
+    },
+    "tecnologias": {
+      "python": 17,
+      "aws": 15,
+      "azure": 8,
+      "docker": 5,
+      "kubernetes": 5,
+      "linux": 5,
+      "bash": 3,
+      "sap": 2,
+      "redes": 4,
+      "oracle": 4,
+      "gcp": 9,
+      "sql": 15,
+      "terraform": 7,
+      "ci/cd": 14,
+      "git": 16,
+      "machine learning": 7,
+      "scrum": 31,
+      "typescript": 2,
+      "node.js": 3,
+      "nestjs": 3,
+      "api rest": 9,
+      "jira": 4,
+      "java": 3,
+      "javascript": 4,
+      "android": 3,
+      "ios": 3,
+      "selenium": 3,
+      "cypress": 3,
+      "angular": 2,
+      "swift": 2,
+      "kotlin": 2,
+      "jenkins": 1,
+      "mysql": 2,
+      "postgresql": 2,
+      "power bi": 6,
+      "kafka": 1,
+      "spark": 5,
+      "flutter": 1,
+      "mongodb": 2,
+      ".net": 2,
+      "sql server": 3,
+      "react": 1,
+      "react native": 1,
+      "flask": 1,
+      "fastapi": 1,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "c#": 2,
+      "tableau": 1,
+      "php": 1,
+      "laravel": 1,
+      "html": 1,
+      "css": 1,
+      "redis": 1
+    }
+  },
+  {
+    "_id": "TCIT",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "android": 1,
+      "ios": 1,
+      "sql": 1,
+      "azure": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "scrum": 1,
+      "jira": 1,
+      "selenium": 1,
+      "cypress": 1
+    }
+  },
+  {
+    "_id": "Factor IT",
+    "total_ofertas": 5,
+    "fuentes": {
+      "getonboard": 5
+    },
+    "modalidades": {
+      "remoto": 1,
+      "hibrido": 1,
+      "presencial": 3
+    },
+    "tecnologias": {
+      "oracle": 2,
+      "gcp": 2,
+      "docker": 1,
+      "kubernetes": 1,
+      "ci/cd": 1,
+      "sql": 3,
+      "linux": 1,
+      "aws": 2,
+      "python": 1,
+      "machine learning": 1,
+      "pandas": 1
+    }
+  },
+  {
+    "_id": "Improving",
+    "total_ofertas": 14,
+    "fuentes": {
+      "getonboard": 14
+    },
+    "modalidades": {
+      "remoto": 14
+    },
+    "tecnologias": {
+      "python": 8,
+      "sql": 5,
+      "azure": 6,
+      "ci/cd": 6,
+      "scrum": 10,
+      "unity": 1,
+      "jira": 1,
+      "machine learning": 6,
+      "aws": 6,
+      "docker": 4,
+      "terraform": 2,
+      "redes": 3,
+      "java": 1,
+      "kubernetes": 4,
+      "html": 1,
+      "javascript": 2,
+      "typescript": 2,
+      "react": 2,
+      "graphql": 1,
+      "jenkins": 1,
+      "git": 2,
+      "selenium": 1,
+      "cypress": 1,
+      "pandas": 2,
+      "spark": 2,
+      ".net": 1,
+      "pytorch": 2,
+      "android": 1,
+      "ios": 1,
+      "gcp": 2,
+      "tensorflow": 1,
+      "c#": 1
+    }
+  },
+  {
+    "_id": "Mediastream",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "linux": 1,
+      "scrum": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Zaelot",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "sql": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Qonto",
+    "total_ofertas": 4,
+    "fuentes": {
+      "arbeitnow": 4
+    },
+    "modalidades": {
+      "hibrido": 2,
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "sql": 1,
+      "kotlin": 2,
+      "swift": 1,
+      "android": 2,
+      "ios": 1,
+      "machine learning": 1,
+      "firebase": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Institut Mines-Télécom",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Microagi",
+    "total_ofertas": 4,
+    "fuentes": {
+      "arbeitnow": 4
+    },
+    "modalidades": {
+      "no especificada": 4
+    },
+    "tecnologias": {
+      "c++": 2,
+      "linux": 1
+    }
+  },
+  {
+    "_id": "citema systems GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "redis": 1,
+      "elasticsearch": 1,
+      "linux": 1
+    }
+  },
+  {
+    "_id": "Delta Capita",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 1,
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "kafka": 1,
+      "api rest": 2,
+      "docker": 2,
+      "kubernetes": 2,
+      "ci/cd": 2,
+      "scrum": 2,
+      "javascript": 1,
+      "typescript": 1,
+      "html": 1,
+      "css": 1,
+      "react": 1,
+      "node.js": 1,
+      "nestjs": 1,
+      "sql": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Stark",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "c++": 1,
+      "linux": 1,
+      "unity": 1,
+      "redes": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Treefera",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "machine learning": 1,
+      "pytorch": 1,
+      "typescript": 1,
+      "react": 1,
+      "nestjs": 1,
+      "postgresql": 1
+    }
+  },
+  {
+    "_id": "Wayve",
+    "total_ofertas": 29,
+    "fuentes": {
+      "arbeitnow": 29
+    },
+    "modalidades": {
+      "hibrido": 28,
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 17,
+      "c++": 8,
+      "rust": 1,
+      "kubernetes": 5,
+      "ci/cd": 6,
+      "linux": 6,
+      "redes": 3,
+      "android": 1,
+      "azure": 5,
+      "git": 4,
+      "jira": 4,
+      "machine learning": 12,
+      "pytorch": 5,
+      "sql": 4,
+      "spark": 2,
+      "docker": 4,
+      "aws": 2,
+      "gcp": 2,
+      "terraform": 2,
+      "jenkins": 1,
+      "bash": 1
+    }
+  },
+  {
+    "_id": "360Learning",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Hawkeyeinnovations",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 1,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "c++": 2,
+      "aws": 1,
+      "linux": 1,
+      "pytorch": 1,
+      "git": 1,
+      "machine learning": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Saeki",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "presencial": 3
+    },
+    "tecnologias": {
+      "python": 3,
+      "c++": 2,
+      "rust": 3,
+      "git": 2,
+      "react": 1,
+      "postgresql": 1,
+      "aws": 1
+    }
+  },
+  {
+    "_id": "Kijimea",
+    "total_ofertas": 6,
+    "fuentes": {
+      "arbeitnow": 6
+    },
+    "modalidades": {
+      "no especificada": 6
+    },
+    "tecnologias": {
+      "wordpress": 2,
+      "figma": 1,
+      "javascript": 2,
+      "html": 2,
+      "css": 2
+    }
+  },
+  {
+    "_id": "Hudl",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "aws": 1,
+      "docker": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Opentas",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Axle Careers",
+    "total_ofertas": 5,
+    "fuentes": {
+      "arbeitnow": 5
+    },
+    "modalidades": {
+      "hibrido": 5
+    },
+    "tecnologias": {
+      "python": 4,
+      "react": 3,
+      "gcp": 3,
+      "docker": 3,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "layer7 GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "linux": 1
+    }
+  },
+  {
+    "_id": "Legartis",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "git": 1
+    }
+  },
+  {
+    "_id": "Kopfsachen",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Productsup",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "jira": 1
+    }
+  },
+  {
+    "_id": "Gt Hq",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "nestjs": 1,
+      "sql": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "git": 1,
+      "machine learning": 1,
+      "pytorch": 1,
+      "pandas": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "PolyTALENT GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "teccle group GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "linux": 1
+    }
+  },
+  {
+    "_id": "tecRacer Germany GmbH",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 3
+    },
+    "tecnologias": {
+      "aws": 3,
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "Lödige Industries GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "KD Pharma",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "azure": 1,
+      "terraform": 1,
+      "git": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Catapult Sports",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "c#": 1,
+      "c++": 1,
+      "scrum": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Jobgether",
+    "total_ofertas": 4,
+    "fuentes": {
+      "arbeitnow": 4
+    },
+    "modalidades": {
+      "remoto": 4
+    },
+    "tecnologias": {
+      "java": 1,
+      "typescript": 1,
+      "react": 1,
+      "spring": 1,
+      "azure": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Vicoland",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "tensorflow": 2,
+      "pytorch": 2,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "autoscout24",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 3
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "aws": 1,
+      "kubernetes": 1,
+      "ci/cd": 1,
+      "react": 1,
+      "react native": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Dotfile",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "react": 1,
+      "node.js": 1,
+      "nestjs": 1,
+      "postgresql": 1,
+      "graphql": 1,
+      "aws": 1,
+      "kubernetes": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Spotify",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1
+    }
+  },
+  {
+    "_id": "Munich Electrification",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Kleines Kraftwerk DE GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "ElevenLabs",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "sql": 2
+    }
+  },
+  {
+    "_id": "Pipebuilders",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Lio",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "java": 1,
+      "typescript": 1
+    }
+  },
+  {
+    "_id": "ION Group",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "kotlin": 1,
+      "swift": 1,
+      "android": 1,
+      "ios": 1,
+      "api rest": 1,
+      "ci/cd": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Ekimetrics",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 1,
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "scrum": 2
+    }
+  },
+  {
+    "_id": "Healf",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "aws": 1
+    }
+  },
+  {
+    "_id": "Seccl",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "mongodb": 1,
+      "kafka": 1,
+      "aws": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "autoteam augsburg",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "NXT Hero GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "azure": 1,
+      "linux": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Novaspace",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "php": 1,
+      "html": 1,
+      "css": 1,
+      "react": 1,
+      "wordpress": 1,
+      "mysql": 1,
+      "api rest": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Radiant",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "kubernetes": 2,
+      "redes": 2,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Distran",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "c++": 1,
+      "docker": 1,
+      "jenkins": 1,
+      "linux": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "zetaglobal",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "scala": 1,
+      "aws": 1,
+      "terraform": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Genomics",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "pathway solutions gmbh",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "sql": 1,
+      "gcp": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Uniti",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "aws": 1
+    }
+  },
+  {
+    "_id": "Camunda",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "spring": 1,
+      "java": 1,
+      "react": 1
+    }
+  },
+  {
+    "_id": "Axon",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Smartly",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "react": 1,
+      "node.js": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "gcp": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "machine learning": 1,
+      "tensorflow": 1,
+      "pytorch": 1
+    }
+  },
+  {
+    "_id": "Junior Data Scientist - Downstream Demand Forecast - Value Chain ...",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Waracle",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "sql": 1,
+      "azure": 1
+    }
+  },
+  {
+    "_id": "Callista Group AG",
+    "total_ofertas": 6,
+    "fuentes": {
+      "arbeitnow": 6
+    },
+    "modalidades": {
+      "remoto": 6
+    },
+    "tecnologias": {
+      "sql": 3,
+      "azure": 5,
+      "ci/cd": 1,
+      "git": 1,
+      "spark": 2,
+      "power bi": 1,
+      "scrum": 2,
+      "oracle": 1,
+      "unity": 1,
+      "java": 1,
+      "angular": 1,
+      "kubernetes": 1
+    }
+  },
+  {
+    "_id": "Veepee",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "vue": 1
+    }
+  },
+  {
+    "_id": "Staffbase",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "kotlin": 1,
+      "react": 1,
+      "node.js": 1,
+      "mongodb": 1,
+      "api rest": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "scrum": 1,
+      "selenium": 1,
+      "cypress": 1
+    }
+  },
+  {
+    "_id": "Se3",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 2,
+      "presencial": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Reflex Aerospace GmbH",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "postgresql": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "isolutions",
+    "total_ofertas": 5,
+    "fuentes": {
+      "arbeitnow": 5
+    },
+    "modalidades": {
+      "no especificada": 4,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "azure": 3,
+      "terraform": 2,
+      "git": 2,
+      "redes": 1,
+      "machine learning": 1,
+      "ci/cd": 1,
+      "python": 1,
+      "sql": 1,
+      "power bi": 1
+    }
+  },
+  {
+    "_id": "Midnite",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "aws": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Erschaffe dich neu",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "HEATMANAGER GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "react": 1,
+      "next.js": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "1KOMMA5˚",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Exegy",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Loopario",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "c#": 1,
+      ".net": 1
+    }
+  },
+  {
+    "_id": "wppmedia",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Deliveroo",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 1,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 2,
+      "aws": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "machine learning": 1,
+      "ruby": 1,
+      "rails": 1,
+      "rust": 1,
+      "scala": 1,
+      "mysql": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "elasticsearch": 1
+    }
+  },
+  {
+    "_id": "Fundingcircle",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "kafka": 1,
+      "ci/cd": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "Ethon",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "celonis",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "EXWE GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "html": 1,
+      "css": 1,
+      "vue": 1,
+      "mysql": 1,
+      "docker": 1,
+      "linux": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "IBS Schreiber GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "sap": 1
+    }
+  },
+  {
+    "_id": "Doctrine",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Brunswickgroup",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "azure": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "80 Beats Medical GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "javascript": 1,
+      "kafka": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "machine learning": 1,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "spark": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "ten23 health AG",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "TechBiz Global GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "java": 1,
+      "go": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "elasticsearch": 1,
+      "kafka": 1,
+      "api rest": 1,
+      "aws": 1,
+      "azure": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "bash": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Happyrobot.ai",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "react": 1,
+      "node.js": 1
+    }
+  },
+  {
+    "_id": "TenMedia GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "c#": 1,
+      "php": 1,
+      "wordpress": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "FastRocket GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "react": 1,
+      "angular": 1,
+      "next.js": 1,
+      "node.js": 1,
+      "nestjs": 1,
+      "flutter": 1,
+      "azure": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Education Partners",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Stack Infrastructure Emea",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 1,
+      "presencial": 1
+    },
+    "tecnologias": {
+      "oracle": 1,
+      "react": 1
+    }
+  },
+  {
+    "_id": "WEBUILDAI GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Hirschen Group GmbH",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 1,
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "php": 1,
+      "mysql": 1,
+      "postgresql": 1,
+      "docker": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Instil",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "c++": 1,
+      "api rest": 1,
+      "docker": 1,
+      "jenkins": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "bash": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Nebius",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "redes": 2,
+      "kafka": 1,
+      "kubernetes": 1
+    }
+  },
+  {
+    "_id": "Sidekick Network GmbH & Co. KG",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "oracle": 1
+    }
+  },
+  {
+    "_id": "Actana Consulting Services GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Thehutgroup",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "sql": 1,
+      "scrum": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "Zego",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "aws": 1
+    }
+  },
+  {
+    "_id": "wolt",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "kafka": 1,
+      "spark": 1,
+      "kubernetes": 1
+    }
+  },
+  {
+    "_id": "Epicgames",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "c++": 1
+    }
+  },
+  {
+    "_id": "Motorway",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "swift": 1,
+      "ios": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Harvey",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "ANSMANN AG",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "SCALARA GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "OpenAI",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "javascript": 1
+    }
+  },
+  {
+    "_id": "Arq",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "spring": 1,
+      "postgresql": 1,
+      "api rest": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Ecdb Gmbh Latest",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "Berliner Verlag GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Formance",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "tide",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Cognition",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "typescript": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "UNDKRAUSS",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Menhir Photonics",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Globaldimensionsllc",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "machine learning": 1,
+      "power bi": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "Ayunis",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "react": 1,
+      "node.js": 1,
+      "nestjs": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "docker": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Nomios",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "jira": 1,
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "grafanalabs",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "flutter": 1,
+      "android": 1,
+      "ios": 1,
+      "ci/cd": 1,
+      "salesforce": 2,
+      "typescript": 1,
+      "react": 1
+    }
+  },
+  {
+    "_id": "Clariness",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "affinidi",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "c#": 1,
+      "rust": 1,
+      "dart": 1,
+      "react": 1,
+      "next.js": 1,
+      "node.js": 1,
+      "flutter": 1,
+      "aws": 1
+    }
+  },
+  {
+    "_id": "Assecor GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Auterion",
+    "total_ofertas": 4,
+    "fuentes": {
+      "arbeitnow": 4
+    },
+    "modalidades": {
+      "no especificada": 4
+    },
+    "tecnologias": {
+      "c++": 3,
+      "python": 2,
+      "linux": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Agilerobotsse",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "linux": 1,
+      "scrum": 1,
+      "sap": 1
+    }
+  },
+  {
+    "_id": "Cannaleo Digital GmbH",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "figma": 1
+    }
+  },
+  {
+    "_id": "Bjak",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Mirakl - Labs",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "machine learning": 1,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "pandas": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "dkbcodefactory",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "scrum": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "CodeForAI",
+    "total_ofertas": 1,
+    "fuentes": {
+      "remotive": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "java": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "c#": 1,
+      "c++": 1,
+      "php": 1,
+      "ruby": 1,
+      "rails": 1,
+      "rust": 1,
+      "react": 1,
+      "node.js": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "Crest IT Resources LLC",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "sap": 1,
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "VO2 Group",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 3
+    },
+    "tecnologias": {
+      "scrum": 1,
+      "salesforce": 3,
+      "html": 1,
+      "css": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "Withings",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "shifttechnology",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "kafka": 1,
+      "azure": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Aircall",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "typescript": 2,
+      "scala": 1,
+      "sql": 1,
+      "kafka": 1,
+      "aws": 2,
+      "git": 1,
+      "ruby": 1,
+      "rails": 1,
+      "react": 1,
+      "node.js": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "graphql": 1,
+      "api rest": 1
+    }
+  },
+  {
+    "_id": "Backmarket",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Vivid",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Doctolib",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "sap": 1,
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "Collana",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "JACQUEMUS",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Q Energy",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "mysql": 1,
+      "power bi": 1
+    }
+  },
+  {
+    "_id": "3IT",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "hibrido": 2,
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "javascript": 1,
+      "react": 1,
+      "react native": 1,
+      "node.js": 1,
+      "spring": 1,
+      "oracle": 2,
+      "aws": 1,
+      "azure": 2,
+      "docker": 2,
+      "kubernetes": 2,
+      "terraform": 1,
+      "jenkins": 1,
+      "ci/cd": 2,
+      "git": 2,
+      "python": 1,
+      "sql": 1,
+      "kafka": 1,
+      "api rest": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Hcompany",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "fastapi": 1,
+      "postgresql": 1,
+      "kafka": 1,
+      "graphql": 1,
+      "aws": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "machine learning": 1,
+      "selenium": 1
+    }
+  },
+  {
+    "_id": "Datadog",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "kafka": 1,
+      "redes": 2,
+      "kubernetes": 1
+    }
+  },
+  {
+    "_id": "Arkane Cloud",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "react": 2,
+      "node.js": 1,
+      "postgresql": 1,
+      "next.js": 1,
+      "git": 1,
+      "figma": 1
+    }
+  },
+  {
+    "_id": "Duck Duck Go",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "javascript": 1,
+      "c#": 1,
+      "c++": 1,
+      "kotlin": 1,
+      "swift": 1,
+      "android": 2,
+      "ios": 2,
+      "node.js": 1
+    }
+  },
+  {
+    "_id": "Alnylampharmaceuticals",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Cascination Ag",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Pennylane SAS",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Nonplusultra",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "javascript": 1,
+      "oracle": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1
+    }
+  },
+  {
+    "_id": "sumup",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "kotlin": 1,
+      "swift": 1,
+      "android": 1,
+      "ios": 1
+    }
+  },
+  {
+    "_id": "Artefact",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "fastapi": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1
+    }
+  },
+  {
+    "_id": "Hongfa Europe Gmbh",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "swift": 1,
+      "sap": 1
+    }
+  },
+  {
+    "_id": "Lemrock",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "gcp": 1,
+      "docker": 1,
+      "ci/cd": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Lobster Data Gmbh",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Kimchi",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "git": 1,
+      "pytorch": 1,
+      "spark": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "TransPerfect",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Namespace",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "no especificada": 2
+    },
+    "tecnologias": {
+      "kubernetes": 1,
+      "terraform": 1,
+      "redes": 2,
+      "python": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "react": 1
+    }
+  },
+  {
+    "_id": "Brandleadership",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "salesforce": 1
+    }
+  },
+  {
+    "_id": "Meierhofer",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Laelaps",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 2,
+      "presencial": 1
+    },
+    "tecnologias": {
+      "python": 2,
+      "c++": 2,
+      "ci/cd": 1,
+      "typescript": 1,
+      "react": 1,
+      "figma": 1
+    }
+  },
+  {
+    "_id": "Anybotics",
+    "total_ofertas": 2,
+    "fuentes": {
+      "arbeitnow": 2
+    },
+    "modalidades": {
+      "presencial": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "docker": 1
+    }
+  },
+  {
+    "_id": "capco",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "oracle": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "scrum": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Lemon.io",
+    "total_ofertas": 2,
+    "fuentes": {
+      "remotive": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "python": 2,
+      "java": 2,
+      "javascript": 2,
+      "typescript": 2,
+      "c#": 2,
+      "c++": 2,
+      ".net": 2,
+      "php": 2,
+      "ruby": 2,
+      "rails": 2,
+      "go": 2,
+      "rust": 2,
+      "swift": 2,
+      "scala": 2,
+      "react": 2,
+      "react native": 2,
+      "angular": 2,
+      "vue": 2,
+      "next.js": 2,
+      "svelte": 2,
+      "node.js": 2,
+      "spring": 2,
+      "laravel": 2,
+      "wordpress": 2,
+      "flutter": 2,
+      "android": 2,
+      "ios": 2,
+      "firebase": 2,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "machine learning": 2,
+      "unity": 2,
+      "kubernetes": 1
+    }
+  },
+  {
+    "_id": "NeuralWorks",
+    "total_ofertas": 5,
+    "fuentes": {
+      "getonboard": 5
+    },
+    "modalidades": {
+      "hibrido": 5
+    },
+    "tecnologias": {
+      "python": 4,
+      "sql": 4,
+      "aws": 3,
+      "azure": 3,
+      "gcp": 3,
+      "docker": 2,
+      "ci/cd": 3,
+      "machine learning": 3,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "scrum": 2,
+      "pandas": 1,
+      "spark": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "react": 1,
+      "react native": 1
+    }
+  },
+  {
+    "_id": "BICE VIDA",
+    "total_ofertas": 8,
+    "fuentes": {
+      "getonboard": 8
+    },
+    "modalidades": {
+      "hibrido": 7,
+      "presencial": 1
+    },
+    "tecnologias": {
+      "scrum": 5,
+      "jira": 1,
+      "tableau": 2,
+      "salesforce": 1,
+      "python": 3,
+      "sql": 3,
+      "aws": 3,
+      "power bi": 1,
+      "redes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "machine learning": 2,
+      "spark": 1,
+      "pytorch": 1
+    }
+  },
+  {
+    "_id": "DRIMO",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "fastapi": 1,
+      "sql": 1,
+      "gcp": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "pandas": 1
+    }
+  },
+  {
+    "_id": "MB Solutions",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "swift": 1,
+      "ios": 1,
+      "mysql": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "netcracker",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Inceptive",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "ionq",
+    "total_ofertas": 7,
+    "fuentes": {
+      "arbeitnow": 7
+    },
+    "modalidades": {
+      "presencial": 2,
+      "hibrido": 2,
+      "no especificada": 3
+    },
+    "tecnologias": {
+      "python": 1,
+      "c++": 1,
+      "rust": 1,
+      "aws": 7,
+      "redes": 7,
+      "ci/cd": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Distalmotion",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Gravis Robotics",
+    "total_ofertas": 6,
+    "fuentes": {
+      "arbeitnow": 6
+    },
+    "modalidades": {
+      "remoto": 5,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 4,
+      "sql": 1,
+      "redes": 6,
+      "c++": 2,
+      "pytorch": 2,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "ci/cd": 2,
+      "git": 3,
+      "machine learning": 1,
+      "linux": 1
+    }
+  },
+  {
+    "_id": "BSI Software",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "aws": 1,
+      "azure": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "bash": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Elesta",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "42Labs",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "remoto": 2,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "kotlin": 1,
+      "react": 1,
+      "react native": 1,
+      "android": 1,
+      "graphql": 1,
+      "api rest": 2,
+      "swift": 1,
+      "ios": 1,
+      "python": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "Agrosuper",
+    "total_ofertas": 4,
+    "fuentes": {
+      "getonboard": 4
+    },
+    "modalidades": {
+      "presencial": 3,
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "power bi": 1,
+      "aws": 1,
+      "azure": 1,
+      "linux": 1
+    }
+  },
+  {
+    "_id": "BNP Paribas Cardif",
+    "total_ofertas": 6,
+    "fuentes": {
+      "getonboard": 6
+    },
+    "modalidades": {
+      "hibrido": 6
+    },
+    "tecnologias": {
+      "python": 3,
+      "power bi": 3,
+      "sql": 2
+    }
+  },
+  {
+    "_id": "Neuralconcept",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "no especificada": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Harmattan Ai",
+    "total_ofertas": 3,
+    "fuentes": {
+      "arbeitnow": 3
+    },
+    "modalidades": {
+      "no especificada": 2,
+      "hibrido": 1
+    },
+    "tecnologias": {}
+  },
+  {
+    "_id": "Dynamic Devs",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "java": 1,
+      "javascript": 1,
+      "php": 1,
+      "aws": 2,
+      "azure": 2,
+      "gcp": 2,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 2,
+      "jenkins": 1,
+      "ci/cd": 2,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Checkr",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "hibrido": 3
+    },
+    "tecnologias": {
+      "sql": 1,
+      "python": 1,
+      "aws": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "I2B Technologies",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "api rest": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Ripple",
+    "total_ofertas": 1,
+    "fuentes": {
+      "arbeitnow": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      ".net": 1,
+      "node.js": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "bash": 1
+    }
+  },
+  {
+    "_id": "Influencers.Club",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "html": 1,
+      "css": 1,
+      "wordpress": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Zerviz Technologies",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "presencial": 2
+    },
+    "tecnologias": {
+      "sql": 1,
+      "oracle": 1,
+      "aws": 2,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "SONDA",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "hibrido": 3
+    },
+    "tecnologias": {
+      "docker": 3,
+      "jenkins": 1,
+      "git": 1,
+      "scrum": 1,
+      "selenium": 1,
+      "kubernetes": 2,
+      "ci/cd": 1,
+      "python": 1,
+      "postgresql": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "Interfell",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "javascript": 1,
+      "kotlin": 1,
+      "html": 1,
+      "css": 1,
+      "sass": 1,
+      "react": 1,
+      "angular": 1,
+      "android": 1
+    }
+  },
+  {
+    "_id": "Forest",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "flutter": 1,
+      "android": 1,
+      "ios": 1,
+      "api rest": 1,
+      "aws": 1,
+      "gcp": 1,
+      "ci/cd": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "ProntoPaga",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "presencial": 2
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "kotlin": 1,
+      "swift": 1,
+      "react": 1,
+      "react native": 1,
+      "next.js": 1,
+      "graphql": 1,
+      "api rest": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "scrum": 1,
+      "mysql": 1,
+      "jira": 1
+    }
+  },
+  {
+    "_id": "IDT Corporation",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "oracle": 1,
+      "kafka": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "scrum": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "Ecometric",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "machine learning": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Bci",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "swift": 1,
+      "ios": 1,
+      "ci/cd": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "kubernetes": 1,
+      "machine learning": 1,
+      "tensorflow": 1,
+      "pytorch": 1
+    }
+  },
+  {
+    "_id": "WiTi",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "git": 1,
+      "spark": 1,
+      "power bi": 1
+    }
+  },
+  {
+    "_id": "Penta Vida",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "angular": 1,
+      "api rest": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "jenkins": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Sanctuary Computer Inc",
+    "total_ofertas": 1,
+    "fuentes": {
+      "remotive": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "typescript": 1,
+      "css": 1,
+      "next.js": 1,
+      "node.js": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "graphql": 1,
+      "cypress": 1,
+      "figma": 1
+    }
+  },
+  {
+    "_id": "Guinea Mobile SAC (Cuy Móvil)",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "postgresql": 1,
+      "gcp": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "A.Team",
+    "total_ofertas": 2,
+    "fuentes": {
+      "remotive": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "wordpress": 2,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "DSAC Chile",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 2,
+      "aws": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 2,
+      "scrum": 2,
+      "spark": 1,
+      "jira": 1,
+      "machine learning": 1,
+      "power bi": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "Routed Labs, Inc",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "flutter": 1,
+      "firebase": 1,
+      "graphql": 1
+    }
+  },
+  {
+    "_id": "PhoneNinjas AI",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "node.js": 1,
+      "sql": 1,
+      "postgresql": 1,
+      "api rest": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Mitre Media",
+    "total_ofertas": 1,
+    "fuentes": {
+      "remotive": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "ruby": 1,
+      "rails": 1,
+      "html": 1,
+      "css": 1,
+      "react": 1,
+      "mysql": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "elasticsearch": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "Lisit",
+    "total_ofertas": 5,
+    "fuentes": {
+      "getonboard": 5
+    },
+    "modalidades": {
+      "hibrido": 4,
+      "remoto": 1
+    },
+    "tecnologias": {
+      "java": 1,
+      "javascript": 1,
+      "typescript": 2,
+      "android": 1,
+      "ios": 1,
+      "sql": 3,
+      "mysql": 1,
+      "postgresql": 2,
+      "sql server": 1,
+      "oracle": 1,
+      "mongodb": 1,
+      "redis": 1,
+      "jenkins": 1,
+      "ci/cd": 2,
+      "git": 3,
+      "scrum": 2,
+      "jira": 1,
+      "python": 2,
+      "docker": 1,
+      "kubernetes": 1,
+      "linux": 1,
+      "machine learning": 2,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "pandas": 2,
+      "spark": 1,
+      "power bi": 1,
+      "tableau": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1
+    }
+  },
+  {
+    "_id": "Rankmi",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Jooycar",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "android": 1
+    }
+  },
+  {
+    "_id": "Promarketing",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "elasticsearch": 1,
+      "aws": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "jenkins": 1,
+      "ci/cd": 1,
+      "bash": 1,
+      "git": 1,
+      "scrum": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "CreativeWorks",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "php": 1,
+      "sass": 1,
+      "wordpress": 1,
+      "git": 1
+    }
+  },
+  {
+    "_id": "World Wildlife Fund, Inc.",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "sql": 1,
+      "azure": 1,
+      "linux": 1,
+      "power bi": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "TIMINING",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "hibrido": 2
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "We Built It",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "javascript": 2,
+      "html": 2,
+      "react": 1,
+      "angular": 1,
+      "scrum": 1,
+      "android": 1,
+      "ios": 1
+    }
+  },
+  {
+    "_id": "INTEGRATZ",
+    "total_ofertas": 3,
+    "fuentes": {
+      "getonboard": 3
+    },
+    "modalidades": {
+      "remoto": 3
+    },
+    "tecnologias": {
+      "sql": 3,
+      "azure": 3,
+      "power bi": 2,
+      "python": 2,
+      "ci/cd": 2,
+      "git": 1,
+      "spark": 1
+    }
+  },
+  {
+    "_id": "Devsu",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Alegra",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "sql": 1,
+      "mysql": 1,
+      "postgresql": 1,
+      "mongodb": 1,
+      "api rest": 1,
+      "aws": 1,
+      "docker": 1,
+      "terraform": 1,
+      "git": 1,
+      "scrum": 1
+    }
+  },
+  {
+    "_id": "Codeable",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "javascript": 1,
+      "typescript": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "scrum": 1,
+      "selenium": 1
+    }
+  },
+  {
+    "_id": "Financia Capital",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "azure": 1,
+      "linux": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "ATENTUS",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1
+    }
+  },
+  {
+    "_id": "Asimov Consultores",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "ci/cd": 1,
+      "scrum": 1,
+      "selenium": 1,
+      "cypress": 1
+    }
+  },
+  {
+    "_id": "Coolebra SpA",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "redis": 1,
+      "aws": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "AGENCIA DE ADUANAS FELIPE SERRANO",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "sql": 1,
+      "postgresql": 1,
+      "aws": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "machine learning": 1,
+      "power bi": 1
+    }
+  },
+  {
+    "_id": "Inflect, Inc.",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "terraform": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Revel Street LLC",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "Decision Point Latam",
+    "total_ofertas": 4,
+    "fuentes": {
+      "getonboard": 4
+    },
+    "modalidades": {
+      "hibrido": 4
+    },
+    "tecnologias": {
+      "python": 4,
+      "sql": 4,
+      "machine learning": 2,
+      "power bi": 2,
+      "aws": 1,
+      "azure": 1,
+      "tensorflow": 1,
+      "pytorch": 1,
+      "pandas": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "Signant Health",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "sql": 1,
+      "mysql": 1,
+      "sql server": 1
+    }
+  },
+  {
+    "_id": "31C",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Transvip",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "gcp": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "bash": 1,
+      "git": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Artefact US",
+    "total_ofertas": 4,
+    "fuentes": {
+      "getonboard": 4
+    },
+    "modalidades": {
+      "remoto": 4
+    },
+    "tecnologias": {
+      "python": 4,
+      "javascript": 4,
+      "typescript": 4,
+      "react": 4,
+      "node.js": 4,
+      "aws": 4,
+      "azure": 4,
+      "gcp": 4,
+      "terraform": 4,
+      "ci/cd": 4,
+      "machine learning": 4,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "RiskAmerica",
+    "total_ofertas": 2,
+    "fuentes": {
+      "getonboard": 2
+    },
+    "modalidades": {
+      "remoto": 2
+    },
+    "tecnologias": {
+      "aws": 1,
+      "gcp": 2,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 2,
+      "linux": 2,
+      "git": 2,
+      "scrum": 2,
+      "redes": 1,
+      "python": 1,
+      "bash": 1,
+      "jira": 1
+    }
+  },
+  {
+    "_id": "ZYGHT HSE Software",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "ci/cd": 1
+    }
+  },
+  {
+    "_id": "AgendaPro",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Quiñenco",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "presencial": 1
+    },
+    "tecnologias": {
+      "azure": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Informat S.A.",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "javascript": 1,
+      "typescript": 1,
+      "react": 1,
+      "next.js": 1,
+      "django": 1,
+      "postgresql": 1,
+      "redis": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "docker": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "git": 1,
+      "redes": 1
+    }
+  },
+  {
+    "_id": "Grafton Latam",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "ci/cd": 1,
+      "machine learning": 1,
+      "power bi": 1,
+      "tableau": 1
+    }
+  },
+  {
+    "_id": "Zagged",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "git": 1
+    }
+  },
+  {
+    "_id": "Artefact LatAm",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "remoto": 1
+    },
+    "tecnologias": {
+      "python": 1,
+      "aws": 1,
+      "azure": 1,
+      "gcp": 1,
+      "ci/cd": 1,
+      "machine learning": 1
+    }
+  },
+  {
+    "_id": "Vita solutions SPA",
+    "total_ofertas": 1,
+    "fuentes": {
+      "getonboard": 1
+    },
+    "modalidades": {
+      "hibrido": 1
+    },
+    "tecnologias": {
+      "ruby": 1,
+      "rails": 1,
+      "gcp": 1,
+      "docker": 1,
+      "kubernetes": 1,
+      "terraform": 1,
+      "ci/cd": 1,
+      "linux": 1,
+      "git": 1,
+      "redes": 1
+    }
+  }
+]

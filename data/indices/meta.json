@@ -2,7 +2,7 @@
   "backend": "sbert",
   "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "dimensiones": 384,
-  "documentos": 465,
+  "documentos": 467,
   "motor_vectorial": "FAISS IndexFlatIP",
   "ids": [
     "getonboard-f95b63db0cac7b",
@@ -44,6 +44,7 @@
     "arbeitnow-e6ad81d89401e6",
     "arbeitnow-e64711ffa89303",
     "arbeitnow-e42b7b18d9d0d1",
+    "arbeitnow-e41ab3258c85e1",
     "arbeitnow-e3909fbb5b70a8",
     "arbeitnow-e338bab09c16ea",
     "arbeitnow-e295f39361c3d7",
@@ -60,6 +61,7 @@
     "arbeitnow-cb0585e0c8defe",
     "arbeitnow-cae72b1e5dec6f",
     "arbeitnow-ca6383b752715b",
+    "arbeitnow-c9bf83241a44d2",
     "arbeitnow-c8f0a8aea2dc9e",
     "arbeitnow-c8d335c0d45fb4",
     "arbeitnow-c684261e408931",
@@ -472,10 +474,10 @@
     "getonboard-b23999968fb462"
   ],
   "lexico": {
-    "documentos": 465,
-    "terminos": 15913,
-    "postings": 128303,
-    "longitud_promedio": 449.1,
+    "documentos": 467,
+    "terminos": 15693,
+    "postings": 119430,
+    "longitud_promedio": 410.7,
     "modelo": "BM25 (k1=1.5, b=0.75)"
   }
 }

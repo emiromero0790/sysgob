@@ -29,6 +29,11 @@ def paso_indexar(args):
     indexar()
 
 
+def paso_exportar(args):
+    from procesamiento.exportar import exportar_todo
+    exportar_todo()
+
+
 def paso_evaluar(args):
     from evaluacion.evaluar import evaluar
     evaluar()
@@ -76,7 +81,7 @@ def principal():
     p.set_defaults(funcion=paso_demo)
 
     for nombre, funcion in (("procesar", paso_procesar), ("analizar", paso_analizar), ("indexar", paso_indexar),
-                            ("evaluar", paso_evaluar), ("construir", paso_construir)):
+                            ("evaluar", paso_evaluar), ("exportar", paso_exportar), ("construir", paso_construir)):
         comandos.add_parser(nombre).set_defaults(funcion=funcion)
 
     p = comandos.add_parser("buscar")

@@ -4,8 +4,8 @@ SYSJOBS - QUE HACE CADA COSA
 El codigo no lleva comentarios; este archivo los sustituye.
 El flujo completo es:
 
-  acopio  ->  procesar  ->  analizar  ->  indexar  ->  evaluar  ->  web
-  (crudo JSON)  (CSV+SQLite)  (estadisticas)  (indices)   (metricas)   (interfaz)
+  acopio -> procesar -> analizar -> indexar -> evaluar -> web
+  (JSON)   (CSV/SQLite/JSONL/Mongo) (estadisticas + texto) (BM25 + TF-IDF + embeddings) (metricas) (interfaz)
 
 Coincide con las cuatro capas del PDF: adquisicion, procesamiento,
 indexacion/busqueda y presentacion.
@@ -17,14 +17,18 @@ indexacion/busqueda y presentacion.
 
 main.py
   Punto de entrada. Define los comandos de terminal con argparse:
-  acopio, demo, procesar, analizar, indexar, evaluar, construir
+  acopio, demo, procesar, analizar, indexar, evaluar, exportar, construir
   (procesar+analizar+indexar+evaluar), todo (acopio+construir), buscar y web.
   Cada funcion paso_* importa el modulo que necesita y lo ejecuta.
   Si falta un paso anterior (FileNotFoundError) muestra que comando correr.
+  "exportar" regenera CSV, JSON, JSONL, SQLite y documentos MongoDB a partir
+  de las ofertas ya guardadas, sin repetir el acopio ni la indexacion.
 
 config.py
   Todas las constantes en un solo lugar:
-  - Rutas de data/ (crudo, procesado, indices, analisis, evaluacion).
+  - Rutas de data/ (crudo, procesado, indices, analisis, evaluacion y
+    no_relacional), incluidas las de JSON, JSONL, CSV auxiliares, matriz
+    TF-IDF, vocabulario y estructura de la vectorizacion.
   - AGENTE: el User-Agent con el que se identifica el recolector.
   - PAUSA, TIEMPO_ESPERA, REINTENTOS, LIMITE_POR_FUENTE: cortesia y limites
     del acopio.
@@ -36,10 +40,16 @@ config.py
     CSS de respaldo. Para agregar otro portal basta anadir otro diccionario.
   - UMBRAL_CASI_DUPLICADO: similitud coseno a partir de la cual dos ofertas
     se consideran la misma (0.9).
+  - ESTRATEGIA_TOKENS: "lema", "derivada" o "palabra"; decide que forma se
+    indexa. QUITAR_NUMEROS, MIN_LONGITUD_TOKEN, NGRAMAS, TOP_TERMINOS y
+    TOP_NGRAMAS controlan la limpieza y las estadisticas de texto.
+  - FORMATOS_EXPORTACION, MONGO_URI, MONGO_BD y MONGO_COLECCION: salidas
+    relacionales y documentales.
   - BM25_K1, BM25_B: parametros del ranking lexico.
   - BACKEND_EMBEDDINGS: "auto", "sbert" o "lsa". MODELO_EMBEDDINGS: modelo de
     Sentence-Transformers. DIM_LSA: dimensiones del respaldo.
   - PESO_SEMANTICO: peso de la senal semantica en el ranking hibrido (0.6).
+  - RESULTADOS_POR_PAGINA: k por defecto de la interfaz.
   - CORTE_EVALUACION: k de las metricas (10).
 
 requirements.txt / requirements-minimo.txt
@@ -110,16 +120,43 @@ ejecutar.py
 ------------------------------------------------------------------
 
 limpieza.py
-  STOP_ES, STOP_EN  palabras vacias en espanol e ingles.
+  STOP_ES, STOP_EN, STOP_DE, STOP_FR y STOPWORDS: palabras vacias de los
+                cuatro idiomas presentes en el corpus.
   html_a_texto  quita etiquetas, scripts y estilos; conserva saltos de linea y
                 vinetas; si el HTML venia escapado hace una segunda pasada.
-  normalizar    minusculas y sin acentos.
-  raiz          stemming ligero: quita plural y vocal final para que
-                "desarrolladores", "desarrolladora" y "desarrollador" coincidan.
-  palabras      separa en tokens conservando c#, c++, node.js y .net.
-  tokenizar     palabras - stopwords + raiz. Lo usan el indice lexico, la
-                deteccion de duplicados y el respaldo LSA.
-  idioma        "es" o "en" segun que stopwords predominan.
+  limpiar_texto quita URLs, correos, emojis, numeros opcionales, signos no
+                permitidos y normaliza espacios. Conserva c++, c#, node.js,
+                .net y rutas como ci/cd.
+  normalizar    minusculas, Unicode NFC/NFD y sin acentos.
+  raiz          derivacion ligera de respaldo (compatibilidad).
+  palabras      separa en tokens conservando terminos tecnicos.
+  tokenizar     palabras - stopwords + estrategia (lema, derivada o palabra).
+                Lo usan el indice lexico, TF-IDF, duplicados y LSA.
+  tokenizar_detalle  devuelve cada palabra con su lema, raiz, si es tecnica
+                y si se elimino por ser palabra vacia. Alimenta la vista Texto.
+  quitar_vacias, ngramas  utilidades usadas por las estadisticas.
+  idioma        "es", "en", "de", "fr" o "desconocido" segun las stopwords
+                que predominan en el texto.
+
+lematizador.py
+  Reglas propias para espanol e ingles, sin NLTK ni spaCy.
+  TECNICOS      terminos que no deben deformarse (python, javascript, react...).
+  IRREGULARES   formas verbales y plurales irregulares.
+  _plural_es/_plural_en, _genero_es, _verbal_es/_verbal_en y sufijos de
+                derivacion reducen variantes a una forma comun.
+  lematizar     palabra -> lema legible (p. ej. "desarrolladores" ->
+                "desarrollador").
+  derivar       lema -> raiz mas agresiva (p. ej. "desarrollo" -> "desarroll").
+  analizar_palabra  devuelve palabra, lema, derivada y si es tecnica.
+  ejemplos_lematizacion  selecciona casos reales para mostrar en la interfaz.
+
+estadisticas_texto.py
+  analizar_texto  recorre el corpus y calcula frecuencias de lemas y raices,
+                  frecuencia documental, hapax, diversidad lexica, n-gramas
+                  (2 y 3), palabras vacias, nube de palabras y una muestra
+                  del antes/despues de varias ofertas.
+  analizar_y_guardar  escribe data/analisis/texto.json. Alimenta la vista
+                  Texto y los resumenes que se pueden escuchar.
 
 entidades.py    Diccionario controlado + expresiones regulares.
   TECNOLOGIAS   75 tecnologias con sus alias.
@@ -142,25 +179,41 @@ duplicados.py
                           vacante publicada en dos portales).
 
 almacen.py
-  guardar        escribe data/procesado/ofertas.csv y la tabla "ofertas" en
-                 data/procesado/sysjobs.db (SQLite) con indices por campo.
-  cargar         lee todas las ofertas de SQLite.
-  ids_filtrados  traduce los filtros de la interfaz a un WHERE de SQL y
-                 devuelve los ids permitidos.
+  ESQUEMA_RELACIONAL  define cinco tablas: fuentes, empresas, tecnologias,
+                ofertas y oferta_tecnologia (relacion N:M con posicion).
+  guardar       escribe data/procesado/ofertas.csv y reconstruye
+                data/procesado/sysjobs.db con claves foraneas, indices y la
+                vista vista_ofertas (oferta + fuente + empresa + tecnologias).
+  cargar        lee todas las ofertas desde la vista normalizada y arma la
+                lista de tecnologias. Conserva compatibilidad con bases viejas.
+  ids_filtrados traduce los filtros de la interfaz (modalidad, nivel, fuente,
+                area, idioma y tecnologias) a un WHERE de SQL y devuelve los
+                ids permitidos.
+  conteos       cuenta filas por tabla para la vista Datos.
+
+exportar.py
+  documento     arma el documento anidado para una base no relacional:
+                empresa, clasificacion, tecnologias, fechas y metadatos.
+  exportar      escribe ofertas.json, ofertas.jsonl, los CSV auxiliares
+                (tecnologias, empresas, fuentes y relacion N:M) y las
+                colecciones de data/no_relacional.
+  exportar_todo recarga el corpus desde SQLite, lo vuelve a guardar y regenera
+                todos los formatos. Es lo que ejecuta "python main.py exportar"
+                y el boton "Regenerar exportaciones" de la interfaz.
 
 pipeline.py
   leer_crudos   lee todos los JSON crudos (ignora "demo" si hay datos reales).
   transformar   crudo -> registro normalizado con entidades e idioma.
-  procesar      orquesta todo, guarda y escribe resumen.json con el embudo
-                (crudas, sin texto, duplicados exactos, casi duplicados,
-                finales).
+  procesar      orquesta limpieza, entidades, duplicados, guardado y
+                exportacion; escribe resumen.json con el embudo (crudas, sin
+                texto, duplicados exactos, casi duplicados, finales).
 
 analisis.py
   analizar      calcula y guarda data/analisis/estadisticas.json: totales,
                 conteos por fuente, modalidad, nivel, area, idioma y mes,
                 tecnologias mas pedidas, longitud media, tamano del
-                vocabulario y terminos mas frecuentes. Alimenta los filtros y
-                la pestana "Corpus e indices".
+                vocabulario y terminos mas frecuentes. Ademas llama a
+                estadisticas_texto para generar data/analisis/texto.json.
 
 
 ------------------------------------------------------------------
@@ -186,12 +239,28 @@ indexacion/semantico.py
     cargar      los lee de disco y prepara el codificador.
     buscar      codifica la consulta y devuelve (id, similitud) ordenado.
 
+indexacion/vectorizacion.py
+  texto_lexico      titulo (dos veces) + empresa + tecnologias + descripcion,
+                    el mismo texto que usa el indice lexico.
+  construir_estructura  ajusta un TfidfVectorizer con el tokenizador propio
+                    (sublinear_tf, norma L2) y guarda:
+                      matriz_tfidf.npz      matriz CSR documentos x terminos
+                      vocabulario.json.gz   termino, indice, df e idf
+                      estructura.json       resumen, vector de ejemplo y
+                                            postings de un termino
+                    Tambien lee los embeddings ya guardados para mostrar sus
+                    dimensiones, norma y primeros valores.
+  _vector_ejemplo   extrae los componentes con mayor peso de la primera oferta.
+  _postings_ejemplo lee el indice invertido y muestra documentos, frecuencia
+                    e IDF de un termino (por defecto "python").
+
 indexacion/construir.py
   texto_lexico     titulo (dos veces, para darle peso) + empresa + tecnologias
                    + descripcion.
   texto_semantico  titulo, nivel, modalidad, tecnologias y descripcion, en ese
                    orden porque el modelo solo lee los primeros 256 tokens.
-  indexar          construye y guarda ambos indices e imprime sus tamanos.
+  indexar          construye y guarda el indice lexico, el semantico y la
+                   estructura TF-IDF, e imprime sus tamanos.
 
 busqueda/motor.py   class Motor
   __init__   carga ofertas e indices y verifica que correspondan.
@@ -201,8 +270,8 @@ busqueda/motor.py   class Motor
              0.4 x lexico (PESO_SEMANTICO).
   resumen    fragmento de la descripcion cercano a un termino de la consulta.
   tarjeta    datos que la interfaz muestra de cada resultado.
-  buscar     aplica filtros (SQL) y devuelve los primeros k. Sin consulta
-             devuelve las ofertas mas recientes.
+  buscar     aplica filtros (SQL, incluido idioma) y devuelve los primeros k.
+             Sin consulta devuelve las ofertas mas recientes.
   comparar   primeros 8 de lexico y de semantico, marcando los exclusivos.
   detalle    oferta completa por id.
 
@@ -214,6 +283,8 @@ busqueda/motor.py   class Motor
 consultas.json  14 consultas de prueba, redactadas a proposito con sinonimos,
                 cada una con los criterios que debe cumplir una oferta para
                 contarse como relevante (area, nivel, modalidad, tecnologias).
+                Se evaluan las que tienen al menos un documento relevante
+                (13 en la corrida incluida).
 metricas.py     precision_k, recall_k, precision_promedio (AP) y ndcg_k.
 evaluar.py
   cumple        decide si una oferta satisface los criterios.
@@ -227,24 +298,44 @@ evaluar.py
 
 app.py   API REST con Flask.
   GET /               la interfaz.
-  GET /api/buscar     q, modo, modalidad, nivel, area, fuente, tecnologias.
-  GET /api/comparar   q.
-  GET /api/oferta/<id>
-  GET /api/corpus     estadisticas, datos de los indices y evaluacion.
+  GET /api/buscar     q, modo, k, modalidad, nivel, area, idioma, fuente y
+                      tecnologias (separadas por coma).
+  GET /api/comparar   q; devuelve los dos rankings y las coincidencias.
+  GET /api/oferta/<id>  detalle completo de una oferta.
+  GET /api/corpus     estadisticas, indices, evaluacion, texto y vectorizacion.
+  GET /api/texto      analisis de texto (frecuencias, n-gramas, muestras).
+  GET /api/vectorizacion  resumen de TF-IDF, vocabulario y embeddings.
+  GET /api/datos      inventario de archivos, tamanos, esquema relacional,
+                      documento de ejemplo y comandos de consulta.
+  POST /api/exportar  regenera CSV, JSON, JSONL, SQLite y MongoDB.
+  GET /descargas/<grupo>/<archivo>  descarga controlada desde data/.
+  Los errores de API responden JSON y las rutas inexistentes dan 404.
 
-templates/index.html   estructura de las tres pestanas, la ilustracion SVG del
-                       "mapa semantico" y la ventana de detalle.
-static/estilos.css     colores, tipografia y distribucion; se adapta a movil.
+templates/index.html   estructura de las cinco vistas (Buscar, Comparar, Texto,
+                       Datos, Corpus), la ilustracion SVG del mapa semantico,
+                       los filtros, el dialogo de detalle y los toasts.
+static/estilos.css     sistema de diseno con variables CSS para tema claro y
+                       oscuro, efecto aurora, tarjetas de vidrio, rejilla
+                       responsive y drawer de filtros en pantallas pequenas.
 static/app.js
-  buscar, tarjeta, etiquetas, medidor   piden y dibujan los resultados; cada
-        tarjeta muestra el % de relevancia y dos barras con cuanto aporto el
-        significado y cuanto las palabras.
-  pintarFiltros, grupoFiltro   filtros con conteos.
-  comparar, columna            pestana de comparacion.
-  pintarCorpus, barras, panelEvaluacion   graficas de barras del corpus y de
-        las metricas.
-  abrirDetalle                 ventana con la oferta completa y enlace a la
-        fuente original.
+  estado, pedir, toast, limpio, numero, fecha   utilidades generales.
+  buscar, tarjeta, etiquetas, medidor, anillo   piden y dibujan los resultados;
+        cada tarjeta muestra el % de relevancia y dos barras con cuanto aporto
+        el significado y cuanto las palabras.
+  pintarFiltros, grupoFiltro, pintarChips   filtros con conteos y chips activos.
+  pintarTexto, renderFrecuencias, renderNgramas, nube, pipeline   laboratorio de
+        texto con pestanas de lemas/raices/vacias, bigramas/trigramas y muestras
+        por idioma.
+  pintarDatos, archivoDe        formatos, descargas, esquema y comandos.
+  pintarCorpus, panelEvaluacion, barras   graficas del corpus, indices,
+        vectorizacion y metricas.
+  comparar, columna             comparacion lexico vs semantico.
+  abrirDetalle, hablarOferta    ventana de detalle y lectura en voz alta.
+  Voz                         SpeechRecognition para dictar la consulta y
+        speechSynthesis para leer ofertas y resumenes. El audio no sale del
+        navegador; solo se envia el texto reconocido como consulta.
+  mostrarVista, alternarFiltros, aplicarTema, atajos de teclado   navegacion,
+        drawer movil, tema persistido en localStorage y atajos 1-5, / y Esc.
 
 capturas/   Imagenes de la interfaz (tomadas con los datos de demostracion)
             por si quieres ponerlas en tu documento de maquetado.
@@ -269,10 +360,16 @@ b) Whoosh/Elasticsearch -> indice invertido propio con BM25. Whoosh ya no
    tiene mantenimiento y da problemas en Python reciente. El indice propio
    se guarda en disco y deja ver exactamente como funciona BM25.
 
-c) Lematizacion -> stemming ligero propio, para no depender de spaCy.
+c) Lematizacion y derivacion -> reglas propias para espanol e ingles, para no
+   depender de spaCy ni NLTK. El lematizador usa diccionarios de formas
+   irregulares y reglas de plural, genero, conjugacion y sufijos; el derivador
+   produce una raiz mas agresiva. Los terminos tecnicos se protegen para que
+   "python" o "javascript" no se deformen. No es tan preciso como un modelo
+   entrenado, pero es explicable, reproducible y no agrega 500 MB de modelos.
 
-d) Parquet -> CSV + SQLite (Parquet exigia instalar pyarrow sin aportar nada
-   al tamano de este corpus).
+d) Parquet -> CSV + SQLite + JSON/JSONL + MongoDB. Parquet exigia pyarrow sin
+   aportar nada al tamano de este corpus. Las cuatro representaciones cubren
+   hoja de calculo, API, carga masiva, consultas relacionales y documentos.
 
 e) Respaldo LSA. Si sentence-transformers o FAISS no estan instalados el
    sistema no falla: usa LSA y NumPy. En "Corpus e indices" siempre se ve
@@ -293,3 +390,25 @@ g) Evaluacion con juicios automaticos. No hay juicios de relevancia hechos
 
 h) El "% de relevancia" es el puntaje del ranking, no una probabilidad. En
    modo lexico es relativo al mejor resultado (el primero siempre marca 100).
+
+i) La matriz TF-IDF se guarda aparte del indice semantico. El PDF pedia
+   "vectorizar" y mostrar las estructuras; por eso matriz_tfidf.npz conserva
+   la matriz CSR real (documentos x terminos) y estructura.json resume sus
+   dimensiones, densidad, vocabulario, IDF y un vector de ejemplo. El motor
+   de busqueda puede usar embeddings, pero la explicacion de la vectorizacion
+   clasica queda visible y verificable.
+
+j) La voz se resuelve en el navegador con la Web Speech API. No se instala
+   nada en el servidor ni se sube audio: SpeechRecognition convierte la voz en
+   texto y speechSynthesis lee los resultados. La desventaja es que depende del
+   navegador (Chrome/Edge funcionan mejor) y de las voces del sistema.
+
+k) La interfaz se reescribio como un panel con cinco vistas y un sistema de
+   diseno propio (variables CSS, tema claro/oscuro, tarjetas de vidrio,
+   graficas y drawer de filtros). Se priorizo que cada concepto del PDF
+   (preprocesamiento, n-gramas, vectorizacion, formatos, evaluacion) se pueda
+   explicar desde la pantalla, no solo desde la terminal.
+
+l) El modelo no relacional se entrega como JSONL y colecciones JSON, no como
+   una instancia de MongoDB. Asi el proyecto funciona sin servidor de base de
+   datos y, si se necesita, importar_mongo.py carga todo con pymongo.

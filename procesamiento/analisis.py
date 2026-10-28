@@ -47,4 +47,6 @@ def analizar():
         print(f"{titulo}: " + ", ".join(f"{k} {v}" for k, v in estadisticas[campo].items()))
     print("Tecnologias mas pedidas: " + ", ".join(f"{k} {v}" for k, v in list(estadisticas["tecnologias"].items())[:12]))
     print(f"Guardado en {config.ESTADISTICAS}")
+    from procesamiento.estadisticas_texto import analizar_y_guardar
+    analizar_y_guardar(ofertas)
     return estadisticas

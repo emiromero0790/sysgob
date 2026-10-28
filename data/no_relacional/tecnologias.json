@@ -1,0 +1,826 @@
+[
+  {
+    "_id": "python",
+    "total_ofertas": 166,
+    "areas": {
+      "backend": 8,
+      "devops": 12,
+      "datos": 89,
+      "fullstack": 11,
+      "qa": 3,
+      "desarrollo general": 35,
+      "seguridad": 2,
+      "otra": 5,
+      "movil": 1
+    }
+  },
+  {
+    "_id": "ci/cd",
+    "total_ofertas": 110,
+    "areas": {
+      "datos": 36,
+      "qa": 10,
+      "devops": 25,
+      "backend": 3,
+      "fullstack": 6,
+      "desarrollo general": 11,
+      "movil": 12,
+      "seguridad": 4,
+      "otra": 3
+    }
+  },
+  {
+    "_id": "aws",
+    "total_ofertas": 105,
+    "areas": {
+      "devops": 21,
+      "otra": 9,
+      "fullstack": 7,
+      "desarrollo general": 12,
+      "datos": 46,
+      "backend": 4,
+      "seguridad": 2,
+      "movil": 2,
+      "qa": 2
+    }
+  },
+  {
+    "_id": "scrum",
+    "total_ofertas": 98,
+    "areas": {
+      "qa": 13,
+      "datos": 30,
+      "devops": 8,
+      "backend": 7,
+      "fullstack": 7,
+      "movil": 10,
+      "desarrollo general": 7,
+      "otra": 9,
+      "seguridad": 6,
+      "soporte": 1
+    }
+  },
+  {
+    "_id": "sql",
+    "total_ofertas": 96,
+    "areas": {
+      "backend": 3,
+      "qa": 7,
+      "devops": 3,
+      "datos": 67,
+      "fullstack": 5,
+      "frontend": 1,
+      "desarrollo general": 3,
+      "otra": 7
+    }
+  },
+  {
+    "_id": "git",
+    "total_ofertas": 90,
+    "areas": {
+      "qa": 8,
+      "devops": 14,
+      "fullstack": 10,
+      "desarrollo general": 11,
+      "datos": 24,
+      "backend": 4,
+      "frontend": 2,
+      "movil": 11,
+      "seguridad": 2,
+      "otra": 4
+    }
+  },
+  {
+    "_id": "machine learning",
+    "total_ofertas": 81,
+    "areas": {
+      "backend": 3,
+      "fullstack": 4,
+      "datos": 58,
+      "desarrollo general": 10,
+      "devops": 2,
+      "otra": 4
+    }
+  },
+  {
+    "_id": "azure",
+    "total_ofertas": 77,
+    "areas": {
+      "datos": 44,
+      "devops": 13,
+      "qa": 1,
+      "desarrollo general": 6,
+      "seguridad": 4,
+      "backend": 3,
+      "fullstack": 4,
+      "otra": 2
+    }
+  },
+  {
+    "_id": "gcp",
+    "total_ofertas": 61,
+    "areas": {
+      "backend": 3,
+      "qa": 1,
+      "devops": 11,
+      "otra": 4,
+      "fullstack": 4,
+      "desarrollo general": 4,
+      "datos": 30,
+      "seguridad": 3,
+      "movil": 1
+    }
+  },
+  {
+    "_id": "kubernetes",
+    "total_ofertas": 60,
+    "areas": {
+      "devops": 22,
+      "backend": 6,
+      "fullstack": 7,
+      "desarrollo general": 3,
+      "seguridad": 2,
+      "datos": 17,
+      "otra": 1,
+      "qa": 2
+    }
+  },
+  {
+    "_id": "redes",
+    "total_ofertas": 56,
+    "areas": {
+      "devops": 16,
+      "qa": 1,
+      "backend": 1,
+      "desarrollo general": 17,
+      "soporte": 2,
+      "datos": 10,
+      "otra": 4,
+      "seguridad": 4,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "docker",
+    "total_ofertas": 55,
+    "areas": {
+      "devops": 13,
+      "backend": 5,
+      "fullstack": 7,
+      "desarrollo general": 10,
+      "datos": 15,
+      "frontend": 1,
+      "otra": 1,
+      "qa": 2,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "terraform",
+    "total_ofertas": 48,
+    "areas": {
+      "devops": 21,
+      "desarrollo general": 4,
+      "backend": 3,
+      "fullstack": 2,
+      "datos": 15,
+      "otra": 2,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "react",
+    "total_ofertas": 43,
+    "areas": {
+      "fullstack": 18,
+      "desarrollo general": 5,
+      "datos": 9,
+      "frontend": 4,
+      "devops": 1,
+      "movil": 4,
+      "backend": 1,
+      "qa": 1
+    }
+  },
+  {
+    "_id": "typescript",
+    "total_ofertas": 42,
+    "areas": {
+      "fullstack": 14,
+      "devops": 3,
+      "seguridad": 1,
+      "desarrollo general": 3,
+      "datos": 10,
+      "backend": 2,
+      "frontend": 2,
+      "movil": 3,
+      "qa": 4
+    }
+  },
+  {
+    "_id": "linux",
+    "total_ofertas": 39,
+    "areas": {
+      "devops": 13,
+      "otra": 2,
+      "qa": 1,
+      "desarrollo general": 13,
+      "seguridad": 4,
+      "frontend": 1,
+      "datos": 5
+    }
+  },
+  {
+    "_id": "javascript",
+    "total_ofertas": 39,
+    "areas": {
+      "fullstack": 14,
+      "frontend": 4,
+      "datos": 9,
+      "backend": 2,
+      "desarrollo general": 3,
+      "devops": 1,
+      "movil": 2,
+      "qa": 4
+    }
+  },
+  {
+    "_id": "c++",
+    "total_ofertas": 31,
+    "areas": {
+      "desarrollo general": 21,
+      "qa": 1,
+      "devops": 2,
+      "backend": 2,
+      "datos": 2,
+      "fullstack": 2,
+      "otra": 1
+    }
+  },
+  {
+    "_id": "postgresql",
+    "total_ofertas": 31,
+    "areas": {
+      "fullstack": 11,
+      "datos": 8,
+      "backend": 5,
+      "desarrollo general": 1,
+      "devops": 3,
+      "movil": 1,
+      "qa": 2
+    }
+  },
+  {
+    "_id": "api rest",
+    "total_ofertas": 29,
+    "areas": {
+      "backend": 3,
+      "fullstack": 8,
+      "movil": 9,
+      "desarrollo general": 2,
+      "qa": 2,
+      "datos": 4,
+      "devops": 1
+    }
+  },
+  {
+    "_id": "java",
+    "total_ofertas": 26,
+    "areas": {
+      "backend": 10,
+      "devops": 4,
+      "fullstack": 5,
+      "datos": 2,
+      "movil": 2,
+      "qa": 3
+    }
+  },
+  {
+    "_id": "spark",
+    "total_ofertas": 26,
+    "areas": {
+      "backend": 1,
+      "datos": 24,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "node.js",
+    "total_ofertas": 26,
+    "areas": {
+      "devops": 3,
+      "fullstack": 15,
+      "datos": 6,
+      "backend": 2
+    }
+  },
+  {
+    "_id": "power bi",
+    "total_ofertas": 25,
+    "areas": {
+      "datos": 16,
+      "qa": 1,
+      "desarrollo general": 2,
+      "otra": 3,
+      "devops": 1,
+      "seguridad": 2
+    }
+  },
+  {
+    "_id": "pytorch",
+    "total_ofertas": 24,
+    "areas": {
+      "datos": 20,
+      "desarrollo general": 3,
+      "otra": 1
+    }
+  },
+  {
+    "_id": "android",
+    "total_ofertas": 21,
+    "areas": {
+      "qa": 3,
+      "otra": 1,
+      "movil": 11,
+      "desarrollo general": 2,
+      "backend": 2,
+      "fullstack": 1,
+      "datos": 1
+    }
+  },
+  {
+    "_id": "ios",
+    "total_ofertas": 20,
+    "areas": {
+      "qa": 3,
+      "movil": 12,
+      "desarrollo general": 1,
+      "backend": 2,
+      "fullstack": 1,
+      "datos": 1
+    }
+  },
+  {
+    "_id": "jira",
+    "total_ofertas": 17,
+    "areas": {
+      "qa": 5,
+      "desarrollo general": 2,
+      "soporte": 1,
+      "otra": 4,
+      "datos": 4,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "oracle",
+    "total_ofertas": 16,
+    "areas": {
+      "devops": 1,
+      "otra": 2,
+      "datos": 8,
+      "seguridad": 1,
+      "fullstack": 2,
+      "qa": 1,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "kafka",
+    "total_ofertas": 15,
+    "areas": {
+      "backend": 3,
+      "datos": 10,
+      "devops": 1,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "html",
+    "total_ofertas": 14,
+    "areas": {
+      "fullstack": 4,
+      "frontend": 3,
+      "datos": 4,
+      "movil": 2,
+      "qa": 1
+    }
+  },
+  {
+    "_id": "swift",
+    "total_ofertas": 14,
+    "areas": {
+      "movil": 10,
+      "desarrollo general": 1,
+      "otra": 1,
+      "fullstack": 1,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "mysql",
+    "total_ofertas": 13,
+    "areas": {
+      "fullstack": 3,
+      "frontend": 1,
+      "backend": 2,
+      "datos": 3,
+      "movil": 1,
+      "otra": 1,
+      "qa": 1,
+      "devops": 1
+    }
+  },
+  {
+    "_id": "redis",
+    "total_ofertas": 12,
+    "areas": {
+      "devops": 2,
+      "backend": 2,
+      "fullstack": 5,
+      "datos": 2,
+      "qa": 1
+    }
+  },
+  {
+    "_id": "css",
+    "total_ofertas": 12,
+    "areas": {
+      "fullstack": 5,
+      "frontend": 3,
+      "datos": 2,
+      "movil": 2
+    }
+  },
+  {
+    "_id": "salesforce",
+    "total_ofertas": 12,
+    "areas": {
+      "otra": 3,
+      "seguridad": 1,
+      "movil": 1,
+      "frontend": 1,
+      "devops": 1,
+      "qa": 1,
+      "datos": 3,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "selenium",
+    "total_ofertas": 11,
+    "areas": {
+      "qa": 8,
+      "fullstack": 1,
+      "backend": 1,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "bash",
+    "total_ofertas": 11,
+    "areas": {
+      "devops": 6,
+      "backend": 1,
+      "desarrollo general": 2,
+      "otra": 1,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "c#",
+    "total_ofertas": 11,
+    "areas": {
+      "backend": 4,
+      "fullstack": 4,
+      "desarrollo general": 1,
+      "datos": 2
+    }
+  },
+  {
+    "_id": "tensorflow",
+    "total_ofertas": 11,
+    "areas": {
+      "datos": 10,
+      "otra": 1
+    }
+  },
+  {
+    "_id": "kotlin",
+    "total_ofertas": 11,
+    "areas": {
+      "movil": 9,
+      "fullstack": 1,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "jenkins",
+    "total_ofertas": 11,
+    "areas": {
+      "desarrollo general": 4,
+      "otra": 1,
+      "devops": 2,
+      "datos": 1,
+      "qa": 3
+    }
+  },
+  {
+    "_id": "rust",
+    "total_ofertas": 10,
+    "areas": {
+      "devops": 1,
+      "desarrollo general": 3,
+      "backend": 2,
+      "fullstack": 4
+    }
+  },
+  {
+    "_id": "wordpress",
+    "total_ofertas": 10,
+    "areas": {
+      "otra": 1,
+      "fullstack": 3,
+      "backend": 2,
+      "frontend": 1,
+      "datos": 2,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "pandas",
+    "total_ofertas": 10,
+    "areas": {
+      "datos": 9,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "tableau",
+    "total_ofertas": 10,
+    "areas": {
+      "datos": 8,
+      "otra": 2
+    }
+  },
+  {
+    "_id": "angular",
+    "total_ofertas": 10,
+    "areas": {
+      "fullstack": 3,
+      "backend": 2,
+      "movil": 2,
+      "datos": 2,
+      "desarrollo general": 1
+    }
+  },
+  {
+    "_id": "cypress",
+    "total_ofertas": 9,
+    "areas": {
+      "qa": 7,
+      "fullstack": 2
+    }
+  },
+  {
+    "_id": "nestjs",
+    "total_ofertas": 9,
+    "areas": {
+      "fullstack": 6,
+      "datos": 2,
+      "devops": 1
+    }
+  },
+  {
+    "_id": "php",
+    "total_ofertas": 9,
+    "areas": {
+      "fullstack": 5,
+      "backend": 3,
+      "devops": 1
+    }
+  },
+  {
+    "_id": "next.js",
+    "total_ofertas": 9,
+    "areas": {
+      "frontend": 2,
+      "fullstack": 5,
+      "backend": 1,
+      "movil": 1
+    }
+  },
+  {
+    "_id": "flutter",
+    "total_ofertas": 9,
+    "areas": {
+      "fullstack": 4,
+      "movil": 4,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "react native",
+    "total_ofertas": 8,
+    "areas": {
+      "desarrollo general": 1,
+      "fullstack": 3,
+      "movil": 3,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "graphql",
+    "total_ofertas": 8,
+    "areas": {
+      "fullstack": 3,
+      "backend": 1,
+      "movil": 3,
+      "qa": 1
+    }
+  },
+  {
+    "_id": "sap",
+    "total_ofertas": 7,
+    "areas": {
+      "devops": 1,
+      "otra": 4,
+      "desarrollo general": 1,
+      "datos": 1
+    }
+  },
+  {
+    "_id": ".net",
+    "total_ofertas": 7,
+    "areas": {
+      "backend": 2,
+      "fullstack": 2,
+      "devops": 1,
+      "datos": 2
+    }
+  },
+  {
+    "_id": "ruby",
+    "total_ofertas": 7,
+    "areas": {
+      "backend": 2,
+      "fullstack": 4,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "rails",
+    "total_ofertas": 7,
+    "areas": {
+      "backend": 2,
+      "fullstack": 4,
+      "seguridad": 1
+    }
+  },
+  {
+    "_id": "unity",
+    "total_ofertas": 6,
+    "areas": {
+      "datos": 3,
+      "qa": 1,
+      "fullstack": 1,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "figma",
+    "total_ofertas": 6,
+    "areas": {
+      "frontend": 4,
+      "movil": 1,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "mongodb",
+    "total_ofertas": 6,
+    "areas": {
+      "datos": 1,
+      "fullstack": 3,
+      "qa": 1,
+      "devops": 1
+    }
+  },
+  {
+    "_id": "spring",
+    "total_ofertas": 6,
+    "areas": {
+      "backend": 3,
+      "datos": 1,
+      "fullstack": 2
+    }
+  },
+  {
+    "_id": "elasticsearch",
+    "total_ofertas": 5,
+    "areas": {
+      "devops": 2,
+      "backend": 2,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "scala",
+    "total_ofertas": 5,
+    "areas": {
+      "backend": 3,
+      "datos": 1,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "sql server",
+    "total_ofertas": 5,
+    "areas": {
+      "qa": 1,
+      "datos": 3,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "vue",
+    "total_ofertas": 4,
+    "areas": {
+      "desarrollo general": 1,
+      "frontend": 1,
+      "fullstack": 1,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "firebase",
+    "total_ofertas": 4,
+    "areas": {
+      "movil": 2,
+      "fullstack": 1,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "fastapi",
+    "total_ofertas": 4,
+    "areas": {
+      "backend": 2,
+      "datos": 2
+    }
+  },
+  {
+    "_id": "go",
+    "total_ofertas": 3,
+    "areas": {
+      "backend": 2,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "laravel",
+    "total_ofertas": 3,
+    "areas": {
+      "fullstack": 2,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "dart",
+    "total_ofertas": 2,
+    "areas": {
+      "fullstack": 1,
+      "movil": 1
+    }
+  },
+  {
+    "_id": "svelte",
+    "total_ofertas": 2,
+    "areas": {
+      "fullstack": 1,
+      "backend": 1
+    }
+  },
+  {
+    "_id": "sass",
+    "total_ofertas": 2,
+    "areas": {
+      "movil": 1,
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "django",
+    "total_ofertas": 1,
+    "areas": {
+      "fullstack": 1
+    }
+  },
+  {
+    "_id": "flask",
+    "total_ofertas": 1,
+    "areas": {
+      "datos": 1
+    }
+  }
+]

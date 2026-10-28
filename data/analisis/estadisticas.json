@@ -1,40 +1,42 @@
 {
-  "total": 465,
+  "total": 467,
   "empresas": 234,
   "por_fuente": {
-    "arbeitnow": 269,
+    "arbeitnow": 271,
     "getonboard": 189,
     "remotive": 7
   },
   "por_modalidad": {
     "hibrido": 169,
     "remoto": 138,
-    "no especificada": 115,
+    "no especificada": 117,
     "presencial": 43
   },
   "por_nivel": {
     "senior": 230,
+    "no especificado": 99,
     "semi-senior": 98,
-    "no especificado": 97,
     "junior": 31,
     "practicante": 9
   },
   "por_area": {
     "datos": 154,
     "desarrollo general": 81,
-    "otra": 62,
+    "otra": 63,
     "devops": 46,
     "fullstack": 27,
     "qa": 23,
     "movil": 22,
     "backend": 20,
     "seguridad": 19,
-    "frontend": 8,
+    "frontend": 9,
     "soporte": 3
   },
   "por_idioma": {
-    "en": 297,
-    "es": 168
+    "en": 242,
+    "es": 151,
+    "de": 57,
+    "fr": 17
   },
   "por_mes": {
     "2025-12": 1,
@@ -47,12 +49,12 @@
     "2026-07": 23,
     "2026-08": 60,
     "2026-09": 70,
-    "2026-10": 297
+    "2026-10": 299
   },
   "tecnologias": {
     "python": 166,
     "ci/cd": 110,
-    "aws": 104,
+    "aws": 105,
     "scrum": 98,
     "sql": 96,
     "git": 90,
@@ -109,11 +111,11 @@
     "ruby": 7,
     "rails": 7,
     "unity": 6,
+    "figma": 6,
     "mongodb": 6,
     "spring": 6,
     "elasticsearch": 5,
     "scala": 5,
-    "figma": 5,
     "sql server": 5,
     "vue": 4,
     "firebase": 4,
@@ -127,37 +129,37 @@
     "flask": 1
   },
   "sin_tecnologias": 73,
-  "longitud_media": 438.8,
-  "longitud_mediana": 381,
-  "vocabulario": 15868,
+  "longitud_media": 400.6,
+  "longitud_mediana": 346,
+  "vocabulario": 15647,
   "terminos_frecuentes": [
     [
+      "engineer",
+      304
+    ],
+    [
       "team",
-      279
+      281
     ],
     [
       "job",
-      279
+      280
     ],
     [
       "find",
-      276
+      278
     ],
     [
       "arbeitnow",
-      269
-    ],
-    [
-      "engineer",
-      261
-    ],
-    [
-      "experienc",
-      252
+      271
     ],
     [
       "work",
-      246
+      255
+    ],
+    [
+      "experience",
+      251
     ],
     [
       "data",
@@ -165,55 +167,47 @@
     ],
     [
       "role",
-      232
+      231
     ],
     [
-      "softwar",
-      225
+      "build",
+      224
     ],
     [
-      "engineering",
-      222
+      "software",
+      221
     ],
     [
-      "product",
-      216
-    ],
-    [
-      "system",
-      213
+      "design",
+      209
     ],
     [
       "english",
-      207
+      208
+    ],
+    [
+      "system",
+      206
     ],
     [
       "ai",
-      199
+      197
     ],
     [
       "platform",
       196
     ],
     [
-      "across",
+      "acros",
       196
     ],
     [
-      "design",
-      195
-    ],
-    [
-      "build",
-      192
-    ],
-    [
       "strong",
-      192
+      196
     ],
     [
-      "working",
-      191
+      "learn",
+      188
     ],
     [
       "skill",
@@ -221,22 +215,30 @@
     ],
     [
       "technical",
-      188
+      187
     ],
     [
-      "building",
-      186
+      "tool",
+      187
+    ],
+    [
+      "support",
+      187
     ],
     [
       "environment",
       185
+    ],
+    [
+      "development",
+      178
     ]
   ],
   "proceso": {
     "crudas": 501,
     "sin_texto_suficiente": 0,
     "duplicados_exactos": 13,
-    "casi_duplicados": 23,
-    "finales": 465
+    "casi_duplicados": 21,
+    "finales": 467
   }
 }

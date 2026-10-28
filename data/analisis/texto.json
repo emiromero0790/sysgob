@@ -1,0 +1,2504 @@
+{
+  "resumen": {
+    "documentos": 467,
+    "tokens_brutos": 281052,
+    "tokens": 189141,
+    "tipos": 15648,
+    "hapax": 6466,
+    "ttr": 0.0827,
+    "palabras_vacias_distintas": 399,
+    "palabras_vacias_totales": 91568,
+    "longitud_media": 405.0,
+    "longitud_mediana": 351,
+    "longitud_maxima": 1195,
+    "longitud_minima": 123,
+    "longitud_palabra_media": 5.97,
+    "caracteres_original": 2061983,
+    "caracteres_limpio": 1995123,
+    "reduccion_caracteres": 3.2,
+    "reduccion_tokens": 32.7,
+    "vocabulario_bruto": 19289,
+    "vocabulario_lemas": 15648,
+    "vocabulario_derivadas": 13642,
+    "estrategia": "lema",
+    "stopwords": 508,
+    "ngramas_distintos": {
+      "2": 109697,
+      "3": 144702
+    }
+  },
+  "pipeline": [
+    {
+      "id": "limpieza",
+      "nombre": "Limpieza",
+      "descripcion": "Quita HTML, URLs, correos, emojis, signos y números sueltos.",
+      "detalle": "2.061.983 → 1.995.123 caracteres"
+    },
+    {
+      "id": "normalizacion",
+      "nombre": "Normalización",
+      "descripcion": "Minúsculas, sin acentos, sin espacios dobles.",
+      "detalle": "NFKD + minúsculas"
+    },
+    {
+      "id": "tokenizacion",
+      "nombre": "Tokenización",
+      "descripcion": "Separa palabras conservando términos como c++, c#, node.js o ci/cd.",
+      "detalle": "281.052 tokens"
+    },
+    {
+      "id": "vacias",
+      "nombre": "Palabras vacías",
+      "descripcion": "Elimina artículos, preposiciones y conectores en español e inglés.",
+      "detalle": "91.568 eliminadas de 508 palabras"
+    },
+    {
+      "id": "lematizacion",
+      "nombre": "Lematización",
+      "descripcion": "Reduce plurales, género y formas verbales a un lema común.",
+      "detalle": "15.648 lemas"
+    },
+    {
+      "id": "derivacion",
+      "nombre": "Derivación",
+      "descripcion": "Calcula la raíz (stemming) como representación alternativa.",
+      "detalle": "13.642 raíces"
+    }
+  ],
+  "frecuencias": [
+    [
+      "work",
+      1578,
+      255
+    ],
+    [
+      "team",
+      1543,
+      281
+    ],
+    [
+      "engineer",
+      1462,
+      304
+    ],
+    [
+      "data",
+      1455,
+      244
+    ],
+    [
+      "ai",
+      1264,
+      197
+    ],
+    [
+      "experience",
+      1229,
+      251
+    ],
+    [
+      "build",
+      1068,
+      224
+    ],
+    [
+      "experiencia",
+      775,
+      149
+    ],
+    [
+      "system",
+      759,
+      206
+    ],
+    [
+      "platform",
+      664,
+      196
+    ],
+    [
+      "dato",
+      649,
+      92
+    ],
+    [
+      "learn",
+      634,
+      205
+    ],
+    [
+      "technical",
+      631,
+      187
+    ],
+    [
+      "product",
+      620,
+      162
+    ],
+    [
+      "design",
+      617,
+      209
+    ],
+    [
+      "software",
+      588,
+      221
+    ],
+    [
+      "acros",
+      560,
+      196
+    ],
+    [
+      "model",
+      540,
+      146
+    ],
+    [
+      "role",
+      522,
+      231
+    ],
+    [
+      "support",
+      482,
+      187
+    ],
+    [
+      "cloud",
+      465,
+      175
+    ],
+    [
+      "ll",
+      463,
+      146
+    ],
+    [
+      "equipo",
+      460,
+      136
+    ],
+    [
+      "customer",
+      456,
+      134
+    ],
+    [
+      "real",
+      454,
+      160
+    ],
+    [
+      "re",
+      442,
+      146
+    ],
+    [
+      "strong",
+      439,
+      196
+    ],
+    [
+      "person",
+      433,
+      150
+    ],
+    [
+      "lead",
+      431,
+      172
+    ],
+    [
+      "tool",
+      429,
+      187
+    ],
+    [
+      "job",
+      427,
+      280
+    ],
+    [
+      "python",
+      419,
+      166
+    ],
+    [
+      "development",
+      417,
+      178
+    ],
+    [
+      "includ",
+      414,
+      167
+    ],
+    [
+      "busines",
+      413,
+      138
+    ],
+    [
+      "end",
+      410,
+      146
+    ],
+    [
+      "environment",
+      406,
+      185
+    ],
+    [
+      "technology",
+      396,
+      158
+    ],
+    [
+      "proces",
+      381,
+      143
+    ],
+    [
+      "infrastructure",
+      378,
+      127
+    ],
+    [
+      "help",
+      376,
+      160
+    ],
+    [
+      "security",
+      370,
+      91
+    ],
+    [
+      "high",
+      367,
+      172
+    ],
+    [
+      "code",
+      366,
+      163
+    ],
+    [
+      "time",
+      355,
+      168
+    ],
+    [
+      "drive",
+      354,
+      130
+    ],
+    [
+      "us",
+      354,
+      164
+    ],
+    [
+      "senior",
+      352,
+      173
+    ],
+    [
+      "make",
+      349,
+      160
+    ],
+    [
+      "solution",
+      344,
+      135
+    ],
+    [
+      "aws",
+      343,
+      105
+    ],
+    [
+      "desarrollo",
+      340,
+      117
+    ],
+    [
+      "skill",
+      338,
+      188
+    ],
+    [
+      "hand",
+      335,
+      171
+    ],
+    [
+      "find",
+      332,
+      278
+    ],
+    [
+      "quality",
+      328,
+      143
+    ],
+    [
+      "company",
+      328,
+      161
+    ],
+    [
+      "pipeline",
+      327,
+      142
+    ],
+    [
+      "day",
+      325,
+      139
+    ],
+    [
+      "production",
+      325,
+      141
+    ]
+  ],
+  "derivadas": [
+    [
+      "work",
+      1588,
+      256
+    ],
+    [
+      "team",
+      1544,
+      281
+    ],
+    [
+      "engin",
+      1499,
+      304
+    ],
+    [
+      "data",
+      1455,
+      244
+    ],
+    [
+      "experi",
+      1317,
+      263
+    ],
+    [
+      "ai",
+      1264,
+      197
+    ],
+    [
+      "build",
+      1104,
+      232
+    ],
+    [
+      "develop",
+      906,
+      241
+    ],
+    [
+      "experiencia",
+      775,
+      149
+    ],
+    [
+      "system",
+      775,
+      213
+    ],
+    [
+      "platform",
+      664,
+      196
+    ],
+    [
+      "design",
+      650,
+      212
+    ],
+    [
+      "dato",
+      649,
+      92
+    ],
+    [
+      "learn",
+      642,
+      208
+    ],
+    [
+      "product",
+      638,
+      176
+    ],
+    [
+      "technic",
+      631,
+      187
+    ],
+    [
+      "manag",
+      600,
+      215
+    ],
+    [
+      "model",
+      591,
+      176
+    ],
+    [
+      "softwar",
+      588,
+      221
+    ],
+    [
+      "person",
+      572,
+      222
+    ],
+    [
+      "acro",
+      560,
+      196
+    ],
+    [
+      "test",
+      536,
+      168
+    ],
+    [
+      "role",
+      522,
+      231
+    ],
+    [
+      "lead",
+      519,
+      188
+    ],
+    [
+      "custom",
+      506,
+      150
+    ],
+    [
+      "requ",
+      490,
+      243
+    ],
+    [
+      "support",
+      482,
+      187
+    ],
+    [
+      "proc",
+      476,
+      195
+    ],
+    [
+      "cloud",
+      465,
+      175
+    ],
+    [
+      "ll",
+      463,
+      146
+    ],
+    [
+      "equipo",
+      460,
+      136
+    ],
+    [
+      "real",
+      457,
+      161
+    ],
+    [
+      "scal",
+      455,
+      159
+    ],
+    [
+      "strong",
+      444,
+      199
+    ],
+    [
+      "re",
+      442,
+      146
+    ],
+    [
+      "includ",
+      441,
+      174
+    ],
+    [
+      "driv",
+      435,
+      134
+    ],
+    [
+      "environ",
+      429,
+      190
+    ],
+    [
+      "tool",
+      429,
+      187
+    ],
+    [
+      "client",
+      428,
+      149
+    ],
+    [
+      "job",
+      427,
+      280
+    ],
+    [
+      "python",
+      419,
+      166
+    ],
+    [
+      "busin",
+      413,
+      138
+    ],
+    [
+      "end",
+      410,
+      146
+    ],
+    [
+      "technology",
+      396,
+      158
+    ]
+  ],
+  "frecuencias_brutas": [
+    [
+      "and",
+      9904,
+      9904
+    ],
+    [
+      "de",
+      7010,
+      7010
+    ],
+    [
+      "to",
+      4662,
+      4662
+    ],
+    [
+      "the",
+      4474,
+      4474
+    ],
+    [
+      "in",
+      3271,
+      3271
+    ],
+    [
+      "of",
+      2653,
+      2653
+    ],
+    [
+      "you",
+      2629,
+      2629
+    ],
+    [
+      "with",
+      2516,
+      2516
+    ],
+    [
+      "en",
+      2507,
+      2507
+    ],
+    [
+      "we",
+      2059,
+      2059
+    ],
+    [
+      "und",
+      1733,
+      1733
+    ],
+    [
+      "on",
+      1693,
+      1693
+    ],
+    [
+      "la",
+      1691,
+      1691
+    ],
+    [
+      "our",
+      1647,
+      1647
+    ],
+    [
+      "for",
+      1615,
+      1615
+    ],
+    [
+      "or",
+      1615,
+      1615
+    ],
+    [
+      "data",
+      1455,
+      1455
+    ],
+    [
+      "that",
+      1355,
+      1355
+    ],
+    [
+      "ai",
+      1264,
+      1264
+    ],
+    [
+      "con",
+      1236,
+      1236
+    ],
+    [
+      "experience",
+      1229,
+      1229
+    ],
+    [
+      "is",
+      1225,
+      1225
+    ],
+    [
+      "team",
+      1019,
+      1019
+    ],
+    [
+      "work",
+      995,
+      995
+    ],
+    [
+      "para",
+      928,
+      928
+    ],
+    [
+      "your",
+      890,
+      890
+    ],
+    [
+      "as",
+      838,
+      838
+    ],
+    [
+      "el",
+      835,
+      835
+    ],
+    [
+      "are",
+      817,
+      817
+    ],
+    [
+      "du",
+      802,
+      802
+    ]
+  ],
+  "palabras_vacias": [
+    [
+      "and",
+      9904
+    ],
+    [
+      "de",
+      7010
+    ],
+    [
+      "to",
+      4662
+    ],
+    [
+      "the",
+      4474
+    ],
+    [
+      "in",
+      3271
+    ],
+    [
+      "of",
+      2653
+    ],
+    [
+      "you",
+      2629
+    ],
+    [
+      "with",
+      2516
+    ],
+    [
+      "en",
+      2507
+    ],
+    [
+      "we",
+      2059
+    ],
+    [
+      "und",
+      1733
+    ],
+    [
+      "on",
+      1693
+    ],
+    [
+      "la",
+      1691
+    ],
+    [
+      "our",
+      1647
+    ],
+    [
+      "for",
+      1615
+    ],
+    [
+      "or",
+      1615
+    ],
+    [
+      "that",
+      1355
+    ],
+    [
+      "con",
+      1236
+    ],
+    [
+      "is",
+      1225
+    ],
+    [
+      "para",
+      928
+    ],
+    [
+      "your",
+      890
+    ],
+    [
+      "as",
+      838
+    ],
+    [
+      "el",
+      835
+    ],
+    [
+      "are",
+      817
+    ]
+  ],
+  "ngramas": {
+    "2": [
+      [
+        "machine learn",
+        191,
+        81
+      ],
+      [
+        "end end",
+        174,
+        124
+      ],
+      [
+        "english speak",
+        148,
+        148
+      ],
+      [
+        "find english",
+        147,
+        147
+      ],
+      [
+        "speak job",
+        147,
+        147
+      ],
+      [
+        "software engineer",
+        129,
+        79
+      ],
+      [
+        "data engineer",
+        126,
+        51
+      ],
+      [
+        "find job",
+        124,
+        124
+      ],
+      [
+        "real world",
+        123,
+        65
+      ],
+      [
+        "engineer team",
+        112,
+        67
+      ],
+      [
+        "job germany",
+        97,
+        97
+      ],
+      [
+        "germany arbeitnow",
+        97,
+        97
+      ],
+      [
+        "hand experience",
+        93,
+        73
+      ],
+      [
+        "arbeitnow python",
+        90,
+        90
+      ],
+      [
+        "ai platform",
+        83,
+        37
+      ],
+      [
+        "help us",
+        83,
+        51
+      ],
+      [
+        "sexual orientation",
+        81,
+        80
+      ],
+      [
+        "ll work",
+        80,
+        71
+      ],
+      [
+        "hybrid work",
+        79,
+        51
+      ],
+      [
+        "unit kingdom",
+        77,
+        74
+      ],
+      [
+        "power bi",
+        76,
+        25
+      ],
+      [
+        "buena practica",
+        75,
+        46
+      ],
+      [
+        "data science",
+        74,
+        39
+      ],
+      [
+        "work close",
+        73,
+        58
+      ],
+      [
+        "python sql",
+        72,
+        54
+      ]
+    ],
+    "3": [
+      [
+        "find english speak",
+        147,
+        147
+      ],
+      [
+        "english speak job",
+        147,
+        147
+      ],
+      [
+        "job germany arbeitnow",
+        97,
+        97
+      ],
+      [
+        "job switzerland arbeitnow",
+        64,
+        64
+      ],
+      [
+        "job unit kingdom",
+        63,
+        63
+      ],
+      [
+        "unit kingdom arbeitnow",
+        63,
+        63
+      ],
+      [
+        "care responsibility disability",
+        58,
+        29
+      ],
+      [
+        "speak job germany",
+        53,
+        53
+      ],
+      [
+        "job france arbeitnow",
+        47,
+        47
+      ],
+      [
+        "find job germany",
+        44,
+        44
+      ],
+      [
+        "sexual orientation gender",
+        44,
+        43
+      ],
+      [
+        "orientation gender identity",
+        43,
+        42
+      ],
+      [
+        "aws azure gcp",
+        38,
+        34
+      ],
+      [
+        "protect applicable law",
+        38,
+        38
+      ],
+      [
+        "equal opportunity employer",
+        35,
+        33
+      ],
+      [
+        "tick every box",
+        35,
+        35
+      ],
+      [
+        "don meet every",
+        35,
+        35
+      ],
+      [
+        "hybrid work model",
+        35,
+        35
+      ],
+      [
+        "speak job unit",
+        34,
+        34
+      ],
+      [
+        "meet every requirement",
+        34,
+        34
+      ],
+      [
+        "national origin disability",
+        33,
+        33
+      ],
+      [
+        "statu sexual orientation",
+        33,
+        33
+      ],
+      [
+        "apply even don",
+        32,
+        32
+      ],
+      [
+        "enhanc maternity paternity",
+        32,
+        32
+      ],
+      [
+        "speak job switzerland",
+        32,
+        32
+      ]
+    ]
+  },
+  "longitudes_palabra": {
+    "2": 42529,
+    "3": 43083,
+    "4": 33061,
+    "5": 24143,
+    "6": 23861,
+    "7": 26309,
+    "8": 23338,
+    "9": 19351,
+    "10": 17242,
+    "11": 11975,
+    "12": 6555,
+    "13": 4262,
+    "14": 2513,
+    "15": 1102,
+    "16": 525,
+    "17": 418,
+    "18": 241,
+    "19": 161,
+    "20": 116,
+    "21": 101,
+    "22": 43,
+    "23": 29,
+    "24": 38,
+    "25": 25,
+    "26": 15,
+    "27": 5,
+    "28": 1,
+    "29": 2,
+    "30": 1,
+    "31": 2,
+    "33": 3,
+    "34": 2
+  },
+  "tecnologias": {
+    "python": 166,
+    "ci/cd": 110,
+    "aws": 105,
+    "scrum": 98,
+    "sql": 96,
+    "git": 90,
+    "machine learning": 81,
+    "azure": 77,
+    "gcp": 61,
+    "kubernetes": 60,
+    "redes": 56,
+    "docker": 55,
+    "terraform": 48,
+    "react": 43,
+    "typescript": 42,
+    "linux": 39,
+    "javascript": 39,
+    "c++": 31,
+    "postgresql": 31,
+    "api rest": 29,
+    "java": 26,
+    "spark": 26,
+    "node.js": 26,
+    "power bi": 25,
+    "pytorch": 24,
+    "android": 21,
+    "ios": 20,
+    "jira": 17,
+    "oracle": 16,
+    "kafka": 15
+  },
+  "por_idioma": {
+    "en": 242,
+    "es": 151,
+    "de": 57,
+    "fr": 17
+  },
+  "nube": [
+    [
+      "work",
+      1578
+    ],
+    [
+      "team",
+      1543
+    ],
+    [
+      "engineer",
+      1462
+    ],
+    [
+      "data",
+      1455
+    ],
+    [
+      "ai",
+      1264
+    ],
+    [
+      "experience",
+      1229
+    ],
+    [
+      "build",
+      1068
+    ],
+    [
+      "experiencia",
+      775
+    ],
+    [
+      "system",
+      759
+    ],
+    [
+      "platform",
+      664
+    ],
+    [
+      "dato",
+      649
+    ],
+    [
+      "learn",
+      634
+    ],
+    [
+      "technical",
+      631
+    ],
+    [
+      "product",
+      620
+    ],
+    [
+      "design",
+      617
+    ],
+    [
+      "software",
+      588
+    ],
+    [
+      "acros",
+      560
+    ],
+    [
+      "model",
+      540
+    ],
+    [
+      "role",
+      522
+    ],
+    [
+      "support",
+      482
+    ],
+    [
+      "cloud",
+      465
+    ],
+    [
+      "ll",
+      463
+    ],
+    [
+      "equipo",
+      460
+    ],
+    [
+      "customer",
+      456
+    ],
+    [
+      "real",
+      454
+    ],
+    [
+      "re",
+      442
+    ],
+    [
+      "strong",
+      439
+    ],
+    [
+      "person",
+      433
+    ],
+    [
+      "lead",
+      431
+    ],
+    [
+      "tool",
+      429
+    ],
+    [
+      "job",
+      427
+    ],
+    [
+      "python",
+      419
+    ],
+    [
+      "development",
+      417
+    ],
+    [
+      "includ",
+      414
+    ],
+    [
+      "busines",
+      413
+    ],
+    [
+      "end",
+      410
+    ],
+    [
+      "environment",
+      406
+    ],
+    [
+      "technology",
+      396
+    ],
+    [
+      "proces",
+      381
+    ],
+    [
+      "infrastructure",
+      378
+    ],
+    [
+      "help",
+      376
+    ],
+    [
+      "security",
+      370
+    ],
+    [
+      "high",
+      367
+    ],
+    [
+      "code",
+      366
+    ],
+    [
+      "time",
+      355
+    ],
+    [
+      "drive",
+      354
+    ],
+    [
+      "us",
+      354
+    ],
+    [
+      "senior",
+      352
+    ],
+    [
+      "make",
+      349
+    ],
+    [
+      "solution",
+      344
+    ],
+    [
+      "aws",
+      343
+    ],
+    [
+      "desarrollo",
+      340
+    ],
+    [
+      "skill",
+      338
+    ],
+    [
+      "hand",
+      335
+    ],
+    [
+      "find",
+      332
+    ],
+    [
+      "quality",
+      328
+    ],
+    [
+      "company",
+      328
+    ],
+    [
+      "pipeline",
+      327
+    ],
+    [
+      "day",
+      325
+    ],
+    [
+      "production",
+      325
+    ],
+    [
+      "fur",
+      324
+    ],
+    [
+      "use",
+      321
+    ],
+    [
+      "wayve",
+      315
+    ],
+    [
+      "market",
+      314
+    ],
+    [
+      "machine",
+      310
+    ],
+    [
+      "conocimiento",
+      306
+    ],
+    [
+      "understand",
+      302
+    ],
+    [
+      "application",
+      302
+    ],
+    [
+      "ci/cd",
+      300
+    ],
+    [
+      "world",
+      299
+    ]
+  ],
+  "lematizacion": [
+    [
+      "engineering",
+      "engineer",
+      "engin"
+    ],
+    [
+      "grandes",
+      "grande",
+      "grand"
+    ],
+    [
+      "volumenes",
+      "volumen",
+      "volumen"
+    ],
+    [
+      "trabajando",
+      "trabajar",
+      "trabaj"
+    ],
+    [
+      "databricks",
+      "databrick",
+      "databrick"
+    ],
+    [
+      "procesos",
+      "proceso",
+      "proceso"
+    ],
+    [
+      "aplicando",
+      "aplicar",
+      "aplic"
+    ],
+    [
+      "buenas",
+      "buena",
+      "buena"
+    ],
+    [
+      "bebidas",
+      "bebida",
+      "beb"
+    ],
+    [
+      "alimentos",
+      "alimento",
+      "alimento"
+    ],
+    [
+      "fundada",
+      "fundar",
+      "fund"
+    ],
+    [
+      "paises",
+      "paise",
+      "pais"
+    ],
+    [
+      "colaboradores",
+      "colaborador",
+      "colabor"
+    ],
+    [
+      "socios",
+      "socio",
+      "socio"
+    ],
+    [
+      "estrategicos",
+      "estrategico",
+      "estrategico"
+    ],
+    [
+      "ultimos",
+      "ultimo",
+      "ultimo"
+    ],
+    [
+      "hemos",
+      "hemo",
+      "hemo"
+    ],
+    [
+      "impulsado",
+      "impulsar",
+      "impul"
+    ]
+  ],
+  "muestras": [
+    {
+      "id": "arbeitnow-743e657a0e518d",
+      "titulo": "Director, Business Transformation and Value Consulting",
+      "idioma": "en",
+      "original": "Director, Business Transformation and Value Consulting\nCelonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model — which combines process data, business knowledge, and intelligence into a living digital twin of the enterprise that AI can actually understand, turning AI's operational blind spots into operational clarity. World's leading companies trust Celonis and its global ecosystem of partners to make their AI agents, people, systems, and processes work together, achieving transformational outcomes. We believe there's a massive opportunity to unlock global producti…",
+      "limpio": "Director Business Transformation and Value Consulting Celonis is the trusted platform to industrialize Enterprise AI. At our core is the Celonis Context Model which combines process data business knowledge and intelligence into a living digital twin of the enterprise that AI can actually understand turning AI s operational blind spots into operational clarity. World s leading companies trust Celonis and its global ecosystem of partners to make their AI agents people systems and processes work together achieving transformational outcomes. We believe there s a massive opportunity to unlock global productivity and s…",
+      "normalizado": "director business transformation and value consulting celonis is the trusted platform to industrialize enterprise ai. at our core is the celonis context model which combines process data business knowledge and intelligence into a living digital twin of the enterprise that ai can actually understand turning ai s operational blind spots into operational clarity. world s leading companies trust celonis and its global ecosystem of partners to make their ai agents people systems and processes work together achieving transformational outcomes. we believe there s a massive opportunity to unlock global productivity and s…",
+      "detalle": [
+        {
+          "palabra": "director",
+          "lema": "director",
+          "derivada": "director",
+          "vacia": false
+        },
+        {
+          "palabra": "business",
+          "lema": "busines",
+          "derivada": "busin",
+          "vacia": false
+        },
+        {
+          "palabra": "transformation",
+          "lema": "transformation",
+          "derivada": "transformation",
+          "vacia": false
+        },
+        {
+          "palabra": "and",
+          "lema": "and",
+          "derivada": "and",
+          "vacia": true
+        },
+        {
+          "palabra": "value",
+          "lema": "value",
+          "derivada": "valu",
+          "vacia": false
+        },
+        {
+          "palabra": "consulting",
+          "lema": "consult",
+          "derivada": "consult",
+          "vacia": false
+        },
+        {
+          "palabra": "celonis",
+          "lema": "celoni",
+          "derivada": "celoni",
+          "vacia": false
+        },
+        {
+          "palabra": "is",
+          "lema": "is",
+          "derivada": "is",
+          "vacia": true
+        },
+        {
+          "palabra": "the",
+          "lema": "the",
+          "derivada": "the",
+          "vacia": true
+        },
+        {
+          "palabra": "trusted",
+          "lema": "trust",
+          "derivada": "trust",
+          "vacia": false
+        },
+        {
+          "palabra": "platform",
+          "lema": "platform",
+          "derivada": "platform",
+          "vacia": false
+        },
+        {
+          "palabra": "to",
+          "lema": "to",
+          "derivada": "to",
+          "vacia": true
+        },
+        {
+          "palabra": "industrialize",
+          "lema": "industrialize",
+          "derivada": "industrializ",
+          "vacia": false
+        },
+        {
+          "palabra": "enterprise",
+          "lema": "enterprise",
+          "derivada": "enterpris",
+          "vacia": false
+        },
+        {
+          "palabra": "ai",
+          "lema": "ai",
+          "derivada": "ai",
+          "vacia": false
+        },
+        {
+          "palabra": "at",
+          "lema": "at",
+          "derivada": "at",
+          "vacia": true
+        },
+        {
+          "palabra": "our",
+          "lema": "our",
+          "derivada": "our",
+          "vacia": true
+        },
+        {
+          "palabra": "core",
+          "lema": "core",
+          "derivada": "core",
+          "vacia": false
+        },
+        {
+          "palabra": "is",
+          "lema": "is",
+          "derivada": "is",
+          "vacia": true
+        },
+        {
+          "palabra": "the",
+          "lema": "the",
+          "derivada": "the",
+          "vacia": true
+        },
+        {
+          "palabra": "celonis",
+          "lema": "celoni",
+          "derivada": "celoni",
+          "vacia": false
+        },
+        {
+          "palabra": "context",
+          "lema": "context",
+          "derivada": "context",
+          "vacia": false
+        }
+      ],
+      "lemas": [
+        "director",
+        "busines",
+        "transformation",
+        "value",
+        "consult",
+        "celoni",
+        "trust",
+        "platform",
+        "industrialize",
+        "enterprise",
+        "ai",
+        "core",
+        "celoni",
+        "context",
+        "model",
+        "combine",
+        "proces",
+        "data",
+        "busines",
+        "knowledge",
+        "intelligence",
+        "liv",
+        "digital",
+        "twin",
+        "enterprise",
+        "ai",
+        "actual",
+        "understand",
+        "turn",
+        "ai",
+        "operational",
+        "blind",
+        "spot",
+        "operational",
+        "clarity",
+        "world"
+      ],
+      "derivadas": [
+        "director",
+        "busin",
+        "transformation",
+        "valu",
+        "consult",
+        "celoni",
+        "trust",
+        "platform",
+        "industrializ",
+        "enterpris",
+        "ai",
+        "core",
+        "celoni",
+        "context",
+        "model",
+        "combin",
+        "proc",
+        "data",
+        "busin",
+        "knowledg",
+        "intellig",
+        "liv",
+        "digit",
+        "twin",
+        "enterpris",
+        "ai",
+        "actu",
+        "understand",
+        "turn",
+        "ai",
+        "operation",
+        "blind",
+        "spot",
+        "operation",
+        "clarity",
+        "world"
+      ],
+      "ngramas": [
+        "director busines",
+        "busines transformation",
+        "transformation value",
+        "value consult",
+        "consult celoni",
+        "celoni trust",
+        "trust platform",
+        "platform industrialize",
+        "industrialize enterprise",
+        "enterprise ai"
+      ],
+      "estadisticas": {
+        "tokens_brutos": 1692,
+        "tokens_utiles": 1195,
+        "palabras_vacias": 497,
+        "tipos": 485,
+        "caracteres_original": 12043,
+        "caracteres_limpio": 11687
+      }
+    },
+    {
+      "id": "arbeitnow-fdeda9db18a028",
+      "titulo": "Une Experte ou un Expert Métier DataSpaceLab – Santé & industrie du futur - DVE – CDD 22 mois",
+      "idioma": "fr",
+      "original": "Une Experte ou un Expert Métier DataSpaceLab – Santé & industrie du futur - DVE – CDD 22 mois\nRejoindre Mines Saint-Étienne, c’est s’engager dans une institution où la science et l’innovation bâtissent un avenir plus durable. Une école d’excellence où chacun a l’opportunité de révéler son plein potentiel et de contribuer à relever les défis de demain.\nClassée parmi les meilleures écoles d’ingénieurs en France et reconnue mondialement, notre école, membre de l’Institut Mines-Télécom, forme les talents de demain tout en contribuant activement à relever les grands défis industriels, numériques et environnementaux. A…",
+      "limpio": "Une Experte ou un Expert Métier DataSpaceLab Santé industrie du futur DVE CDD mois Rejoindre Mines Saint-Étienne c est s engager dans une institution où la science et l innovation bâtissent un avenir plus durable. Une école d excellence où chacun a l opportunité de révéler son plein potentiel et de contribuer à relever les défis de demain. Classée parmi les meilleures écoles d ingénieurs en France et reconnue mondialement notre école membre de l Institut Mines-Télécom forme les talents de demain tout en contribuant activement à relever les grands défis industriels numériques et environnementaux. Avec nous vous in…",
+      "normalizado": "une experte ou un expert metier dataspacelab sante industrie du futur dve cdd mois rejoindre mines saint-etienne c est s engager dans une institution ou la science et l innovation batissent un avenir plus durable. une ecole d excellence ou chacun a l opportunite de reveler son plein potentiel et de contribuer a relever les defis de demain. classee parmi les meilleures ecoles d ingenieurs en france et reconnue mondialement notre ecole membre de l institut mines-telecom forme les talents de demain tout en contribuant activement a relever les grands defis industriels numeriques et environnementaux. avec nous vous in…",
+      "detalle": [
+        {
+          "palabra": "une",
+          "lema": "une",
+          "derivada": "une",
+          "vacia": true
+        },
+        {
+          "palabra": "experte",
+          "lema": "experte",
+          "derivada": "expert",
+          "vacia": false
+        },
+        {
+          "palabra": "ou",
+          "lema": "ou",
+          "derivada": "ou",
+          "vacia": true
+        },
+        {
+          "palabra": "un",
+          "lema": "un",
+          "derivada": "un",
+          "vacia": true
+        },
+        {
+          "palabra": "expert",
+          "lema": "expert",
+          "derivada": "expert",
+          "vacia": false
+        },
+        {
+          "palabra": "metier",
+          "lema": "metier",
+          "derivada": "meti",
+          "vacia": false
+        },
+        {
+          "palabra": "dataspacelab",
+          "lema": "dataspacelab",
+          "derivada": "dataspacelab",
+          "vacia": false
+        },
+        {
+          "palabra": "sante",
+          "lema": "sante",
+          "derivada": "sant",
+          "vacia": false
+        },
+        {
+          "palabra": "industrie",
+          "lema": "industrie",
+          "derivada": "industri",
+          "vacia": false
+        },
+        {
+          "palabra": "du",
+          "lema": "du",
+          "derivada": "du",
+          "vacia": true
+        },
+        {
+          "palabra": "futur",
+          "lema": "futur",
+          "derivada": "futur",
+          "vacia": false
+        },
+        {
+          "palabra": "dve",
+          "lema": "dve",
+          "derivada": "dve",
+          "vacia": false
+        },
+        {
+          "palabra": "cdd",
+          "lema": "cdd",
+          "derivada": "cdd",
+          "vacia": false
+        },
+        {
+          "palabra": "mois",
+          "lema": "moi",
+          "derivada": "moi",
+          "vacia": true
+        },
+        {
+          "palabra": "rejoindre",
+          "lema": "rejoindre",
+          "derivada": "rejoindr",
+          "vacia": false
+        },
+        {
+          "palabra": "mines",
+          "lema": "mine",
+          "derivada": "mine",
+          "vacia": false
+        },
+        {
+          "palabra": "saint",
+          "lema": "saint",
+          "derivada": "saint",
+          "vacia": false
+        },
+        {
+          "palabra": "etienne",
+          "lema": "etienne",
+          "derivada": "etienn",
+          "vacia": false
+        },
+        {
+          "palabra": "est",
+          "lema": "est",
+          "derivada": "est",
+          "vacia": true
+        },
+        {
+          "palabra": "engager",
+          "lema": "engager",
+          "derivada": "engag",
+          "vacia": false
+        },
+        {
+          "palabra": "dans",
+          "lema": "dan",
+          "derivada": "dan",
+          "vacia": true
+        },
+        {
+          "palabra": "une",
+          "lema": "une",
+          "derivada": "une",
+          "vacia": true
+        }
+      ],
+      "lemas": [
+        "experte",
+        "expert",
+        "metier",
+        "dataspacelab",
+        "sante",
+        "industrie",
+        "futur",
+        "dve",
+        "cdd",
+        "rejoindre",
+        "mine",
+        "saint",
+        "etienne",
+        "engager",
+        "institution",
+        "science",
+        "innovation",
+        "batissent",
+        "avenir",
+        "durable",
+        "ecole",
+        "excellence",
+        "chacun",
+        "opportunite",
+        "reveler",
+        "plein",
+        "potentiel",
+        "contribuer",
+        "relever",
+        "defi",
+        "demain",
+        "classee",
+        "parmi",
+        "meilleure",
+        "ecole",
+        "ingenieur"
+      ],
+      "derivadas": [
+        "expert",
+        "expert",
+        "meti",
+        "dataspacelab",
+        "sant",
+        "industri",
+        "futur",
+        "dve",
+        "cdd",
+        "rejoindr",
+        "mine",
+        "saint",
+        "etienn",
+        "engag",
+        "institution",
+        "sci",
+        "innovation",
+        "batissent",
+        "aven",
+        "dur",
+        "ecol",
+        "excell",
+        "chacun",
+        "opportunit",
+        "revel",
+        "plein",
+        "potentiel",
+        "contribu",
+        "relev",
+        "defi",
+        "demain",
+        "classe",
+        "parmi",
+        "meilleur",
+        "ecol",
+        "ingenieur"
+      ],
+      "ngramas": [
+        "experte expert",
+        "expert metier",
+        "metier dataspacelab",
+        "dataspacelab sante",
+        "sante industrie",
+        "industrie futur",
+        "futur dve",
+        "dve cdd",
+        "cdd rejoindre",
+        "rejoindre mine"
+      ],
+      "estadisticas": {
+        "tokens_brutos": 1059,
+        "tokens_utiles": 664,
+        "palabras_vacias": 395,
+        "tipos": 393,
+        "caracteres_original": 8030,
+        "caracteres_limpio": 7285
+      }
+    },
+    {
+      "id": "arbeitnow-cdb100e294bf68",
+      "titulo": "Senior CRM Manager:in (Lifecycle & Retention) I E-Commerce I Growth I Achim, hybrid",
+      "idioma": "de",
+      "original": "Senior CRM Manager:in (Lifecycle & Retention) I E-Commerce I Growth I Achim, hybrid\nKleines Kraftwerk & DuWir sind Kleines Kraftwerk, ein junges Unternehmen mit großer Ambition.\nIn nur drei Jahren sind wir stark gewachsen und noch lange nicht am Ziel. Bei uns erwarten dich Verantwortung, Tempo und echter Gestaltungsspielraum – verbunden mit der Erwartung, dass du ihn nutzt. Mit unseren Produkten bringen wir die Energie von morgen direkt zu den Menschen nach Hause. Unsere Mission ist es, nachhaltige Energie einfach, zugänglich und alltagstauglich zu machen.\nDu sorgst dafür, dass die richtige Botschaft zur richtige…",
+      "limpio": "Senior CRM Manager in Lifecycle Retention I E-Commerce I Growth I Achim hybrid Kleines Kraftwerk DuWir sind Kleines Kraftwerk ein junges Unternehmen mit großer Ambition. In nur drei Jahren sind wir stark gewachsen und noch lange nicht am Ziel. Bei uns erwarten dich Verantwortung Tempo und echter Gestaltungsspielraum verbunden mit der Erwartung dass du ihn nutzt. Mit unseren Produkten bringen wir die Energie von morgen direkt zu den Menschen nach Hause. Unsere Mission ist es nachhaltige Energie einfach zugänglich und alltagstauglich zu machen. Du sorgst dafür dass die richtige Botschaft zur richtigen Zeit bei den…",
+      "normalizado": "senior crm manager in lifecycle retention i e-commerce i growth i achim hybrid kleines kraftwerk duwir sind kleines kraftwerk ein junges unternehmen mit großer ambition. in nur drei jahren sind wir stark gewachsen und noch lange nicht am ziel. bei uns erwarten dich verantwortung tempo und echter gestaltungsspielraum verbunden mit der erwartung dass du ihn nutzt. mit unseren produkten bringen wir die energie von morgen direkt zu den menschen nach hause. unsere mission ist es nachhaltige energie einfach zuganglich und alltagstauglich zu machen. du sorgst dafur dass die richtige botschaft zur richtigen zeit bei den…",
+      "detalle": [
+        {
+          "palabra": "senior",
+          "lema": "senior",
+          "derivada": "senior",
+          "vacia": false
+        },
+        {
+          "palabra": "crm",
+          "lema": "crm",
+          "derivada": "crm",
+          "vacia": false
+        },
+        {
+          "palabra": "manager",
+          "lema": "manager",
+          "derivada": "manag",
+          "vacia": false
+        },
+        {
+          "palabra": "in",
+          "lema": "in",
+          "derivada": "in",
+          "vacia": true
+        },
+        {
+          "palabra": "lifecycle",
+          "lema": "lifecycle",
+          "derivada": "lifecycl",
+          "vacia": false
+        },
+        {
+          "palabra": "retention",
+          "lema": "retention",
+          "derivada": "retention",
+          "vacia": false
+        },
+        {
+          "palabra": "commerce",
+          "lema": "commerce",
+          "derivada": "commerc",
+          "vacia": false
+        },
+        {
+          "palabra": "growth",
+          "lema": "growth",
+          "derivada": "growth",
+          "vacia": false
+        },
+        {
+          "palabra": "achim",
+          "lema": "achim",
+          "derivada": "achim",
+          "vacia": false
+        },
+        {
+          "palabra": "hybrid",
+          "lema": "hybrid",
+          "derivada": "hybrid",
+          "vacia": false
+        },
+        {
+          "palabra": "kleines",
+          "lema": "kleine",
+          "derivada": "klein",
+          "vacia": false
+        },
+        {
+          "palabra": "kraftwerk",
+          "lema": "kraftwerk",
+          "derivada": "kraftwerk",
+          "vacia": false
+        },
+        {
+          "palabra": "duwir",
+          "lema": "duwir",
+          "derivada": "duw",
+          "vacia": false
+        },
+        {
+          "palabra": "sind",
+          "lema": "sind",
+          "derivada": "sind",
+          "vacia": true
+        },
+        {
+          "palabra": "kleines",
+          "lema": "kleine",
+          "derivada": "klein",
+          "vacia": false
+        },
+        {
+          "palabra": "kraftwerk",
+          "lema": "kraftwerk",
+          "derivada": "kraftwerk",
+          "vacia": false
+        },
+        {
+          "palabra": "ein",
+          "lema": "ein",
+          "derivada": "ein",
+          "vacia": true
+        },
+        {
+          "palabra": "junges",
+          "lema": "junge",
+          "derivada": "jung",
+          "vacia": false
+        },
+        {
+          "palabra": "unternehmen",
+          "lema": "unternehmen",
+          "derivada": "unternehmen",
+          "vacia": false
+        },
+        {
+          "palabra": "mit",
+          "lema": "mit",
+          "derivada": "mit",
+          "vacia": true
+        },
+        {
+          "palabra": "gro",
+          "lema": "gro",
+          "derivada": "gro",
+          "vacia": false
+        },
+        {
+          "palabra": "er",
+          "lema": "er",
+          "derivada": "er",
+          "vacia": true
+        }
+      ],
+      "lemas": [
+        "senior",
+        "crm",
+        "manager",
+        "lifecycle",
+        "retention",
+        "commerce",
+        "growth",
+        "achim",
+        "hybrid",
+        "kleine",
+        "kraftwerk",
+        "duwir",
+        "kleine",
+        "kraftwerk",
+        "junge",
+        "unternehmen",
+        "gro",
+        "ambition",
+        "drei",
+        "jahren",
+        "stark",
+        "gewachsen",
+        "lange",
+        "ziel",
+        "erwarten",
+        "verantwortung",
+        "tempo",
+        "echter",
+        "gestaltungsspielraum",
+        "verbunden",
+        "erwartung",
+        "nutzt",
+        "produkten",
+        "bringen",
+        "energie",
+        "morgen"
+      ],
+      "derivadas": [
+        "senior",
+        "crm",
+        "manag",
+        "lifecycl",
+        "retention",
+        "commerc",
+        "growth",
+        "achim",
+        "hybrid",
+        "klein",
+        "kraftwerk",
+        "duw",
+        "klein",
+        "kraftwerk",
+        "jung",
+        "unternehmen",
+        "gro",
+        "ambition",
+        "drei",
+        "jahren",
+        "stark",
+        "gewachsen",
+        "lang",
+        "ziel",
+        "erwarten",
+        "verantwortung",
+        "tempo",
+        "echt",
+        "gestaltungsspielraum",
+        "verbunden",
+        "erwartung",
+        "nutzt",
+        "produkten",
+        "bringen",
+        "energi",
+        "morgen"
+      ],
+      "ngramas": [
+        "senior crm",
+        "crm manager",
+        "manager lifecycle",
+        "lifecycle retention",
+        "retention commerce",
+        "commerce growth",
+        "growth achim",
+        "achim hybrid",
+        "hybrid kleine",
+        "kleine kraftwerk"
+      ],
+      "estadisticas": {
+        "tokens_brutos": 987,
+        "tokens_utiles": 586,
+        "palabras_vacias": 401,
+        "tipos": 398,
+        "caracteres_original": 7035,
+        "caracteres_limpio": 6856
+      }
+    },
+    {
+      "id": "getonboard-b5644b2f5f97cd",
+      "titulo": "Ingeniero de Datos y Analítica",
+      "idioma": "es",
+      "original": "Ingeniero de Datos y Analítica\nBuscamos un perfil senior con experiencia práctica construyendo soluciones de datos en ambientes productivos. Debes haber participado en el diseño y operación de data warehouses o datamarts, integrando información desde múltiples fuentes y resolviendo problemas reales de calidad, consistencia y trazabilidad.\nNecesitamos dominio avanzado de SQL y experiencia desarrollando pipelines de extracción, transformación y carga de datos. Esperamos que puedas modelar información, optimizar consultas, implementar cargas incrementales y diseñar estructuras que sean mantenibles y reutilizables.\nE…",
+      "limpio": "Ingeniero de Datos y Analítica Buscamos un perfil senior con experiencia práctica construyendo soluciones de datos en ambientes productivos. Debes haber participado en el diseño y operación de data warehouses o datamarts integrando información desde múltiples fuentes y resolviendo problemas reales de calidad consistencia y trazabilidad. Necesitamos dominio avanzado de SQL y experiencia desarrollando pipelines de extracción transformación y carga de datos. Esperamos que puedas modelar información optimizar consultas implementar cargas incrementales y diseñar estructuras que sean mantenibles y reutilizables. Es req…",
+      "normalizado": "ingeniero de datos y analitica buscamos un perfil senior con experiencia practica construyendo soluciones de datos en ambientes productivos. debes haber participado en el diseno y operacion de data warehouses o datamarts integrando informacion desde multiples fuentes y resolviendo problemas reales de calidad consistencia y trazabilidad. necesitamos dominio avanzado de sql y experiencia desarrollando pipelines de extraccion transformacion y carga de datos. esperamos que puedas modelar informacion optimizar consultas implementar cargas incrementales y disenar estructuras que sean mantenibles y reutilizables. es req…",
+      "detalle": [
+        {
+          "palabra": "ingeniero",
+          "lema": "ingeniero",
+          "derivada": "ingeniero",
+          "vacia": false
+        },
+        {
+          "palabra": "de",
+          "lema": "de",
+          "derivada": "de",
+          "vacia": true
+        },
+        {
+          "palabra": "datos",
+          "lema": "dato",
+          "derivada": "dato",
+          "vacia": false
+        },
+        {
+          "palabra": "analitica",
+          "lema": "analitica",
+          "derivada": "analitica",
+          "vacia": false
+        },
+        {
+          "palabra": "buscamos",
+          "lema": "buscar",
+          "derivada": "busc",
+          "vacia": false
+        },
+        {
+          "palabra": "un",
+          "lema": "un",
+          "derivada": "un",
+          "vacia": true
+        },
+        {
+          "palabra": "perfil",
+          "lema": "perfil",
+          "derivada": "perfil",
+          "vacia": false
+        },
+        {
+          "palabra": "senior",
+          "lema": "senior",
+          "derivada": "senior",
+          "vacia": false
+        },
+        {
+          "palabra": "con",
+          "lema": "con",
+          "derivada": "con",
+          "vacia": true
+        },
+        {
+          "palabra": "experiencia",
+          "lema": "experiencia",
+          "derivada": "experiencia",
+          "vacia": false
+        },
+        {
+          "palabra": "practica",
+          "lema": "practica",
+          "derivada": "practica",
+          "vacia": false
+        },
+        {
+          "palabra": "construyendo",
+          "lema": "construyendo",
+          "derivada": "construyendo",
+          "vacia": false
+        },
+        {
+          "palabra": "soluciones",
+          "lema": "solucion",
+          "derivada": "sol",
+          "vacia": false
+        },
+        {
+          "palabra": "de",
+          "lema": "de",
+          "derivada": "de",
+          "vacia": true
+        },
+        {
+          "palabra": "datos",
+          "lema": "dato",
+          "derivada": "dato",
+          "vacia": false
+        },
+        {
+          "palabra": "en",
+          "lema": "en",
+          "derivada": "en",
+          "vacia": true
+        },
+        {
+          "palabra": "ambientes",
+          "lema": "ambiente",
+          "derivada": "ambient",
+          "vacia": false
+        },
+        {
+          "palabra": "productivos",
+          "lema": "productivo",
+          "derivada": "product",
+          "vacia": false
+        },
+        {
+          "palabra": "debes",
+          "lema": "debe",
+          "derivada": "debe",
+          "vacia": false
+        },
+        {
+          "palabra": "haber",
+          "lema": "haber",
+          "derivada": "hab",
+          "vacia": false
+        },
+        {
+          "palabra": "participado",
+          "lema": "participar",
+          "derivada": "particip",
+          "vacia": false
+        },
+        {
+          "palabra": "en",
+          "lema": "en",
+          "derivada": "en",
+          "vacia": true
+        }
+      ],
+      "lemas": [
+        "ingeniero",
+        "dato",
+        "analitica",
+        "buscar",
+        "perfil",
+        "senior",
+        "experiencia",
+        "practica",
+        "construyendo",
+        "solucion",
+        "dato",
+        "ambiente",
+        "productivo",
+        "debe",
+        "haber",
+        "participar",
+        "diseno",
+        "operacion",
+        "data",
+        "warehouse",
+        "datamart",
+        "integrar",
+        "informacion",
+        "multiple",
+        "fuente",
+        "resolver",
+        "problema",
+        "real",
+        "calidad",
+        "consistencia",
+        "trazabilidad",
+        "necesitamo",
+        "dominio",
+        "avanzar",
+        "sql",
+        "experiencia"
+      ],
+      "derivadas": [
+        "ingeniero",
+        "dato",
+        "analitica",
+        "busc",
+        "perfil",
+        "senior",
+        "experiencia",
+        "practica",
+        "construyendo",
+        "sol",
+        "dato",
+        "ambient",
+        "product",
+        "debe",
+        "hab",
+        "particip",
+        "diseno",
+        "oper",
+        "data",
+        "warehous",
+        "datamart",
+        "integr",
+        "inform",
+        "multipl",
+        "fuent",
+        "resolv",
+        "problema",
+        "real",
+        "cal",
+        "consist",
+        "trazabil",
+        "necesitamo",
+        "dominio",
+        "avanz",
+        "sql",
+        "experiencia"
+      ],
+      "ngramas": [
+        "ingeniero dato",
+        "dato analitica",
+        "analitica buscar",
+        "buscar perfil",
+        "perfil senior",
+        "senior experiencia",
+        "experiencia practica",
+        "practica construyendo",
+        "construyendo solucion",
+        "solucion dato"
+      ],
+      "estadisticas": {
+        "tokens_brutos": 769,
+        "tokens_utiles": 531,
+        "palabras_vacias": 238,
+        "tipos": 298,
+        "caracteres_original": 6230,
+        "caracteres_limpio": 6139
+      }
+    }
+  ],
+  "generado": "2026-10-28T17:04:26"
+}

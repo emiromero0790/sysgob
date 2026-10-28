@@ -3,6 +3,7 @@ import json
 import config
 from procesamiento import almacen, entidades
 from procesamiento.duplicados import quitar_casi_duplicados, quitar_exactos
+from procesamiento.exportar import exportar
 from procesamiento.limpieza import html_a_texto, idioma
 
 
@@ -56,6 +57,7 @@ def procesar():
     finales, casi = quitar_casi_duplicados(sin_exactos)
     finales.sort(key=lambda o: (o["fecha_publicacion"], o["id"]), reverse=True)
     almacen.guardar(finales)
+    exportar(finales)
     resumen = {
         "crudas": len(crudos),
         "sin_texto_suficiente": len(ofertas) - len(con_texto),

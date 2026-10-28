@@ -71,13 +71,25 @@ REQUISITOS
        python main.py construir
 
    Hace los cuatro pasos seguidos. Tambien puedes correrlos uno por uno:
-       python main.py procesar    limpieza, entidades, duplicados -> CSV y SQLite
-       python main.py analizar    estadisticas del corpus -> JSON
-       python main.py indexar     indice invertido BM25 + indice vectorial
+       python main.py procesar    limpieza, entidades, duplicados y exportacion
+       python main.py analizar    estadisticas del corpus y del texto
+       python main.py indexar     BM25 + embeddings + FAISS + matriz TF-IDF
        python main.py evaluar     precision, recall, MAP y nDCG por estrategia
+
+   Archivos que genera cada paso:
+       procesar -> data/procesado/ofertas.csv, ofertas.json, ofertas.jsonl,
+                   sysjobs.db (5 tablas + vista) y data/no_relacional/
+       analizar -> data/analisis/estadisticas.json y texto.json
+       indexar  -> data/indices/ (lexico.json.gz, vectores.npy, vectorial.faiss,
+                   matriz_tfidf.npz, vocabulario.json.gz, estructura.json)
+       evaluar  -> data/evaluacion/resultados.json
 
    La primera vez que indexas con la version completa se descarga el modelo
    paraphrase-multilingual-MiniLM-L12-v2 (unos 470 MB). Despues queda en cache.
+
+   Si ya tienes el corpus procesado y solo quieres regenerar los formatos de
+   salida (por ejemplo, despues de editar la base):
+       python main.py exportar
 
    Atajo para hacer acopio + construir de una vez:
        python main.py todo
@@ -87,10 +99,26 @@ REQUISITOS
 
        python main.py web
 
-   Abre http://127.0.0.1:5000
-   - Buscar: consulta en lenguaje natural, tres formas de ordenar y filtros.
-   - Comparar rankings: lexico vs semantico lado a lado.
-   - Corpus e indices: graficas del corpus, datos de los indices y evaluacion.
+   Abre http://127.0.0.1:5000 y encontraras cinco vistas:
+   - Buscar: consulta en lenguaje natural, tres formas de ordenar
+     (hibrido, significado, palabras exactas) y filtros por modalidad, nivel,
+     area, tecnologia, idioma y fuente. El microfono dicta la consulta.
+   - Comparar: rankings lexico y semantico lado a lado; marca las ofertas que
+     solo aparecen en uno de los dos.
+   - Texto: laboratorio de preprocesamiento. Muestra limpieza, normalizacion,
+     tokenizacion, palabras vacias, lematizacion, derivacion, n-gramas,
+     frecuencias, nube de lemas y ejemplos antes/despues.
+   - Datos: inventario de archivos, descargas, esquema relacional, documento
+     de ejemplo, consultas SQL/MongoDB y boton para regenerar exportaciones.
+   - Corpus: embudo de limpieza, graficas por fuente/modalidad/nivel/area,
+     tecnologias, indices guardados, vectorizacion TF-IDF y evaluacion.
+
+   Voz: el boton del microfono dicta la busqueda; los botones con altavoz
+   escuchan ofertas y resumenes. Usa las voces del navegador (Chrome o Edge
+   funcionan mejor) y no envia audio al servidor.
+
+   Tema claro/oscuro: boton de sol/luna en la barra lateral o superior.
+   Atajos: 1-5 cambian de vista, / enfoca el buscador, Esc cierra ventanas.
 
    Otro puerto:  python main.py web --puerto 8000
 
@@ -119,6 +147,14 @@ PROBLEMAS COMUNES
   indexar. Corre  python main.py indexar
 - La pagina se ve con otra tipografia: sin internet no cargan las fuentes de
   Google y el navegador usa las del sistema; todo lo demas funciona.
+- El microfono no dicta: revisa los permisos del sitio y usa Chrome o Edge.
+  El dictado puede necesitar internet; la lectura en voz alta usa las voces
+  instaladas en el sistema.
+- La vista Texto o Corpus sale vacia: falta ejecutar "python main.py analizar"
+  o "python main.py indexar" (o directamente "python main.py construir").
+- MongoDB no esta instalado: no es obligatorio. Los archivos de
+  data/no_relacional/ se generan igual; para cargarlos necesitas MongoDB y
+  pymongo (pip install pymongo).
 - Para la entrega presencial: haz el acopio y "construir" ANTES, en tu casa.
   Con los datos ya en la carpeta data, "python main.py web" no necesita
   internet (con la version completa, el modelo ya debe estar descargado).

@@ -4,6 +4,7 @@ import time
 import config
 from indexacion.lexico import IndiceLexico
 from indexacion.semantico import IndiceSemantico
+from indexacion.vectorizacion import construir_estructura
 from procesamiento import almacen
 
 
@@ -44,5 +45,6 @@ def indexar():
     semantico.guardar()
     print(f"Indice semantico: {semantico.meta['modelo']}, {semantico.meta['dimensiones']} dimensiones, "
           f"{semantico.meta['motor_vectorial']} ({time.time() - inicio:.1f} s)")
+    construir_estructura(ofertas, semantico.meta)
     print(f"Indices guardados en {config.INDICES}")
     return semantico.meta

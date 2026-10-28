@@ -1,0 +1,434 @@
+{
+  "matriz": {
+    "modelo": "TF-IDF con sublinear_tf y norma L2",
+    "formato": "scipy.sparse.csr_matrix",
+    "archivo": "data\\indices\\matriz_tfidf.npz",
+    "documentos": 467,
+    "dimensiones": 15693,
+    "valores_no_cero": 119430,
+    "densidad_pct": 1.63,
+    "celdas_totales": 7328631,
+    "tfidf_medio": 0.0567,
+    "tfidf_maximo": 0.33
+  },
+  "vocabulario": {
+    "terminos": 15693,
+    "archivo": "data\\indices\\vocabulario.json.gz",
+    "muestra": [
+      {
+        "termino": "engineer",
+        "indice": 4878,
+        "df": 304,
+        "idf": 1.4282
+      },
+      {
+        "termino": "team",
+        "indice": 13849,
+        "df": 281,
+        "idf": 1.5066
+      },
+      {
+        "termino": "job",
+        "indice": 7898,
+        "df": 280,
+        "idf": 1.5101
+      },
+      {
+        "termino": "find",
+        "indice": 5796,
+        "df": 278,
+        "idf": 1.5173
+      },
+      {
+        "termino": "arbeitnow",
+        "indice": 977,
+        "df": 271,
+        "idf": 1.5427
+      },
+      {
+        "termino": "work",
+        "indice": 15489,
+        "df": 255,
+        "idf": 1.6033
+      },
+      {
+        "termino": "experience",
+        "indice": 5451,
+        "df": 251,
+        "idf": 1.619
+      },
+      {
+        "termino": "data",
+        "indice": 3588,
+        "df": 244,
+        "idf": 1.6472
+      },
+      {
+        "termino": "role",
+        "indice": 12392,
+        "df": 231,
+        "idf": 1.7017
+      },
+      {
+        "termino": "build",
+        "indice": 2102,
+        "df": 224,
+        "idf": 1.7324
+      },
+      {
+        "termino": "software",
+        "indice": 13129,
+        "df": 222,
+        "idf": 1.7413
+      },
+      {
+        "termino": "design",
+        "indice": 3921,
+        "df": 209,
+        "idf": 1.8014
+      },
+      {
+        "termino": "english",
+        "indice": 4882,
+        "df": 208,
+        "idf": 1.8061
+      },
+      {
+        "termino": "system",
+        "indice": 13739,
+        "df": 206,
+        "idf": 1.8157
+      },
+      {
+        "termino": "learn",
+        "indice": 8384,
+        "df": 205,
+        "idf": 1.8206
+      },
+      {
+        "termino": "ai",
+        "indice": 494,
+        "df": 197,
+        "idf": 1.8602
+      },
+      {
+        "termino": "acros",
+        "indice": 255,
+        "df": 196,
+        "idf": 1.8653
+      },
+      {
+        "termino": "platform",
+        "indice": 10729,
+        "df": 196,
+        "idf": 1.8653
+      },
+      {
+        "termino": "strong",
+        "indice": 13527,
+        "df": 196,
+        "idf": 1.8653
+      },
+      {
+        "termino": "skill",
+        "indice": 13053,
+        "df": 188,
+        "idf": 1.9067
+      },
+      {
+        "termino": "support",
+        "indice": 13670,
+        "df": 187,
+        "idf": 1.912
+      },
+      {
+        "termino": "technical",
+        "indice": 13882,
+        "df": 187,
+        "idf": 1.912
+      },
+      {
+        "termino": "tool",
+        "indice": 14175,
+        "df": 187,
+        "idf": 1.912
+      },
+      {
+        "termino": "environment",
+        "indice": 5006,
+        "df": 185,
+        "idf": 1.9227
+      },
+      {
+        "termino": "development",
+        "indice": 4007,
+        "df": 178,
+        "idf": 1.9611
+      },
+      {
+        "termino": "cloud",
+        "indice": 2631,
+        "df": 175,
+        "idf": 1.978
+      },
+      {
+        "termino": "senior",
+        "indice": 12788,
+        "df": 173,
+        "idf": 1.9894
+      },
+      {
+        "termino": "high",
+        "indice": 6905,
+        "df": 172,
+        "idf": 1.9952
+      },
+      {
+        "termino": "lead",
+        "indice": 8375,
+        "df": 172,
+        "idf": 1.9952
+      },
+      {
+        "termino": "hand",
+        "indice": 6741,
+        "df": 171,
+        "idf": 2.001
+      },
+      {
+        "termino": "time",
+        "indice": 14119,
+        "df": 168,
+        "idf": 2.0186
+      },
+      {
+        "termino": "us",
+        "indice": 14688,
+        "df": 168,
+        "idf": 2.0186
+      },
+      {
+        "termino": "includ",
+        "indice": 7294,
+        "df": 167,
+        "idf": 2.0245
+      },
+      {
+        "termino": "decision",
+        "indice": 3711,
+        "df": 166,
+        "idf": 2.0305
+      },
+      {
+        "termino": "python",
+        "indice": 11508,
+        "df": 166,
+        "idf": 2.0305
+      },
+      {
+        "termino": "speak",
+        "indice": 13264,
+        "df": 164,
+        "idf": 2.0425
+      },
+      {
+        "termino": "understand",
+        "indice": 14556,
+        "df": 164,
+        "idf": 2.0425
+      },
+      {
+        "termino": "code",
+        "indice": 2661,
+        "df": 163,
+        "idf": 2.0486
+      },
+      {
+        "termino": "product",
+        "indice": 11175,
+        "df": 162,
+        "idf": 2.0547
+      },
+      {
+        "termino": "company",
+        "indice": 2794,
+        "df": 161,
+        "idf": 2.0609
+      }
+    ]
+  },
+  "vector_ejemplo": {
+    "id": "getonboard-f95b63db0cac7b",
+    "titulo": "Data Engineer Senior",
+    "dimensiones": 15693,
+    "componentes_no_cero": 164,
+    "densidad_pct": 1.05,
+    "componentes": [
+      [
+        "bebida",
+        0.1755
+      ],
+      [
+        "extremo",
+        0.1523
+      ],
+      [
+        "dato",
+        0.1456
+      ],
+      [
+        "apex",
+        0.1416
+      ],
+      [
+        "permitan",
+        0.1378
+      ],
+      [
+        "alimento",
+        0.134
+      ],
+      [
+        "procesamiento",
+        0.1288
+      ],
+      [
+        "integracion",
+        0.1211
+      ],
+      [
+        "nube",
+        0.1141
+      ],
+      [
+        "azure",
+        0.1138
+      ],
+      [
+        "eficiente",
+        0.1111
+      ],
+      [
+        "volumen",
+        0.1111
+      ],
+      [
+        "continua",
+        0.1091
+      ],
+      [
+        "solucion",
+        0.107
+      ],
+      [
+        "costo",
+        0.1039
+      ],
+      [
+        "buena",
+        0.1023
+      ],
+      [
+        "crecimiento",
+        0.1018
+      ],
+      [
+        "afectar",
+        0.1008
+      ]
+    ]
+  },
+  "indice_invertido": {
+    "termino": "python",
+    "documentos": [
+      [
+        "getonboard-ec3b55770fc7de",
+        2
+      ],
+      [
+        "getonboard-a956634c778967",
+        3
+      ],
+      [
+        "getonboard-7080f790317fad",
+        3
+      ],
+      [
+        "getonboard-15eb4426787cb8",
+        2
+      ],
+      [
+        "arbeitnow-fe4bb9333fb188",
+        2
+      ],
+      [
+        "arbeitnow-fb7a4d711dedb4",
+        2
+      ]
+    ],
+    "total_documentos": 166,
+    "idf": 1.0335
+  },
+  "embeddings": {
+    "backend": "sbert",
+    "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensiones": 384,
+    "documentos": 467,
+    "motor_vectorial": "FAISS IndexFlatIP",
+    "ids": null,
+    "lexico": {
+      "documentos": 467,
+      "terminos": 15693,
+      "postings": 119430,
+      "longitud_promedio": 410.7,
+      "modelo": "BM25 (k1=1.5, b=0.75)"
+    },
+    "ejemplo": {
+      "dimensiones": 384,
+      "valores": [
+        0.037,
+        0.0216,
+        0.0132,
+        -0.0436,
+        0.0193,
+        0.0012,
+        -0.0732,
+        -0.012,
+        -0.0313,
+        0.0377,
+        0.0125,
+        0.0088,
+        0.0345,
+        -0.0684,
+        0.0161,
+        -0.0171
+      ],
+      "norma": 1.0,
+      "tipo": "float32 L2-normalizado"
+    },
+    "metrica": "similitud coseno (producto punto sobre vectores normalizados)"
+  },
+  "esquema": [
+    {
+      "nombre": "Índice invertido",
+      "estructura": "término → [[documento, frecuencia]]",
+      "uso": "BM25 léxico"
+    },
+    {
+      "nombre": "Matriz TF-IDF",
+      "estructura": "CSR dispersa documentos × términos",
+      "uso": "vectorización clásica"
+    },
+    {
+      "nombre": "Embeddings",
+      "estructura": "matriz densa documentos × 384 float32",
+      "uso": "similitud semántica"
+    },
+    {
+      "nombre": "FAISS",
+      "estructura": "IndexFlatIP sobre vectores normalizados",
+      "uso": "búsqueda vectorial rápida"
+    }
+  ],
+  "generado": "2026-10-28T17:05:38"
+}
