@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-8b62dae776816c",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-datos-aws-big-data-bc-tecnologia-remote",
+  "titulo": "Ingeniero/a de Datos AWS",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<div><strong>Formación Académica</strong></div><div>Título profesional de al menos 4 años de duración en:</div><ul><li>Ingeniería Civil (cualquier especialidad). </li><li>Ingeniería en Ejecución (cualquier especialidad). </li><li>O carreras afines al área tecnológica.</li></ul><div><strong>Experiencia</strong></div><div>Mínimo 4 años de experiencia en funciones relacionadas con ingeniería de datos, Big Data o plataformas de procesamiento de datos.</div><div><strong>Conocimientos técnicos</strong></div><div>Experiencia en Python. Manejo de bases de datos relacionales y NoSQL. Experiencia en arquitecturas Big Data y procesamiento de datos. Desarrollo de procesos de ingesta y transformación de datos hacia Data Lake.</div><div>Experiencia utilizando servicios de AWS, tales como:</div><ul><li>Amazon S3</li><li>AWS Lambda</li><li>AWS Glue</li><li>AWS Step Functions</li><li>Amazon DocumentDB</li><li>Otros servicios relacionados</li><li>Control de versiones mediante Git, CodeCommit o GitLab. Conocimientos en arquitecturas de clústeres y procesamiento distribuido de datos.</li></ul>\n<div>Nos encontramos en búsqueda de un/a Ingeniero/a de Datos con experiencia en tecnologías Big Data y servicios AWS, quien será responsable de evaluar, diseñar e implementar soluciones de datos que contribuyan a la continuidad operacional de los servicios TI, asegurando la calidad, disponibilidad e integridad de la información.</div><div>Buscamos profesionales con orientación analítica, capacidad para trabajar en equipo y experiencia en el desarrollo de soluciones de procesamiento e integración de datos.</div>\n<div>Diseñar, desarrollar y mantener soluciones de datos sobre plataformas Big Data. Construir procesos de ingesta, transformación y control de datos hacia un Data Lake. Desarrollar e implementar soluciones utilizando Python y servicios de AWS. Evaluar, analizar y proponer mejoras continuas en procesos, sistemas y tecnologías. Participar en el levantamiento y análisis funcional y técnico de requerimientos. Realizar pruebas funcionales y técnicas para asegurar la calidad de las soluciones implementadas. Aplicar estándares de seguridad, metodologías y controles que garanticen la integridad y disponibilidad de la información. Participar en reuniones de coordinación con equipos técnicos y áreas usuarias, realizando seguimiento e informes de avance. Documentar procesos, desarrollos y soluciones implementadas.</div>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-07-03",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

@@ -1,0 +1,295 @@
+SYSJOBS - QUE HACE CADA COSA
+============================
+
+El codigo no lleva comentarios; este archivo los sustituye.
+El flujo completo es:
+
+  acopio  ->  procesar  ->  analizar  ->  indexar  ->  evaluar  ->  web
+  (crudo JSON)  (CSV+SQLite)  (estadisticas)  (indices)   (metricas)   (interfaz)
+
+Coincide con las cuatro capas del PDF: adquisicion, procesamiento,
+indexacion/busqueda y presentacion.
+
+
+------------------------------------------------------------------
+1. ARCHIVOS DE LA RAIZ
+------------------------------------------------------------------
+
+main.py
+  Punto de entrada. Define los comandos de terminal con argparse:
+  acopio, demo, procesar, analizar, indexar, evaluar, construir
+  (procesar+analizar+indexar+evaluar), todo (acopio+construir), buscar y web.
+  Cada funcion paso_* importa el modulo que necesita y lo ejecuta.
+  Si falta un paso anterior (FileNotFoundError) muestra que comando correr.
+
+config.py
+  Todas las constantes en un solo lugar:
+  - Rutas de data/ (crudo, procesado, indices, analisis, evaluacion).
+  - AGENTE: el User-Agent con el que se identifica el recolector.
+  - PAUSA, TIEMPO_ESPERA, REINTENTOS, LIMITE_POR_FUENTE: cortesia y limites
+    del acopio.
+  - FUENTES_POR_DEFECTO: fuentes que usa "python main.py acopio".
+  - GETONBOARD_PALABRAS, REMOTIVE_CATEGORIAS, PALABRAS_TI: que categorias
+    u ofertas se consideran de sistemas/TI en cada fuente.
+  - SITIOS_HTML: lista de sitios que se raspan con BeautifulSoup. Cada uno
+    tiene paginas de listado, el patron de los enlaces a ofertas y selectores
+    CSS de respaldo. Para agregar otro portal basta anadir otro diccionario.
+  - UMBRAL_CASI_DUPLICADO: similitud coseno a partir de la cual dos ofertas
+    se consideran la misma (0.9).
+  - BM25_K1, BM25_B: parametros del ranking lexico.
+  - BACKEND_EMBEDDINGS: "auto", "sbert" o "lsa". MODELO_EMBEDDINGS: modelo de
+    Sentence-Transformers. DIM_LSA: dimensiones del respaldo.
+  - PESO_SEMANTICO: peso de la senal semantica en el ranking hibrido (0.6).
+  - CORTE_EVALUACION: k de las metricas (10).
+
+requirements.txt / requirements-minimo.txt
+  Librerias. La minima omite sentence-transformers y faiss-cpu.
+
+
+------------------------------------------------------------------
+2. acopio/  (CAPA 1: ADQUISICION)
+------------------------------------------------------------------
+
+base.py
+  fecha_iso(valor)   convierte timestamps o fechas a "AAAA-MM-DD".
+  class Recolector   clase madre de todas las fuentes:
+    __init__      crea la sesion HTTP con el User-Agent y carga los ids ya
+                  guardados para no repetirlos.
+    permitido     si la fuente respeta robots.txt, lo descarga una vez por
+                  dominio y pregunta si la URL esta permitida.
+    obtener       hace el GET con pausa, tiempo de espera y reintentos con
+                  espera creciente ante errores 429/5xx. Devuelve None si falla.
+    registro      arma el registro crudo con un esquema comun para todas las
+                  fuentes: id (fuente + hash de la URL), fuente, url, titulo,
+                  empresa, descripcion_html, ubicacion, modalidad_origen,
+                  nivel_origen, etiquetas, fecha_publicacion, fecha_extraccion.
+    guardar       escribe un JSON por oferta en data/crudo/<fuente>/<fecha>/.
+    recolectar    generador que cada fuente sobreescribe.
+    ejecutar      recorre recolectar, descarta ofertas sin titulo o sin texto,
+                  guarda, respeta el limite y anade un renglon a
+                  data/crudo/bitacora.jsonl (nuevas, repetidas, peticiones,
+                  errores, bloqueos por robots, segundos).
+
+getonboard.py   API publica de Get on Board (empleo tech en Latinoamerica,
+                ofertas en espanol; es la fuente mas cercana al perfil).
+  categorias    pide la lista de categorias y se queda con las de sistemas.
+  convertir     traduce una oferta de la API al esquema comun (une descripcion,
+                funciones, deseables y beneficios; mapea modalidad y seniority).
+  recolectar    pagina cada categoria repartiendo el limite entre ellas.
+
+remotive.py     API publica de Remotive (empleo remoto). Una sola peticion;
+                filtra por categoria de software, devops, datos y QA.
+
+arbeitnow.py    API publica de Arbeitnow. Pagina resultados y conserva solo
+                ofertas cuyo titulo o etiquetas contienen palabras de TI.
+
+sitio_html.py   Raspador generico de portales HTML (configurado para
+                Computrabajo en config.SITIOS_HTML). Si respeta robots.txt.
+  buscar_json_ld  busca en la pagina el bloque schema.org "JobPosting" que los
+                  portales publican para Google.
+  texto_de, lugar_de  sacan empresa y ciudad de ese bloque.
+  enlaces       recorre las paginas de listado y junta los enlaces a ofertas.
+  extraer       usa el JobPosting si existe; si no, cae a <h1> y a los
+                selectores CSS configurados.
+  recolectar    visita cada oferta; si hay 5 fallos seguidos abandona el sitio.
+
+manual.py       Lee los CSV de data/manual (plantilla.csv trae los
+                encabezados) para integrar ofertas capturadas a mano.
+
+demo.py         Genera ofertas sinteticas combinando puestos, niveles y
+                modalidades. Solo sirve para probar sin internet. Todas dicen
+                en su texto que no son vacantes reales.
+
+ejecutar.py
+  catalogo      diccionario nombre -> recolector (incluye los SITIOS_HTML).
+  acopiar       corre las fuentes pedidas e imprime el resumen de cada una.
+
+
+------------------------------------------------------------------
+3. procesamiento/  (CAPA 2: PROCESAMIENTO Y ANALISIS)
+------------------------------------------------------------------
+
+limpieza.py
+  STOP_ES, STOP_EN  palabras vacias en espanol e ingles.
+  html_a_texto  quita etiquetas, scripts y estilos; conserva saltos de linea y
+                vinetas; si el HTML venia escapado hace una segunda pasada.
+  normalizar    minusculas y sin acentos.
+  raiz          stemming ligero: quita plural y vocal final para que
+                "desarrolladores", "desarrolladora" y "desarrollador" coincidan.
+  palabras      separa en tokens conservando c#, c++, node.js y .net.
+  tokenizar     palabras - stopwords + raiz. Lo usan el indice lexico, la
+                deteccion de duplicados y el respaldo LSA.
+  idioma        "es" o "en" segun que stopwords predominan.
+
+entidades.py    Diccionario controlado + expresiones regulares.
+  TECNOLOGIAS   75 tecnologias con sus alias.
+  compilar      crea un regex con limites de palabra que entienden simbolos
+                (para que "java" no coincida dentro de "javascript").
+  tecnologias   lista de tecnologias mencionadas en un texto.
+  modalidad     remoto / hibrido / presencial / no especificada. Prioridad:
+                campo de la fuente, titulo, descripcion.
+  nivel         practicante / junior / semi-senior / senior / no especificado.
+                Prioridad: titulo, campo de la fuente, descripcion, anos de
+                experiencia pedidos.
+  area          backend, frontend, fullstack, movil, datos, devops, qa,
+                seguridad, soporte, desarrollo general u otra, segun el titulo
+                y, si no alcanza, las tecnologias.
+
+duplicados.py
+  quitar_exactos          hash de titulo + empresa + inicio de la descripcion.
+  quitar_casi_duplicados  TF-IDF y similitud coseno; de cada par que supere
+                          el umbral conserva la primera que leyo (la misma
+                          vacante publicada en dos portales).
+
+almacen.py
+  guardar        escribe data/procesado/ofertas.csv y la tabla "ofertas" en
+                 data/procesado/sysjobs.db (SQLite) con indices por campo.
+  cargar         lee todas las ofertas de SQLite.
+  ids_filtrados  traduce los filtros de la interfaz a un WHERE de SQL y
+                 devuelve los ids permitidos.
+
+pipeline.py
+  leer_crudos   lee todos los JSON crudos (ignora "demo" si hay datos reales).
+  transformar   crudo -> registro normalizado con entidades e idioma.
+  procesar      orquesta todo, guarda y escribe resumen.json con el embudo
+                (crudas, sin texto, duplicados exactos, casi duplicados,
+                finales).
+
+analisis.py
+  analizar      calcula y guarda data/analisis/estadisticas.json: totales,
+                conteos por fuente, modalidad, nivel, area, idioma y mes,
+                tecnologias mas pedidas, longitud media, tamano del
+                vocabulario y terminos mas frecuentes. Alimenta los filtros y
+                la pestana "Corpus e indices".
+
+
+------------------------------------------------------------------
+4. indexacion/  y  busqueda/  (CAPA 3: INDICES Y RANKING)
+------------------------------------------------------------------
+
+indexacion/lexico.py   class IndiceLexico
+  construir   indice invertido: termino -> lista de [documento, frecuencia],
+              longitudes de documento e IDF.
+  guardar / cargar   lo persiste en data/indices/lexico.json.gz.
+  buscar      puntua con BM25 y devuelve (id, puntaje) ordenado.
+
+indexacion/semantico.py
+  elegir_backend   "sbert" si sentence-transformers esta instalado, si no "lsa".
+  cargar_faiss     importa FAISS si existe.
+  class Codificador   convierte texto en vectores normalizados.
+    sbert: modelo multilingue de Sentence-Transformers (384 dimensiones).
+    lsa:   TF-IDF + SVD truncada; el modelo ajustado se guarda en lsa.joblib.
+  class IndiceSemantico
+    construir   genera los embeddings de todas las ofertas y, si hay FAISS,
+                crea un IndexFlatIP (producto interno = coseno).
+    guardar     vectores.npy, vectorial.faiss (si aplica) y meta.json.
+    cargar      los lee de disco y prepara el codificador.
+    buscar      codifica la consulta y devuelve (id, similitud) ordenado.
+
+indexacion/construir.py
+  texto_lexico     titulo (dos veces, para darle peso) + empresa + tecnologias
+                   + descripcion.
+  texto_semantico  titulo, nivel, modalidad, tecnologias y descripcion, en ese
+                   orden porque el modelo solo lee los primeros 256 tokens.
+  indexar          construye y guarda ambos indices e imprime sus tamanos.
+
+busqueda/motor.py   class Motor
+  __init__   carga ofertas e indices y verifica que correspondan.
+  senales    puntaje lexico normalizado al mejor resultado (0 a 1) y similitud
+             coseno (0 a 1) para cada oferta.
+  ranking    lexico, semantico o hibrido. Hibrido = 0.6 x semantico +
+             0.4 x lexico (PESO_SEMANTICO).
+  resumen    fragmento de la descripcion cercano a un termino de la consulta.
+  tarjeta    datos que la interfaz muestra de cada resultado.
+  buscar     aplica filtros (SQL) y devuelve los primeros k. Sin consulta
+             devuelve las ofertas mas recientes.
+  comparar   primeros 8 de lexico y de semantico, marcando los exclusivos.
+  detalle    oferta completa por id.
+
+
+------------------------------------------------------------------
+5. evaluacion/
+------------------------------------------------------------------
+
+consultas.json  14 consultas de prueba, redactadas a proposito con sinonimos,
+                cada una con los criterios que debe cumplir una oferta para
+                contarse como relevante (area, nivel, modalidad, tecnologias).
+metricas.py     precision_k, recall_k, precision_promedio (AP) y ndcg_k.
+evaluar.py
+  cumple        decide si una oferta satisface los criterios.
+  evaluar       corre cada consulta en los tres modos, promedia y guarda
+                data/evaluacion/resultados.json.
+
+
+------------------------------------------------------------------
+6. web/  (CAPA 4: PRESENTACION)
+------------------------------------------------------------------
+
+app.py   API REST con Flask.
+  GET /               la interfaz.
+  GET /api/buscar     q, modo, modalidad, nivel, area, fuente, tecnologias.
+  GET /api/comparar   q.
+  GET /api/oferta/<id>
+  GET /api/corpus     estadisticas, datos de los indices y evaluacion.
+
+templates/index.html   estructura de las tres pestanas, la ilustracion SVG del
+                       "mapa semantico" y la ventana de detalle.
+static/estilos.css     colores, tipografia y distribucion; se adapta a movil.
+static/app.js
+  buscar, tarjeta, etiquetas, medidor   piden y dibujan los resultados; cada
+        tarjeta muestra el % de relevancia y dos barras con cuanto aporto el
+        significado y cuanto las palabras.
+  pintarFiltros, grupoFiltro   filtros con conteos.
+  comparar, columna            pestana de comparacion.
+  pintarCorpus, barras, panelEvaluacion   graficas de barras del corpus y de
+        las metricas.
+  abrirDetalle                 ventana con la oferta completa y enlace a la
+        fuente original.
+
+capturas/   Imagenes de la interfaz (tomadas con los datos de demostracion)
+            por si quieres ponerlas en tu documento de maquetado.
+
+
+------------------------------------------------------------------
+7. DECISIONES Y DIFERENCIAS RESPECTO AL PDF  (leer antes de exponer)
+------------------------------------------------------------------
+
+a) Fuentes. El PDF mencionaba OCC, Computrabajo, LinkedIn y la bolsa del ITM.
+   - LinkedIn no tiene API publica de vacantes y sus terminos prohiben el
+     raspado; OCC carga las ofertas con JavaScript. No se automatizaron.
+   - Se usan tres API publicas y documentadas (Get on Board, Remotive,
+     Arbeitnow) mas el raspador HTML de Computrabajo. Con eso se cumple
+     "al menos tres fuentes" de forma automatizada.
+   - La bolsa del ITM y LinkedIn entran por data/manual (CSV), que es la
+     "exportacion manual" que ya contemplaba el PDF.
+   - Remotive pide en sus condiciones citar la fuente y enlazar a la oferta
+     original: la interfaz muestra la fuente y el enlace en cada oferta.
+
+b) Whoosh/Elasticsearch -> indice invertido propio con BM25. Whoosh ya no
+   tiene mantenimiento y da problemas en Python reciente. El indice propio
+   se guarda en disco y deja ver exactamente como funciona BM25.
+
+c) Lematizacion -> stemming ligero propio, para no depender de spaCy.
+
+d) Parquet -> CSV + SQLite (Parquet exigia instalar pyarrow sin aportar nada
+   al tamano de este corpus).
+
+e) Respaldo LSA. Si sentence-transformers o FAISS no estan instalados el
+   sistema no falla: usa LSA y NumPy. En "Corpus e indices" siempre se ve
+   que modelo y que motor vectorial se usaron realmente.
+
+f) Corpus bilingue. Remotive y Arbeitnow publican en ingles (Arbeitnow
+   tambien en aleman). El modelo de embeddings es multilingue, asi que una
+   consulta en espanol recupera ofertas en ingles; el indice lexico no puede.
+   Es un buen caso para el analisis critico lexico vs semantico.
+
+g) Evaluacion con juicios automaticos. No hay juicios de relevancia hechos
+   por personas: una oferta es "relevante" si sus campos extraidos cumplen
+   los criterios de consultas.json. Esos campos se extraen con palabras
+   clave, lo que favorece un poco al enfoque lexico. Las metricas sirven
+   para comparar estrategias entre si, no como medida absoluta. Si el
+   profesor pide mas rigor, lo correcto es etiquetar a mano los primeros
+   resultados de algunas consultas.
+
+h) El "% de relevancia" es el puntaje del ranking, no una probabilidad. En
+   modo lexico es relativo al mejor resultado (el primero siempre marca 100).

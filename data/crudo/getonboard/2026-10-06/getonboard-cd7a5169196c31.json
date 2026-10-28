@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-cd7a5169196c31",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/dba-oracle-middle-factor-it-bogota",
+  "titulo": "DBA Oracle Middle",
+  "empresa": "Factor IT",
+  "descripcion_html": "<div>5+ años de experiencia como DBA Oracle.</div><div>Experiencia comprobable con:</div><ul><li>Oracle 12c / 19c</li><li>Oracle RAC</li><li>Oracle Data Guard</li><li>RMAN</li><li>PL/SQL</li><li>Linux – nivel avanzado</li></ul><div>Experiencia en administración, mantenimiento y optimización de bases de datos Oracle. Conocimientos en backups, recuperación, migraciones, refresh y troubleshooting.</div><div>Inglés B2 – intermedio/avanzado.</div>\n<div>Buscamos DBA Oracle Middle para integrarse a un equipo tecnológico encargado de garantizar la disponibilidad, estabilidad y rendimiento de bases de datos Oracle en diferentes ambientes.</div><div>La persona será responsable de administrar y mantener los motores de bases de datos, ejecutar actividades de optimización, respaldos, refresh y ajustes de rendimiento, además de apoyar procesos de configuración, migración y despliegue junto a los equipos de desarrollo.</div>\n<ul><li>Administrar y mantener la disponibilidad de bases de datos Oracle en diferentes ambientes.</li><li>Realizar actividades de puesta a punto, tuning y optimización de rendimiento.</li><li>Ejecutar y administrar procesos de backup y recuperación.</li><li>Realizar refresh de bases de datos y actividades de mantenimiento.</li><li>Administrar ambientes Oracle con y sin clúster.</li><li>Gestionar y mantener configuraciones de Oracle RAC y Data Guard.</li><li>Apoyar a los equipos de desarrollo en configuraciones, migraciones y despliegues.</li><li>Instalar, configurar y documentar bases de datos.</li><li>Ejecutar actividades de administración utilizando RMAN.</li><li>Trabajar con PL/SQL y sistemas operativos Linux.</li><li>Garantizar el cumplimiento de estándares, procedimientos y políticas técnicas.</li><li>Documentar configuraciones, procedimientos y actividades realizadas.</li><li>Participar en actividades orientadas a asegurar la continuidad y estabilidad de las plataformas de bases de datos.</li></ul>\n<div>Buscamos una persona con:</div><ul><li>Disciplina y organización.</li><li>Capacidad de planificación.</li><li>Orientación al logro.</li><li>Trabajo en equipo.</li><li>Proactividad.</li><li>Empatía.</li><li>Actitud de servicio.</li><li>Capacidad para trabajar de manera colaborativa con equipos técnicos y de desarrollo.</li><li>Orientación a la continuidad y estabilidad operacional.</li></ul>\n<div>Modelo híbrido 3x2 en Bogotá: 3 días presenciales y 2 días remotos.</div><div>Importante: Para esta posición es indispensable contar con disponibilidad para asistir presencialmente a Bogotá y tener un nivel de inglés B2.</div><div>¿Te interesa? Si cuentas con experiencia sólida como DBA Oracle y buscas un nuevo desafío profesional en un entorno tecnológico, ¡queremos conocerte!</div>",
+  "ubicacion": "Colombia",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-09-15",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

@@ -1,0 +1,16 @@
+[
+  {"consulta": "programador de servicios web y APIs", "criterios": {"area": ["backend"]}},
+  {"consulta": "prácticas profesionales de desarrollo web", "criterios": {"nivel": ["practicante"], "area": ["frontend", "backend", "fullstack", "desarrollo general"]}},
+  {"consulta": "trabajo desde casa creando aplicaciones para celulares", "criterios": {"area": ["movil"], "modalidad": ["remoto"]}},
+  {"consulta": "puesto para recién egresado en análisis de información y reportes", "criterios": {"area": ["datos"], "nivel": ["junior", "practicante"]}},
+  {"consulta": "automatización de despliegues e infraestructura en la nube", "criterios": {"area": ["devops"]}},
+  {"consulta": "maquetación de páginas e interfaces de usuario", "criterios": {"area": ["frontend"]}},
+  {"consulta": "pruebas de software y aseguramiento de calidad", "criterios": {"area": ["qa"]}},
+  {"consulta": "desarrollador python remoto", "criterios": {"tecnologias_todas": ["python"], "modalidad": ["remoto"]}},
+  {"consulta": "java spring junior", "criterios": {"tecnologias_todas": ["java", "spring"], "nivel": ["junior"]}},
+  {"consulta": "protección de sistemas y análisis de vulnerabilidades", "criterios": {"area": ["seguridad"]}},
+  {"consulta": "modelos predictivos e inteligencia artificial", "criterios": {"tecnologias_alguna": ["machine learning", "tensorflow", "pytorch"]}},
+  {"consulta": "residencia profesional en sistemas con esquema mixto casa y oficina", "criterios": {"nivel": ["practicante"], "modalidad": ["hibrido"]}},
+  {"consulta": "remote backend engineer node", "criterios": {"tecnologias_todas": ["node.js"], "modalidad": ["remoto"], "area": ["backend", "fullstack"]}},
+  {"consulta": "administración de bases de datos relacionales", "criterios": {"tecnologias_alguna": ["postgresql", "mysql", "oracle", "sql server"], "area": ["datos"]}}
+]

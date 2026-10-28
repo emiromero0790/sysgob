@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-feb43ff70d5189",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/data-layer-developer-we-built-it-remote",
+  "titulo": "Data Layer Developer",
+  "empresa": "We Built It",
+  "descripcion_html": "<div>We are looking for a Data Layer Developer with strong, practical JavaScript skills and hands-on experience implementing event-driven analytics tracking.</div><ul><li>Strong JavaScript (ES6+) knowledge</li><li>HTML5 and DOM manipulation</li><li>JSON and nested object handling</li><li>Understanding of event-driven architecture</li><li>Ability to implement custom events and event listeners</li><li>Comfort using browser developer tools to debug and validate behavior</li><li>Experience with Adobe Client Data Layer (ACDL)</li><li>Experience with data mapping and payload validation</li></ul><div>We also value clear communication, attention to detail, and ownership of quality. You should be able to validate tracking against expectations, keep implementations aligned with documentation and standards, and collaborate effectively with analytics and engineering teammates.</div>\n<div>We Built It is supporting digital business growth across Latin America with a tech-first foundation and delivery across multiple solution pillars. In this role, we’re looking for a Data Layer Developer to help our teams implement and maintain scalable, event-driven data layer solutions that enable reliable digital analytics and tracking. You will work closely with analytics and development stakeholders to ensure our tracking implementations are consistent, well-structured, and maintainable—especially in SPA environments—so that data accuracy and observability remain strong across a wide variety of digital projects and initiatives.</div>\n<ul><li>Develop and maintain event-driven data layers</li><li>Implement custom JavaScript events and tracking</li><li>Build structured JSON payloads for analytics</li><li>Collaborate with analytics and development teams</li><li>Debug and validate tracking implementations</li><li>Maintain documentation and tracking standards</li><li>Support SPA tracking implementations</li></ul>\n<ul><li>Experience with analytics implementations</li><li>SPA frameworks like React.js or Angular</li><li>Knowledge of Adobe Analytics or tag management systems</li></ul>\n<ul><li>100% remote work environment</li><li>Collaborative and supportive international team culture</li><li>Fun and engaging team environment with strong camaraderie</li><li>Exposure to a wide variety of digital projects and initiatives</li><li>Birthday day off</li><li>Opportunity to work within a highly dynamic retail digital ecosystem</li><li>Continuous collaboration with experienced Scrum Masters and multidisciplinary teams</li></ul>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-08-31",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

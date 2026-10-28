@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-1e08c03d9191fd",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/full-stack-mobile-react-native-java-3it-santiago",
+  "titulo": "Full-Stack Mobile | React Native + Java",
+  "empresa": "3IT",
+  "descripcion_html": "<ul><li>Dominio en Java y Spring Boot.</li><li>Manejo de JavaScript y Node.js.</li><li>Práctica en OCI / Oracle Cloud.</li><li>Gestión de Dynatrace y trace/tracing.</li><li>Competencia en Google Analytics 4 (GA4).</li><li>Uso de servicios REST, SOAP y microservicios.</li><li>Conocimientos en herramientas Eclipse e IntelliJ.</li><li>Experiencia con prácticas DevOps y DevSecOps.</li><li>Trayectoria de 3 a 5 años con las herramientas mencionas.</li><li>Experiencia con React Native, React Navigation, Redux Toolkit y React Hooks.</li><li>Formación en Ingeniería Informática, Analista Programador o carreras afines.</li></ul>\n<p>El principal desafío será desarrollar soluciones Full Stack orientadas al ecosistema mobile, asegurando aplicaciones robustas, seguras y eficientes tanto en frontend como en backend. Actualmente, el proyecto se desarrolla en una célula de medios de pago de Banco de Chile, y trabajarás participando principalmente en el desarrollo de aplicaciones con React Native, la construcción y mantención de servicios backend con Java y Spring Boot, y el monitoreo y análisis del funcionamiento de las soluciones implementadas.</p>\n<ul><li>Cliente: Banco de Chile.</li><li>Ubicación: Santiago.</li><li>Modalidad: híbrida, con asistencia presencial 1 vez a la semana, los días martes.</li><li>Acompañamiento 3IT: contarás con un Service Manager que te apoyará durante tu integración y experiencia en cliente.</li></ul>\n<p>🏥 Cuidamos tu salud: seguro de vida y complementario de salud MetLife, con cobertura ampliada y dental para ti y tus cargas legales.<br>📚 Sigue aprendiendo: acceso a Udemy Business, formación continua y oportunidades para fortalecer tus competencias técnicas y profesionales.<br>🎂 Tiempo para ti: hasta 2 días administrativos al año, medio día libre por tu cumpleaños y beneficios adicionales asociados a parentalidad.<br>💰 Un extra que suma: bono anual de desempeño, tarjeta de alimentación PLUXEE y aguinaldos de Fiestas Patrias y fin de año.<br>✨ Convenios para tu día a día: Caja Los Andes, Mundo ACHS, Beneficios Buk y descuento en seguro para mascotas.</p>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Desarrollo Mobile"
+  ],
+  "fecha_publicacion": "2026-10-04",
+  "fecha_extraccion": "2026-10-06T15:58:29"
+}

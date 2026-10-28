@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-91e7c62bacc469",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/desarrollador-a-fullstack-angular-ionic-bc-tecnologia-remote",
+  "titulo": "Desarrollador/a Full-Stack (Angular/Ionic) LATAM",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<p>Buscamos un/a Desarrollador/a Fullstack con experiencia sólida en el desarrollo de frontend y backend. En este proyecto de digitalización, serás responsable de construir y mantener componentes web y PWA, además de colaborar en el desarrollo de APIs y su integración con servicios. Debes contar con conocimientos en arquitecturas modernas y APIs REST, y manejar control de versiones con GitLab y/o GitHub.</p><p>Valoramos también la capacidad de trabajar de forma colaborativa en equipos ágiles, el enfoque en la entrega y la responsabilidad sobre la calidad del software.</p>\n<p>En BC Tecnología buscamos un/a Desarrollador/a Fullstack para integrarse a un proyecto de Digitalización de Trámites. Nos enfocamos en modernizar plataformas mediante tecnologías web, cloud e inteligencia artificial, formando parte de un equipo que trabaja con metodologías ágiles y orientado al cliente. El rol participa en el desarrollo y evolución de interfaces web y aplicaciones móviles (PWA), apoyando la construcción de APIs, la integración con servicios y la operación sobre infraestructura en la nube, asegurando calidad, escalabilidad y mantenibilidad para clientes de alto nivel en distintos sectores.</p>\n<ul><li>Desarrollo de interfaces web y apps móviles (PWA) con Angular y/o Ionic</li><li>Implementación de UI con HTML5, CSS3, JavaScript y Bootstrap</li><li>Desarrollo y mantenimiento de APIs con NodeJS y NestJS</li><li>Trabajo con contenedores (Docker, Kubernetes)</li><li>Integración y desarrollo en tecnologías como .NET, C# o Python según necesidad</li><li>Gestión de bases de datos SQL (SQL Server, Oracle) y NoSQL (MongoDB, Redis, etc.)</li><li>Despliegue y operación en Google Cloud Platform (GCP)</li><li>Uso de herramientas de IA como apoyo al desarrollo</li></ul>\n<ul><li>Experiencia usando contenedores y orquestación con Docker y Kubernetes</li><li>Experiencia con despliegue y operación en Google Cloud Platform (GCP)</li><li>Conocimiento adicional en bases de datos SQL/NoSQL (por ejemplo, SQL Server, Oracle, MongoDB, Redis)</li><li>Experiencia integrando soluciones con tecnologías .NET, C# o Python</li><li>Uso de herramientas de IA como apoyo al desarrollo</li></ul>\n<p>En BC Tecnología promovemos un ambiente de trabajo colaborativo que valora el compromiso y el aprendizaje constante. Nuestra cultura se orienta al crecimiento profesional a través de la integración y el intercambio de conocimientos entre equipos.</p><p>Participarás en proyectos innovadores con clientes de alto nivel y sectores diversos, en un entorno que fomenta la inclusión, el respeto y el desarrollo técnico y profesional.</p>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Desarrollo Mobile"
+  ],
+  "fecha_publicacion": "2026-04-20",
+  "fecha_extraccion": "2026-10-06T15:58:29"
+}

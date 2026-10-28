@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-29b3d5c522de48",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/cloud-devops-engineer-aws-zerviz-technologies-santiago",
+  "titulo": "Cloud DevOps Engineer AWS",
+  "empresa": "Zerviz Technologies",
+  "descripcion_html": "<ul><li>Formación profesional en Ingeniería Informática, Computación, Sistemas, Redes o carrera afín.</li><li>Experiencia de al menos 3 años en roles DevOps, Cloud Engineer o Infrastructure Engineer.</li><li>Experiencia comprobable trabajando con AWS.</li><li>Experiencia sólida con Terraform / Infrastructure as Code.</li><li>Experiencia con AWS S3, IAM y KMS.</li><li>Experiencia implementando ambientes cloud y automatización de infraestructura.</li><li>Manejo de Git y CI/CD.</li><li>Conocimientos de seguridad y control de accesos en AWS.</li><li>Experiencia en troubleshooting y resolución de problemas de infraestructura cloud.</li></ul>\n<div>Buscamos un/a Cloud DevOps Engineer AWS para participar en la implementación y operación de infraestructura cloud para plataformas de datos, con foco en automatización, Infrastructure as Code, seguridad y despliegues sobre AWS.</div><div>El rol será responsable de llevar las definiciones arquitectónicas a ambientes cloud operativos, asegurando infraestructura reproducible, segura, versionada y escalable.</div>\n<ul><li>Diseñar e implementar infraestructura AWS utilizando Terraform / IaC.</li><li>Crear y mantener ambientes DEV, QA, UAT y PRD.</li><li>Implementar y configurar recursos AWS para plataformas de datos.</li><li>Configurar buckets S3 asociados a las diferentes capas del Data Lake.</li><li>Implementar políticas IAM, roles, permisos y controles de acceso.</li><li>Configurar KMS, Lake Formation y Glue Data Catalog.</li><li>Implementar recursos AWS como Glue, Step Functions, EventBridge y CloudWatch.</li><li>Mantener repositorios Git, branching y pipelines de despliegue.</li><li>Automatizar procesos de infraestructura y despliegue.</li><li>Ejecutar validaciones post-deploy y troubleshooting de ambientes.</li><li>Coordinar con equipos de Arquitectura, Data Engineering, Seguridad y QA.</li><li>Documentar infraestructura, configuraciones, permisos y procedimientos operacionales.</li><li>Apoyar estrategias de rollback, monitoreo y recuperación ante incidentes.</li></ul>\n<ul><li>Experiencia con AWS Glue, Lake Formation y Glue Data Catalog.</li><li>Conocimientos de Step Functions, EventBridge, CloudWatch y SNS.</li><li>Experiencia en plataformas de datos, Data Lake o Lakehouse.</li><li>Conocimientos de redes AWS, VPC, endpoints y conectividad.</li><li>Experiencia con Docker y/o Kubernetes.</li><li>Conocimientos de Ansible o CloudFormation.</li><li>Certificación AWS y/o Terraform.</li><li>Experiencia en ambientes regulados o con altos requerimientos de seguridad.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "presencial",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-09-29",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-2403bca9ab5305",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/qa-engineer-zaelot-remote",
+  "titulo": "QA Analyst",
+  "empresa": "Zaelot",
+  "descripcion_html": "<p>We are seeking a QA Engineer with experience validating data pipelines and AI systems, with a strong eye for both technical and business correctness.</p><ul><li>Experience testing data pipelines, API integrations, and reporting outputs</li><li>Ability to validate software behavior, data correctness, and business logic simultaneously</li><li>Experience building test cases for retry flows, escalation paths, schema drift, DQ checks, review queues, and NL query outputs</li><li>Strong UAT coordination skills with business and technical stakeholders</li><li>Ability to test AI-assisted systems with acceptance thresholds, golden datasets, and exception handling</li></ul>\n<p>Our team is composed of top-notch professionals who bring creativity, vision, and a commitment to excellence to every project. We blend the talents of analysts, designers, and software engineers to create a highly productive and innovative environment. In the ever-evolving world of technology, we are dedicated to staying ahead of the curve by continually expanding our knowledge and skills. This drive for continuous improvement allows us to enhance both our products and our team's capabilities. </p><p>We're looking for a QA Enginer to join our team!</p>\n<p>We collaborate with cross-functional teams to ensure that data products, AI workflows, and reporting outputs meet quality and acceptance standards before release.</p><ul><li>Test data pipelines, API integrations, and reporting outputs for correctness and business logic compliance</li><li>Build test cases covering retry flows, escalation paths, schema drift scenarios, DQ checks, review queues, and NL query outputs</li><li>Validate AI-assisted systems against acceptance thresholds, golden datasets, and exception handling criteria</li><li>Lead UAT coordination with business stakeholders</li><li>Contribute to quality standards and release processes across the full data and AI platform</li></ul>\n<ul><li>Experience with benchmark datasets and evaluation methods for AI/NL query accuracy</li></ul>\n<ul><li>Paid vacations for 20 days after one year</li><li>Referrals program and finder's fee rewards</li><li>Training and certification programs</li><li>Work from home aid</li><li>English classes</li><li>Access to a fitness program</li><li>Profit sharing</li><li>Coaching sessions for personal development</li></ul><p>We're looking forward to working together! 🚀</p>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

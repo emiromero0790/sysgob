@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-4b8ecc4974e5c0",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/desarrollador-a-ios-senior-bc-tecnologia-santiago",
+  "titulo": "Desarrollador(a) iOS Senior",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li>3+ años de experiencia en desarrollo iOS nativo con Swift.</li><li>Experiencia sólida desarrollando aplicaciones con SwiftUI.</li><li>Conocimientos de MVVM, Clean Architecture y patrones de diseño.</li><li>Experiencia en testing automatizado.</li><li>Manejo de Git y procesos CI/CD.</li><li>Experiencia trabajando con arquitecturas complejas y código modular.</li><li>Capacidad para trabajar colaborativamente en equipos ágiles.</li><li>Orientación a la calidad, buenas prácticas y mejora continua.</li></ul><div>Una persona proactiva, autónoma y orientada a la calidad, con capacidad para trabajar en equipos multidisciplinarios y aportar desde una mirada técnica, proponiendo soluciones que permitan construir aplicaciones iOS escalables, mantenibles y de alto rendimiento.</div><div><strong>Stack tecnológico</strong></div><div>Swift | SwiftUI | SPM | Factory | XCTest | XCUITest | Fastlane | GitHub Actions | Clean Architecture | MVVM | Coordinator Pattern</div>\n<div>Buscamos un(a) Desarrollador(a) iOS Senior para integrarse a un equipo de tecnología y participar en el desarrollo y evolución de aplicaciones móviles modernas, utilizando Swift y SwiftUI.</div><div>El desafío contempla trabajar con arquitecturas escalables y código modular, asegurando altos estándares de calidad, buenas prácticas de desarrollo y una excelente experiencia de usuario.</div>\n<ul><li>Desarrollar y mantener nuevas funcionalidades utilizando Swift y SwiftUI.</li><li>Diseñar y mantener soluciones bajo Clean Architecture, MVVM y Coordinator Pattern.</li><li>Integrar APIs, servicios y componentes modulares.</li><li>Trabajar en conjunto con el Design System, asegurando consistencia visual y funcional.</li><li>Implementar y mantener Unit Tests y UI Tests.</li><li>Incorporar funcionalidades de Analytics, Tracking y Localización.</li><li>Participar activamente en Code Reviews.</li><li>Apoyar técnicamente al equipo y promover buenas prácticas de desarrollo.</li><li>Proponer mejoras de arquitectura, performance y calidad de código.</li><li>Participar en la evolución y mantenimiento de aplicaciones de alta complejidad.</li></ul>\n<ul><li>Experiencia avanzada con Swift Package Manager (SPM).</li><li>Experiencia utilizando Coordinator Pattern.</li><li>Experiencia en aplicaciones de alto tráfico, e-commerce o plataformas digitales de gran escala.</li><li>Conocimientos de Analytics, Tracking y Localización.</li><li>Experiencia participando en decisiones y mejoras de arquitectura.</li><li>Interés por la documentación, calidad de código y mejora continua. 🤝</li></ul>\n<div>Si te interesa este desafío y cumples con los requisitos, ¡queremos conocerte!</div>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Desarrollo Mobile"
+  ],
+  "fecha_publicacion": "2026-08-24",
+  "fecha_extraccion": "2026-10-06T15:58:29"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-b6809958a8b4cf",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/data-engineer-semi-senior-senior-drimo-santiago",
+  "titulo": "Data Engineer Semi Senior",
+  "empresa": "DRIMO",
+  "descripcion_html": "<ul><li><strong>Trabajo con la suite GCP</strong><br>BigQuery, Cloud Storage, Cloud Run / Cloud Run Jobs, Cloud SQL, Cloud Scheduler, Dataflow, Vertex AI e IAM.</li><li><strong>Diseño de solución y arquitectura</strong><br>Arquitectura Medallion, Terraform (infraestructura como código), DevOps y CI/CD con GitLab y Git.</li><li><strong>Integración de datos end-to-end</strong><br>Python (Pandas, FastAPI), SQL avanzado, APIs y servicios, Pub/Sub, Dataform y optimización en BigQuery (partitioning &amp; clustering).</li><li><strong>Calidad, gobierno y monitoreo del flujo</strong><br>Gobierno de datos y compliance (PolicyTags, IAM), Dataform assertions, Cloud Monitoring y Grafana.</li><li><strong>Documentación</strong><br>Documentación técnica de procesos en Confluence.</li><li><strong>Deseables:</strong> Ingeniería de prompts, OpenAI API/SDK, MCP, Vertex AI Workbench y visualización en Looker Studio</li></ul>\n<p><strong>¡En Drimo seguimos creciendo y queremos que te sumes a nuestro equipo! 🚀</strong></p><p>Buscamos un/a<strong> Data Engineer </strong>para incorporarse al equipo de uno de nuestros principales clientes, una reconocida aerolínea, donde tendrás la oportunidad de trabajar en proyectos de alto impacto y gran escala.</p><p><strong>¿Cuál será tu misión?</strong></p><p>Diseñar, integrar y mantener flujos de datos de punta a punta que habiliten a las áreas comerciales en la proyección de mercados y en el proceso de cotización y venta, asegurando monitoreo, validación con negocio y gobierno de datos, y aportando eficiencia e ideas de mejora dentro de un equipo guiado por un Technical Lead.</p>\n<ul><li>Trabajar con las componentes que ofrece la suite de <strong>GCP</strong>.</li><li>Participar en el diseño de solución desde la arquitectura de las componentes.</li><li>Llevar procesos de integración de datos de principio a fin usando <strong>APIs, Pub/Sub, Storage, BigQuery</strong>, etc.</li><li>Asegurar el correcto flujo de datos, cumplimiento de reglas de calidad, adherencia con <strong>normas de gobernanza y catalogación</strong>.</li><li>Documentar tus procesos en <strong>Confluence</strong>.</li></ul>\n<ul><li>Día libre por tu cumpleaños.</li><li>Cursos y certificaciones para seguir aprendiendo.</li><li>5 días de vacaciones adicionales al año para que recargues energías.</li><li>Seguro complementario de salud y dental que te acompaña cuando más lo necesites.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-10-02",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

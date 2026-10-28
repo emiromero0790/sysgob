@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-7c283ad0419817",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/data-engineer-timining-santiago-45d2",
+  "titulo": "Data Engineer",
+  "empresa": "TIMINING",
+  "descripcion_html": "<div><strong>Educación</strong></div><ul><li>Ingeniería en ciencia de datos.</li><li>Ingeniero en computación, o civil o carrera afín.</li><li>Topógrafo.</li></ul><div><strong>Requerimientos del cargo</strong></div><ul><li>Mínimo 2 años de experiencia en cargos similares.</li><li>Experiencia en implementación de pipelines ETL.</li><li>Capacidad para trabajar de manera autónoma y en equipo, con habilidades analíticas y de resolución de problemas.</li><li>Conocimiento y manejo de Python y SQL avanzado.</li><li>Consultas a APIs</li><li>Conocimiento avanzado en bases de datos.</li><li>Conocimiento avanzado en Google Suite y office.</li></ul><div><strong>Idiomas</strong></div><ul><li>Español Nativo. (Excluyente)</li><li>Inglés upper-intermediate. (Deseable)</li></ul>\n<div><strong>Propósito del rol</strong></div><div>Asegurar la correcta integración, transformación y disponibilidad de los datos provenientes de las distintas fuentes de información del cliente hacia los productos de TIMining. Su objetivo es garantizar la confiabilidad y calidad de las pipelines ETL, así como apoyar en la calibración de algoritmos y el desarrollo de automatizaciones internas que optimicen procesos, aportando valor tanto al cliente como al equipo interno.</div>\n<ul><li>Desarrollo, mantención y documentación de scripts en Python y SQL (conectores) enfocados en la extracción, transformación y carga (ETL) a las bases de datos de los productos de TIMining.</li><li>Escribir, depurar y mantener scripts en Python para la ingesta, transformación y validación de datos espaciales (topografía, modelos 3D, etc.).</li><li>Asistir y presentar en reuniones de carácter técnico con cliente para la solicitud de accesos a sus fuentes de información o la respuesta a dudas que ellos podrían tener.</li><li>Calibración de algoritmos pertenecientes a los softwares de la empresa.</li><li>Desarrollo de proyectos internos que permitan la automatización de labores rutinarias con el objetivo de simplificar el día a día del equipo.</li><li>Validación de los resultados de las pipelines ETL, tanto cualitativa como cuantitativa mediante la comparación con reportes operacionales de las faenas.</li><li>Análisis y documentación de las fuentes de información del cliente por sistema de gestión de flota (FMS), sistema de navegación (MGS) u otras fuentes de información.</li><li>Identificar, evaluar y mitigar los riesgos al momento de desarrollar las pipelines ETL, considerando los datos disponibles y calidad. Implementando estrategias para manejar problemas y contingencias de manera proactiva.</li></ul>\n<ul><li>Experiencia en implementación de proyectos tecnológicos.</li><li>Conocimiento de la industria minera a cielo abierto y sus desafíos operativos.</li><li>Conocimiento en arquitecturas cloud.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-09-02",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

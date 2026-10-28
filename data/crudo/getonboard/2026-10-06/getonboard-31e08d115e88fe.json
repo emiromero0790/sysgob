@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-31e08d115e88fe",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-datos-big-data-cloud-bc-tecnologia-remote",
+  "titulo": "Ingeniero/a de Datos | Big Data & Cloud",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li>Mínimo 4 años de experiencia profesional.</li><li>Experiencia como Ingeniero/a de Datos / Big Data Engineer.</li><li>Dominio de Python y SQL avanzado.</li><li>Experiencia con Apache Spark / PySpark.</li><li>Experiencia en construcción de pipelines ETL/ELT.</li><li>Experiencia con arquitecturas Data Lake / Lakehouse.</li><li>Experiencia trabajando con AWS y/o Azure.</li></ul><div><strong>Tecnologías</strong></div><div><strong>AWS</strong>: S3, Glue, Athena, Redshift, Lambda, Step Functions, Kinesis/MSK, CloudWatch, IAM.</div><div><strong>Azure</strong>: ADLS, Data Factory, Synapse Analytics, Databricks, Azure Functions, Event Hub, Azure Monitor.</div><div><strong>Data Engineering</strong>: Spark, PySpark, Kafka, Kinesis, Event Hub, Parquet, JSON, Avro.</div><div><strong>DataOps / DevOps</strong>: Git, CI/CD, Azure DevOps, GitHub Actions, Terraform, Docker y Kubernetes.</div><div><strong>Gobierno de Datos</strong>: Data Catalog, Data Lineage, Data Quality, Glue Catalog y Microsoft Purview.</div>\n<div>Estamos buscando un/a Ingeniero/a de Datos | Big Data &amp; Cloud ¿Te apasiona la ingeniería de datos, Big Data y las arquitecturas Cloud? Buscamos un/a Ingeniero/a de Datos para integrarse a un proyecto tecnológico 100% remoto, participando en el diseño, construcción y mejora de soluciones de datos sobre ambientes AWS y Azure.</div>\n<div>Participarás en el diseño y desarrollo de soluciones Big Data, construcción de pipelines ETL/ELT y evolución de arquitecturas Data Lake/Lakehouse, asegurando la disponibilidad, calidad, seguridad y gobierno de los datos.</div><div><strong>Principales responsabilidades</strong></div><ul><li>Diseñar, desarrollar y mantener pipelines ETL/ELT.</li><li>Procesar grandes volúmenes de datos utilizando Apache Spark / PySpark.</li><li>Diseñar y mantener arquitecturas Data Lake / Lakehouse.</li><li>Realizar modelamiento y transformación de datos.</li><li>Participar en iniciativas de Gobierno, Calidad, Catálogo y Linaje de Datos.</li><li>Analizar y proponer mejoras a procesos, sistemas y tecnologías.</li><li>Realizar testing, troubleshooting y aplicación de correctivos.</li><li>Participar en iniciativas de DataOps/DevOps.</li><li>Trabajar con servicios Cloud de AWS y Azure.</li></ul>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-08-07",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

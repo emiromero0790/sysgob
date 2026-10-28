@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-dd9abd4dabd8cf",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-de-datos-aws-dsac-chile-santiago",
+  "titulo": "Ingeniero de Datos AWS",
+  "empresa": "DSAC Chile",
+  "descripcion_html": "<div>Formación:</div><ul><li>Título profesional en Ingeniería (Informática, Civil, o afín)</li></ul><div>Experiencia:</div><ul><li>4 a 5 años en roles de ingeniería de datos</li><li>Experiencia en soluciones cloud, idealmente AWS</li></ul><div>🧠 Conocimientos técnicos (excluyentes)</div><ul><li>AWS: S3, Glue, Lambda, Redshift, Athena, Step Functions, IAM, CloudWatch</li><li>Python y SQL avanzado</li><li>Procesos ETL/ELT</li><li>Modelamiento de datos (Data Warehouse, Data Lake, Lakehouse)</li><li>Bases de datos relacionales y analíticas</li><li>Git y buenas prácticas de desarrollo.</li></ul><div>💡 Competencias clave</div><ul><li>Pensamiento analítico y resolución de problemas</li><li>Comunicación técnica efectiva</li><li>Adaptabilidad y trabajo ágil</li><li>Colaboración y trabajo en equipo</li><li>Atención al detalle</li></ul>\n<div>En DSAC Chile, reconocida entre las Top 10 Empresas Más Felices de Chile, buscamos a nuestro próximo/a Ingeniero de Datos - AWS para sumarse a un equipo que transforma el futuro con tecnología, innovación y excelencia.</div><div>Más que conocimientos técnicos, valoramos personas que compartan nuestra cultura de colaboración, orientación al cliente y búsqueda constante de la excelencia. Cada proceso de selección es una oportunidad para crecer juntos y construir el futuro de la tecnología.</div><p>🚀 ¿Cuál será tu impacto? Diseñar, desarrollar, implementar y optimizar soluciones de ingeniería de datos en entornos AWS, asegurando la correcta ingesta, transformación, almacenamiento, calidad y disponibilidad de la información corporativa, con el objetivo de habilitar procesos analíticos, reportería avanzada, gobierno de datos y toma de decisiones basada en datos confiables para las distintas áreas del negocio.</p>\n<ul><li>Diseñar y construir pipelines de datos (ETL/ELT) en AWS</li><li>Implementar procesos de ingesta, transformación y almacenamiento de datos</li><li>Modelar datos para entornos analíticos (Data Lake / Data Warehouse / Lakehouse)</li><li>Automatizar y orquestar flujos de datos</li><li>Asegurar calidad, trazabilidad y gobierno de datos</li><li>Optimizar performance y costos en entornos cloud</li><li>Colaborar con equipos de BI, analítica, arquitectura y negocio</li><li>Monitorear procesos y proponer mejoras continuas</li></ul>\n<ul><li>PySpark, EMR, Kinesis, EventBridge, Airflow</li><li>CI/CD, DataOps o DevOps</li><li>Terraform o infraestructura como código</li><li>Gobierno y calidad de datos</li><li>Certificaciones AWS</li><li>Experiencia en industrias de alto volumen (retail, e-commerce, financiero, etc.)</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-09-16",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

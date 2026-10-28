@@ -1,0 +1,18 @@
+{
+  "id": "arbeitnow-5df1c73a1cf85c",
+  "fuente": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/callista-group-ag/senior-power-bi-developer-bi-engineer-azure-databricks-frankfurt-337584",
+  "titulo": "Senior Power BI Developer / BI Engineer (Azure Databricks)",
+  "empresa": "Callista Group AG",
+  "descripcion_html": "<p>Für unseren Kunden, ein Versicherungsunternehmen im Großraum Frankfurt am Main, suchen wir im Rahmen des Aufbaus einer neuen dispositiven Datenplattform (Lakehouse) auf Basis von Microsoft Azure und Databricks eine/n erfahrene/n Power BI Developer. Du gestaltest die Gold-Schicht und das semantische Power-BI-Modell, auf denen Vertriebs- und Kampagnenreporting sowie Selektionen aufsetzen, und unterstützt das Reporting-Team des Kunden bei der Umsetzung der Berichte.</p><p style=\"min-height: 1.7em;\"></p><p><strong>Aufgaben</strong></p><ul><li><p>Design der reportingfähigen Data-Mart-/Gold-Schicht (Fakten, Dimensionen, wiederverwendbare Business-KPIs) gemeinsam mit dem Data Engineering</p></li><li><p>Entwicklung des semantischen Power-BI-Modells mit Measures (DAX), Beziehungen, Hierarchien, Drill-downs und Berechtigungslogik (Row-Level Security)</p></li><li><p>Mitarbeit an Vertriebs- und Kampagnenreports sowie an Logiken für Bestands- und Kampagnenselektionen</p></li><li><p>Definition wiederverwendbarer Reporting-Standards und UX-Leitlinien sowie Sicherstellung von Performance und Release-Fähigkeit</p></li><li><p>Plausibilisierung, Berichtstests und Fehlerbehebung gemeinsam mit den Fachbereichen</p></li><li><p>Dokumentation sowie Befähigung von Key Usern und internem Reporting-Team</p></li></ul><p style=\"min-height: 1.7em;\"></p> <br> <p><strong>Anforderungen</strong></p><ul><li><p>Mehrjährige Erfahrung in der Entwicklung von Power-BI-Lösungen im Enterprise-Umfeld</p></li><li><p>Sehr gute Kenntnisse in semantischen Modellen, DAX, Row-Level Security und Deployment-Prozessen</p></li><li><p>Erfahrung in der Anbindung von Databricks bzw. Lakehouse-Plattformen (Databricks SQL, Delta Lake)</p></li><li><p>Fundierte Kenntnisse in dimensionaler Modellierung (Star-Schema)</p></li><li><p>Erfahrung mit Vertriebs-, Bestands- oder Kampagnenkennzahlen im Versicherungs- oder Finanzumfeld von Vorteil</p></li><li><p>Kommunikationsstärke im Austausch mit Fachbereichen</p></li><li><p>Zertifizierungen (z. B. PL-300, DP-600) von Vorteil</p></li><li><p>Verhandlungssichere Deutsch- und gute Englischkenntnisse</p></li></ul><p style=\"min-height: 1.7em;\"></p><p><strong>Generelle Rahmenbedingungen</strong></p><ul><li><p>Pensum: 80–100 %</p></li><li><p>Start: Anfang November 2026</p></li><li><p>Dauer: bis 31.03.2027 mit Option auf Verlängerung (Folgephasen geplant bis Ende 2028)</p></li><li><p>Arbeitsort: Großraum Frankfurt am Main (Deutschland)</p></li><li><p>Onsite/Remote: In den ersten 2–3 Monaten hoher Onsite-Anteil (3–4 Tage pro Woche), danach ca. 2 Tage onsite, Rest remote</p></li><li><p>Kundengespräch: Verfügbarkeit für Interviews beim Kunden Ende Oktober 2026</p></li></ul><p style=\"min-height: 1.7em;\"></p><p style=\"min-height: 1.7em;\"></p><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+  "ubicacion": "Frankfurt, Hessen, Germany",
+  "modalidad_origen": "",
+  "nivel_origen": "",
+  "etiquetas": [
+    "Engineering",
+    "Experienced",
+    "contract"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:35"
+}

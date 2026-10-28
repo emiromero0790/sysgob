@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-8e33897c3023e5",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/cientista-de-datos-coolebra-spa-remote",
+  "titulo": "Cientista de Datos",
+  "empresa": "Coolebra SpA",
+  "descripcion_html": "<p>Conocimientos técnicos</p><ul><li>Python, Jupyter </li><li>Autoencoder </li><li>Experiencia desarrollando sistemas de Machine Learning / Deep Learning </li><li>Experiencia trabajando con embeddings vectoriales para imágenes y/o texto </li><li>Manejo de modelos de visión computacional y multimodales </li><li>Similarity search y bases de datos / vector stores </li><li>Algoritmos de similitud: cosine similarity, Euclidean distance, dot product, etc. </li><li>CLIP, OpenCLIP, SigLIP u otros modelos de embeddings de imágenes </li><li>OpenSearch Vector Search </li><li>Embeddings de texto </li><li>LLMs para comparar títulos y descripciones </li><li>Técnicas de semantic similarity </li><li>Prompt engineering </li><li>Structured outputs / JSON </li><li>Modelos de reranking o cross-encoders </li><li>AWS </li></ul><p>Deseables</p><ul><li>Redis </li><li>DynamoDB </li></ul>\n<p>En Coolebra estamos buscando un Cientista de Datos para sumarse a nuestro equipo en Chile. Somos una startup, así que las cosas pasan rápido: hay poca burocracia, poca jerarquía y mucho espacio para crear. Vas a trabajar directamente con el equipo que está construyendo el producto, tomando decisiones y viendo cómo tus ideas pasan rápidamente de una conversación a algo funcionando. Nos gusta probar cosas, equivocarnos rápido, aprender y volver a iterar. Queremos personas con criterio, curiosidad y ganas de construir, que disfruten de un ambiente dinámico y de tener impacto directo en lo que hacen.</p>\n<p>Buscamos una persona con experiencia desarrollando soluciones de Machine Learning y Deep Learning, que disfrute trabajar con datos y resolver problemas complejos. También buscamos experiencia experimentando y evaluando modelos, construyendo y validando datasets, trabajando con fine-tuning o adaptación de modelos preentrenados y desarrollando pipelines de Machine Learning para entrenamiento e inferencia. Será importante que tengas experiencia diseñando experimentos reproducibles y evaluando el desempeño de modelos mediante métricas como precision, recall y F1.</p>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-08-20",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

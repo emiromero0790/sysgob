@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-15eb4426787cb8",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/desarrollador-genai-full-stack-bc-tecnologia-santiago",
+  "titulo": "Full-Stack GenAI Developer",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li><strong>Experiencia:</strong> 3 a 6 años, con al menos una aplicación GenAI en producción con usuarios reales.</li><li><strong>Gemini Enterprise / Vertex AI.</strong></li><li><strong>Agent Builder</strong> o un framework equivalente (LangChain, LlamaIndex o ADK).</li><li><strong>Bases de datos vectoriales.</strong></li><li><strong>Python.</strong></li><li><strong>Evaluación de LLMs:</strong> LLM-as-judge y golden sets.</li><li><strong>Idioma:</strong> español.</li></ul>\n<p>En BC Tecnología buscamos un Desarrollador GenAI Full Stack para diseñar y llevar a producción soluciones de IA generativa sobre Google Cloud, con Gemini y Vertex AI como base tecnológica. Tu trabajo empezará por diseñar la arquitectura RAG y construir un repositorio de prompts versionado. También implementarás guardrails de compliance y un clasificador que evalúe la calidad del contenido generado. Montarás un pipeline de evaluación automatizada que mida la claridad, la consistencia y la adecuación de cada respuesta a su canal. Por último, expondrás la API de generación y desarrollarás la interfaz de revisión humana. Buscamos a alguien que ya haya llevado al menos una aplicación GenAI a producción con usuarios reales. Si te motiva construir soluciones de IA confiables, medibles y con impacto real en el negocio, ¡queremos conocerte!</p>\n<ul><li>Diseñar e implementar la arquitectura RAG.</li><li>Construir y versionar el repositorio de prompts.</li><li>Implementar guardrails de compliance y un clasificador de calidad de contenido.</li><li>Montar un pipeline de evaluación automatizada que mida claridad, consistencia y adecuación al canal.</li><li>Exponer la API de generación y la interfaz de revisión humana.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Machine Learning / AI"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:25"
+}

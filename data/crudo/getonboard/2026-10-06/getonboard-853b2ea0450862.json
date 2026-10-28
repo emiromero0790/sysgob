@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-853b2ea0450862",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ai-engineer-senior-ia-generativa-bc-tecnologia-santiago",
+  "titulo": "AI Engineer IA Generativa",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<div>✅ IA Generativa y Grandes Modelos de Lenguaje (LLMs).<br>✅ Arquitecturas RAG (Retrieval-Augmented Generation) y sistemas de agentes.<br>✅ Python.<br>✅ LangChain, LlamaIndex o Hugging Face.<br>✅ Bases de datos vectoriales (Pinecone, ChromaDB, Milvus, PGVector o Azure AI Search).<br>✅ Azure OpenAI, AWS Bedrock o Google Vertex AI.<br>✅ Desarrollo de APIs y microservicios con FastAPI o Flask.<br>✅ Docker.<br>✅ LLMOps / MLOps.<br>✅ Prompt Engineering y evaluación de modelos.</div><div>Requisitos<br>✔️ Título profesional de Ingeniería Civil Informática, Ingeniería Informática, Ciencia de Datos o carrera afín.<br>✔️ Al menos 2 a 3 años de experiencia desarrollando aplicaciones integradas con Inteligencia Artificial o Machine Learning.<br>✔️ Inglés técnico con capacidad de lectura avanzada.</div>\n<div><strong>Objetivo del cargo</strong></div><div>Responsable de diseñar, desarrollar e integrar soluciones basadas en Inteligencia Artificial, principalmente IA Generativa, Grandes Modelos de Lenguaje (LLMs) y Machine Learning tradicional, dentro de las plataformas y flujos de la Gerencia de Tecnología de Pagos.</div><div>Su principal objetivo será habilitar capacidades cognitivas como automatización inteligente, asistentes virtuales, procesamiento de lenguaje natural y análisis predictivo, asegurando que las soluciones sean escalables, eficientes en costos, seguras y alineadas con las políticas de gobernanza de datos y las normativas del sector bancario.</div>\n<div>Asegurar que las soluciones de Inteligencia Artificial cumplan con las políticas corporativas de seguridad de la información y las regulaciones bancarias sobre privacidad de datos. Validar y refinar historias de usuario relacionadas con componentes de IA, transformando requerimientos de negocio en especificaciones técnicas, incluyendo diseño de prompts y utilización de bases de datos vectoriales. Definir y construir los flujos de preparación y curación de datos (Data Pipelines) necesarios para proporcionar contexto a los modelos.</div><div>Proporcionar requerimientos técnicos claros a los equipos de Integraciones, Datos y Arquitectura respecto de la infraestructura necesaria para soluciones de IA, tanto en ambientes Cloud como On-Premise. Gestionar oportunamente riesgos técnicos, alertas de degradación de modelos (Model Drift) y posibles cuellos de botella en ambientes productivos. Garantizar que las soluciones desarrolladas reduzcan la dependencia de consultorías externas mediante una adecuada documentación técnica y transferencia de conocimiento al equipo interno.</div>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Machine Learning / AI"
+  ],
+  "fecha_publicacion": "2026-07-06",
+  "fecha_extraccion": "2026-10-06T15:58:25"
+}

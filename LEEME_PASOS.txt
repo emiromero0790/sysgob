@@ -1,0 +1,124 @@
+SYSJOBS - PASO A PASO PARA EJECUTAR EL PROYECTO
+================================================
+
+REQUISITOS
+- Python 3.10, 3.11 o 3.12 (revisa con: python --version)
+- Conexion a internet para instalar librerias, hacer el acopio y descargar
+  el modelo de embeddings la primera vez.
+- Unos 3 GB libres en disco si instalas la version completa (PyTorch pesa).
+
+
+1. DESCOMPRIMIR Y ABRIR UNA TERMINAL EN LA CARPETA
+
+   Descomprime sysjobs.zip y abre una terminal dentro de la carpeta "sysjobs"
+   (la que contiene main.py).
+
+
+2. CREAR Y ACTIVAR EL ENTORNO VIRTUAL
+
+   Windows (PowerShell o CMD):
+       python -m venv venv
+       venv\Scripts\activate
+
+   macOS / Linux:
+       python3 -m venv venv
+       source venv/bin/activate
+
+
+3. INSTALAR LAS LIBRERIAS
+
+   Version completa (la que propone el PDF: Sentence-Transformers + FAISS):
+       pip install -r requirements.txt
+
+   Si esa instalacion falla o tu equipo no la soporta, instala la minima:
+       pip install -r requirements-minimo.txt
+   Con la minima todo funciona igual, pero los embeddings se calculan con
+   LSA (TF-IDF + SVD) en lugar del modelo neuronal, y la busqueda vectorial
+   se hace con NumPy en lugar de FAISS. Ver EXPLICACION.txt, seccion 6.
+
+
+4. PRUEBA RAPIDA SIN INTERNET (opcional, 10 segundos)
+
+       python main.py demo
+       python main.py construir
+       python main.py web
+
+   Abre http://127.0.0.1:5000 en el navegador. Esto usa 130 ofertas
+   SINTETICAS (fuente "demo") solo para confirmar que todo corre.
+   Deten el servidor con Ctrl+C. En cuanto hagas el acopio real, las
+   ofertas demo se ignoran automaticamente.
+
+
+5. ACOPIO AUTOMATIZADO (el entregable de esta parte)
+
+       python main.py acopio
+
+   Recolecta de: getonboard, remotive, arbeitnow, computrabajo y manual.
+   Tarda varios minutos porque espera 1.5 s entre peticiones.
+   Cada oferta queda en  data/crudo/<fuente>/<fecha>/<id>.json
+   y cada corrida se registra en  data/crudo/bitacora.jsonl
+
+   Opciones utiles:
+       python main.py acopio --fuentes getonboard remotive
+       python main.py acopio --limite 150
+   (--limite es el maximo de ofertas por fuente; por defecto 300)
+
+   Puedes repetir el acopio otro dia: solo guarda las ofertas nuevas.
+
+
+6. PROCESAR, ANALIZAR, INDEXAR Y EVALUAR
+
+       python main.py construir
+
+   Hace los cuatro pasos seguidos. Tambien puedes correrlos uno por uno:
+       python main.py procesar    limpieza, entidades, duplicados -> CSV y SQLite
+       python main.py analizar    estadisticas del corpus -> JSON
+       python main.py indexar     indice invertido BM25 + indice vectorial
+       python main.py evaluar     precision, recall, MAP y nDCG por estrategia
+
+   La primera vez que indexas con la version completa se descarga el modelo
+   paraphrase-multilingual-MiniLM-L12-v2 (unos 470 MB). Despues queda en cache.
+
+   Atajo para hacer acopio + construir de una vez:
+       python main.py todo
+
+
+7. ABRIR EL BUSCADOR
+
+       python main.py web
+
+   Abre http://127.0.0.1:5000
+   - Buscar: consulta en lenguaje natural, tres formas de ordenar y filtros.
+   - Comparar rankings: lexico vs semantico lado a lado.
+   - Corpus e indices: graficas del corpus, datos de los indices y evaluacion.
+
+   Otro puerto:  python main.py web --puerto 8000
+
+
+8. BUSCAR DESDE LA TERMINAL (opcional)
+
+       python main.py buscar practicas de desarrollo web remoto
+       python main.py buscar ingeniero de apis --modo lexico -k 5
+
+
+9. AGREGAR OFERTAS A MANO (bolsa del ITM, LinkedIn, etc.)
+
+   Copia data/manual/plantilla.csv con otro nombre dentro de data/manual,
+   llena una oferta por renglon (en la columna "fuente" escribe por ejemplo
+   itmorelia o linkedin) y ejecuta:
+       python main.py acopio --fuentes manual
+       python main.py construir
+
+
+PROBLEMAS COMUNES
+- "Falta un paso previo: ..."  El mensaje te dice que comando correr antes.
+- Una fuente reporta errores o 0 ofertas: el sitio pudo cambiar o bloquear
+  la peticion. Las demas fuentes siguen funcionando; revisa EXPLICACION.txt,
+  seccion 7.
+- "Los indices no corresponden al corpus actual": volviste a procesar sin
+  indexar. Corre  python main.py indexar
+- La pagina se ve con otra tipografia: sin internet no cargan las fuentes de
+  Google y el navegador usa las del sistema; todo lo demas funciona.
+- Para la entrega presencial: haz el acopio y "construir" ANTES, en tu casa.
+  Con los datos ya en la carpeta data, "python main.py web" no necesita
+  internet (con la version completa, el modelo ya debe estar descargado).

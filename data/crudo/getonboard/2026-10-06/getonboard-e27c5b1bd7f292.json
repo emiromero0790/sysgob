@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-e27c5b1bd7f292",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/arquitecto-a-de-datos-aws-zerviz-technologies-santiago",
+  "titulo": "Arquitecto/a de Datos AWS",
+  "empresa": "Zerviz Technologies",
+  "descripcion_html": "<ul><li>Formación profesional en Ingeniería Informática, Computación, Sistemas, Ciencias de la Computación o carrera afín.</li><li> Experiencia de al menos 5 años en arquitectura de datos o roles similares. </li><li> Experiencia comprobable diseñando soluciones de Data Lake / plataformas de datos en AWS. </li><li> Experiencia con AWS S3, Glue, Athena y Step Functions. </li><li> Conocimientos sólidos de IAM y KMS. </li><li> Experiencia en arquitectura por capas y patrones de procesamiento de datos. </li><li> Experiencia en gobierno, seguridad, metadata, catálogo y trazabilidad de datos. </li><li> Capacidad para diseñar y documentar arquitecturas técnicas. </li><li> Experiencia trabajando con equipos multidisciplinarios y clientes.</li></ul>\n<div>Buscamos un/a Arquitecto/a de Datos AWS para integrarse a proyectos de diseño y evolución de plataformas de datos, siendo responsable de definir arquitecturas escalables, seguras, reutilizables y alineadas con buenas prácticas de gobierno de datos.</div><div>El rol tendrá un fuerte foco en Data Lake sobre AWS, arquitectura por capas, gobierno, seguridad, integración de fuentes y definición de patrones técnicos, trabajando de manera transversal con equipos de arquitectura, Cloud, Data Engineering, DevOps, Seguridad y clientes.</div>\n<ul><li>Diseñar y definir arquitecturas de Data Lake y plataformas de datos sobre AWS.</li><li> Definir arquitecturas por capas: Landing, Bronze, Silver, Gold, Semantic/Analytics y Output. </li><li> Seleccionar y validar servicios AWS de acuerdo con los requerimientos de cada solución. </li><li> Diseñar patrones de ingesta para fuentes SQL/Oracle, SFTP, archivos, APIs y otras fuentes. </li><li> Definir lineamientos de seguridad, conectividad, accesos, cifrado y segregación de ambientes. </li><li> Establecer criterios de catálogo, metadata, linaje, trazabilidad, particionamiento y lifecycle. </li><li> Definir patrones de procesamiento, orquestación, monitoreo, reprocesamiento y manejo de errores. </li><li> Participar en revisiones técnicas, análisis de brechas y definición de alternativas de solución. </li><li> Documentar decisiones arquitectónicas, riesgos y lineamientos técnicos. </li><li> Trabajar colaborativamente con equipos técnicos y contrapartes del cliente.</li></ul>\n<ul><li>Experiencia con AWS Lake Formation y Glue Data Catalog.</li><li> Conocimientos de Data Quality, Data Contracts y metadata-driven. </li><li> Experiencia con arquitecturas Lakehouse. </li><li> Conocimientos de CloudWatch, EventBridge y SNS. </li><li> Experiencia en proyectos de alta escala o ambientes regulados. </li><li> Certificación AWS relacionada con arquitectura o datos.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "presencial",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-09-29",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

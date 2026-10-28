@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-7080f790317fad",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/data-engineer-databricks-improving-remote",
+  "titulo": "Data Engineer – Databricks",
+  "empresa": "Improving",
+  "descripcion_html": "<ul><li>7+ años de experiencia profesional como <strong>Data Engineer.</strong></li><li><strong>Inglés intermedio/avanzado</strong> para comunicación diaria con equipos globales. – <strong>Obligatorio</strong>.</li><li>Experiencia profesional trabajando con <strong>Databricks</strong>.</li><li>Experiencia sólida con <strong>Python y SQL</strong>.</li><li>Experiencia práctica con <strong>Delta Lake y Unity Catalog</strong>.</li><li>Conocimientos de <strong>data modelling</strong>.</li><li>Experiencia con <strong>Databricks Asset Bundles y/o Azure DevOps</strong> aplicada a procesos de CI/CD.</li><li>Experiencia con procesamiento incremental y schema evolution.</li></ul>\n<div>En Improving South America, brindamos servicios de TI para transformar la percepción del profesional de TI. Nos enfocamos en consultoría de TI, desarrollo de software y formación ágil. </div><div>La empresa promueve una cultura de trabajo excepcional basada en el trabajo en equipo, la excelencia y la diversión, con enfoque en crecimiento personal y recompensas compartidas. Al integrarse, el/la candidato/a formará parte de una comunidad que prioriza la comunicación abierta y relaciones laborales sólidas a largo plazo, respaldada por una estructura de desarrollo profesional y aprendizaje continuo.</div>\n<p>Buscamos <strong>Data Engineer</strong> con experiencia sólida en <strong>Databricks</strong> para diseñar, optimizar y mantener soluciones de datos escalables, trabajando con <strong>Delta Lake, Unity Catalog, Python y SQL</strong>.</p><p>El rol tendrá foco en el diseño y modelado de datos, procesamiento incremental, evolución de esquemas, orquestación de pipelines y prácticas de CI/CD.</p><p><strong>Lo que harás:</strong></p><ul><li>Diseñar y optimizar tablas utilizando <strong>Delta Lake</strong>.</li><li>Implementar y mantener modelos de datos eficientes y escalables.</li><li>Gestionar el gobierno y acceso a los datos mediante <strong>Unity Catalog</strong>.</li><li>Desarrollar y mantener pipelines de datos en <strong>Databricks</strong>.</li><li>Implementar procesos de <strong>procesamiento incremental</strong> y estrategias de evolución de esquemas.</li><li>Trabajar con <strong>Databricks Asset Bundles</strong> y <strong>Azure DevOps</strong> para CI/CD.</li><li>Participar en la automatización, optimización y mejora continua de los procesos de ingeniería de datos.</li></ul>\n<p>Experiencia previa en proyectos de <strong>Healthcare o Insurance</strong>.</p>\n<ul><li>Contrato a largo plazo.</li><li>100% Remoto.</li><li>Vacaciones y PTOs</li><li>Posibilidad de recibir 2 bonos al año.</li><li>2 revisiones salariales al año.</li><li>Clases de inglés.</li><li>Equipamiento Apple.</li><li>Plataforma de cursos en linea</li><li>Budget para compra de libros.</li><li>Budget para compra de materiales de trabajo</li><li>mucho mas..</li></ul>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

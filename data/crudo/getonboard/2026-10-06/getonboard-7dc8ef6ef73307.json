@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-7dc8ef6ef73307",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-devops-semi-senior-bc-tecnologia-santiago-36a8",
+  "titulo": "Ingeniero DevOps Semi Senior",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li><strong>GitLab CI/CD (principal; GitHub Actions no lo reemplaza):</strong><ul><li>Dominio de .gitlab-ci.yml (rules, extends, needs, includes, environments).</li><li>Variables por ambiente, merge request pipelines, runners y Gitflow.</li><li>Se valora mucho la experiencia con CI/CD Components.</li></ul></li><li><strong>GCP (AWS o Azure no lo reemplazan):</strong><ul><li>Cloud Run, Cloud Functions 2.ª gen, Pub/Sub, Cloud SQL, Artifact Registry, Secret Manager, Logging/Monitoring y VPC.</li><li>IAM con mínimo privilegio y Workload Identity Federation (OIDC), sin llaves JSON.</li></ul></li><li><strong>IaC:</strong> mantención y depuración de pipelines de Terraform u OpenTofu.</li><li><strong>Contenedores:</strong> Docker multi-stage, imágenes distroless y non-root, y escaneo de vulnerabilidades. Se valora Buildah o Kaniko.</li><li><strong>Kubernetes/GitOps:</strong> operación de GKE, ArgoCD y Helm.</li><li><strong>DevSecOps:</strong> escáneres SAST, de dependencias, de secretos y de contenedores, y gestión de secretos en runtime.</li><li><strong>Base:</strong> Bash sólido (con jq), Git avanzado e inglés técnico de lectura.</li></ul>\n<div>En BC Tecnología gestionamos portafolios, desarrollamos proyectos y ofrecemos servicios de outsourcing y selección de profesionales para clientes de sectores como servicios financieros, seguros, retail y gobierno. Participarás en iniciativas estratégicas de transformación digital para LATAM Airlines, una organización líder en la industria aeronáutica, en un entorno que combina trabajo remoto con presencia ocasional en oficina. Serás parte de la Gerencia de Arquitectura, colaborando en la definición de la arquitectura empresarial y su evolución ante cambios tecnológicos y de negocio, asegurando alineación con la estrategia corporativa y con estándares de gobernanza.</div>\n<p>En BC Tecnología buscamos un Ingeniero DevOps Semi Senior para la Gerencia de Canales Digitales. Trabajará bajo el gobierno DevSecOps de la organización y dará soporte a las células de desarrollo.</p><p><strong>Funciones</strong></p><ul><li>Incorporar microservicios al pipeline corporativo de CI/CD y resolver las incidencias de las células.</li><li>Mantener, crear y extender templates de pipelines (build, deploy, IaC, seguridad y calidad).</li><li>Operar despliegues GitOps con ArgoCD multi-clúster y despliegues de Cloud Run y Cloud Functions por ambiente.</li><li>Cuidar el baseline DevSecOps: escáneres activos, revisión de hallazgos e imágenes distroless y non-root.</li><li>Apoyar la integración de proyectos externos (repositorios, Gitflow, configuración por ambiente).</li><li>Documentar runbooks y procedimientos operativos.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

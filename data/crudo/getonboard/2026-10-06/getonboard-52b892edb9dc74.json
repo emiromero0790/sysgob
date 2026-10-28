@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-52b892edb9dc74",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/full-stack-developer-ai-voice-agents-phoneninjas-ai-remote",
+  "titulo": "Full-Stack Developer — AI Voice Agents",
+  "empresa": "PhoneNinjas AI",
+  "descripcion_html": "<ul><li>3+ years building full-stack web applications</li><li>Solid SQL and PostgreSQL; hands-on experience with Supabase (auth, RLS, edge functions) or an equivalent BaaS</li><li>Strong with REST APIs, JSON, HTTP, and webhooks — you read API docs and integrate without hand-holding</li><li>JavaScript/TypeScript proficiency (Node.js); Python is a plus</li><li>Comfortable with formal/boolean logic and state management — the same thinking that makes an AI agent behave correctly</li><li>Advanced English (C1+), spoken and written — you will read subtle US customer requirements and review recorded calls daily</li><li>Meticulous, autonomous, and communicative in a remote team</li><li>Located in Colombia and available during US Central business hours</li></ul>\n<p>PhoneNinjas AI (phoneninjas.ai) is a Dallas-based company building AI voice receptionists for dental practices, law firms, and home service businesses in the US. Our agents answer inbound calls around the clock, schedule appointments, capture leads, and escalate to staff when needed. Small team, direct founder access, production customers from day one.</p>\n<ul><li>Build and maintain the platform behind our AI voice agents: Supabase/PostgreSQL backend, REST APIs, and webhooks</li><li>Design and ship automations in Pipedream that connect agents to customer scheduling tools, CRMs, and email/SMS</li><li>Configure and tune AI voice agents for new customers: prompts, conversation logic, escalation rules, edge cases</li><li>Convert customer intake notes and real call recordings into correct agent behavior</li><li>Analyze call transcripts and system logs, find failures, and fix them at the root</li><li>Contribute to low-code/BPM work on the Appian platform for enterprise consulting projects</li><li>Maintain reusable configuration templates and technical documentation by industry</li><li>Join English-language onboarding and technical calls with US customers</li></ul>\n<ul><li>Pipedream, n8n, Make, or Zapier workflow automation</li><li>Appian or another low-code / BPM platform (Power Platform, OutSystems, Mendix)</li><li>LLM prompt engineering, voice AI, or chatbot platforms</li><li>Twilio, Telnyx, LiveKit, or other telephony/voice APIs</li><li>Cloudflare, Stripe, SendGrid</li><li>Experience with dental, legal, or home-services customers</li></ul>\n<ul><li>3,000 USD salary paid monthly, with a compensation review at 6 months</li><li>Full-time Colombian employment contract through an Employer of Record — statutory benefits included, not a contractor arrangement</li><li>100% remote, long-term position</li><li>Direct work with the founder; your code and configurations ship to paying customers within days</li><li>Hands-on experience across production voice AI, Supabase, workflow automation, and enterprise low-code</li></ul>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Machine Learning / AI"
+  ],
+  "fecha_publicacion": "2026-09-15",
+  "fecha_extraccion": "2026-10-06T15:58:25"
+}

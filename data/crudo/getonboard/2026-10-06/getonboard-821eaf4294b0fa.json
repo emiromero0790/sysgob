@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-821eaf4294b0fa",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/analista-de-seguridad-de-la-informacion-timining-santiago",
+  "titulo": "Analista de Seguridad de la Información",
+  "empresa": "TIMINING",
+  "descripcion_html": "<ul><li><strong>Formación:</strong> Técnico o Ingeniero en Informática, Ciberseguridad o carrera afín.</li><li><strong>Experiencia:</strong> Al menos 3 años en roles de soporte TI con exposición a normativas de seguridad.</li><li><strong>Conocimientos Clave:</strong><ul><li>Conocimiento sólido de la norma ISO/IEC 27001:2022.</li><li>Administración de sistemas Windows/MacOS y herramientas de gestión de dispositivos (MDM).</li><li>Manejo de herramientas de oficina (Excel/SharePoint) para el control documental.</li></ul></li><li><strong>Habilidades Blandas:</strong> Orden extremo (meticulosidad), capacidad de redacción y asertividad para fiscalizar el cumplimiento de otros departamentos.</li></ul>\n<p> Únete al equipo de Tecnología y Seguridad de TIMining, referente en soluciones para minería a gran escala. Serás protagonista en construir nuestro SGSI y alcanzar la certificación ISO 27001, un pilar estratégico para proteger la información crítica de nuestros clientes y crecer con estándares globales. </p>\n<p><strong>Descriptor de Cargo:</strong> Analista de Seguridad de la Información y <strong>Continuidad</strong></p><p><strong>Objetivo del cargo:</strong> Liderar la implementación, mantenimiento y mejora del Sistema de Gestión de Seguridad de la Información (SGSI) bajo la norma ISO 27001, asegurando que los controles técnicos y administrativos se ejecuten y documenten correctamente.</p><p><strong>1. Responsabilidades de Cumplimiento (ISO 27001)</strong></p><ul><li><strong>Gestión Documental:</strong> Redactar, actualizar y controlar las políticas, manuales y procedimientos requeridos por la norma.</li><li><strong>Gestión de Evidencias:</strong> Recolectar y organizar las pruebas de cumplimiento de los controles (logs, firmas de políticas, reportes) para presentar ante auditorías.</li><li><strong>Auditorías:</strong> Coordinar las auditorías internas y actuar como punto de contacto principal para los auditores externos durante el proceso de certificación.</li><li><strong>Revisión de Accesos:</strong> Ejecutar revisiones periódicas de privilegios en sistemas y plataformas para asegurar el principio de \"mínimo privilegio\".</li></ul><p><strong>2. Responsabilidades Técnicas y Operativas</strong></p><ul><li><strong>Gestión de Activos (Endpoint):</strong><ul><li>Configurar y \"setear\" equipos nuevos bajo los estándares de seguridad definidos (Hardening).</li><li>Realizar el borrado seguro y re-configuración de equipos reutilizados.</li></ul></li><li><strong>Gestión de Antivirus/EDR:</strong> Administrar la consola centralizada, asegurar que todos los agentes estén actualizados y gestionar las alertas de amenazas.</li><li><strong>Soporte de Seguridad:</strong> Apoyar en la implementación de controles técnicos como cifrado de discos, gestión de parches y firewalls básicos.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Ciberseguridad"
+  ],
+  "fecha_publicacion": "2026-07-28",
+  "fecha_extraccion": "2026-10-06T15:58:23"
+}

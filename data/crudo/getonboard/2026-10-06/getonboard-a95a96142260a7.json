@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-a95a96142260a7",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/analista-bi-data-analyst-bc-tecnologia-santiago",
+  "titulo": "Analista BI / Data Analyst",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li>Al menos 3 años de experiencia en roles de BI, Data Analytics, Data Analyst o similares.</li><li>SQL avanzado, incluyendo creación de consultas, transformación, optimización y modelamiento de datos.</li><li>Experiencia con Python, idealmente utilizando PySpark para procesamiento y transformación de datos.</li><li>Experiencia en Power BI a nivel medio-alto, desarrollando reportes, dashboards y modelos de datos.</li><li>Experiencia en procesos ETL e integración de datos desde diferentes fuentes.</li><li>Capacidad para trabajar con equipos de negocio y comprender requerimientos analíticos.</li></ul>\n<div>En BC Tecnología somos una consultora de TI que diseña e implementa soluciones mediante metodologías ágiles. Creamos equipos para áreas de Infraestructura Tecnológica, Desarrollo de Software y Unidades de Negocio, trabajando junto a nuestros clientes en proyectos desafiantes y de alto impacto.</div><div>Actualmente, buscamos un/a Analista BI / Data Analyst Semi Senior para incorporarse a un proyecto de importante empresa, trabajando en un entorno dinámico y colaborativo.</div><div><strong>Objetivo del cargo</strong></div><div>Serás responsable de extraer, transformar y analizar datos para desarrollar reportes estratégicos y dashboards en Power BI, optimizando procesos mediante SQL y Python (PySpark). Trabajarás en conjunto con equipos de negocio para entregar insights relevantes y apoyar la toma de decisiones basada en datos.</div>\n<ul><li>Extraer, transformar y procesar datos desde diversas fuentes utilizando SQL y Python (PySpark).</li><li>Diseñar, desarrollar y optimizar modelos de datos en Power BI.</li><li>Crear y mantener reportes y dashboards interactivos para apoyar la toma de decisiones.</li><li>Implementar y optimizar procesos y flujos ETL para la integración de datos.</li><li>Analizar requerimientos de las áreas de negocio y traducirlos en soluciones de Business Intelligence.</li><li>Generar análisis e insights que permitan mejorar la toma de decisiones.</li><li>Asegurar la calidad, consistencia y disponibilidad de la información utilizada en los reportes.</li><li>Colaborar con equipos técnicos y de negocio en la definición y mejora de soluciones analíticas.</li></ul>\n<ul><li>Experiencia trabajando con Databricks.</li><li>Conocimientos en entornos Big Data y plataformas de datos en la nube.</li><li>Experiencia en modelamiento de datos y optimización de procesos de procesamiento de información.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-07-29",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

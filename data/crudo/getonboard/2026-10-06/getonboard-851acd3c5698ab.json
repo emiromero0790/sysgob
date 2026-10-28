@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-851acd3c5698ab",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/senior-data-engineer-databricks-integratz-remote-c63f",
+  "titulo": "Senior Data Engineer (Databricks)",
+  "empresa": "INTEGRATZ",
+  "descripcion_html": "<ul><li> Minimum of 5 years of experience as a Data Engineer or in a similar role. </li><li> Strong hands-on experience with Databricks and Apache Spark. </li><li>Advanced SQL and Python skills. </li><li>Experience working in cloud environments (Azure preferred). </li><li>Solid understanding of data modeling, ETL/ELT processes, and data architecture concepts. </li><li>Ability to work independently while collaborating with distributed teams. </li></ul>\n<p>Integratz is driving digital transformation for B2B customers through intelligent automation with AI, systems integration, and innovative solutions. As part of our global delivery efforts, this project focuses on building scalable data platforms and pipelines that empower analytics, reporting, and data-driven decision-making across US-based and international stakeholders. You will contribute to architectural decisions, establish best practices, and collaborate with cross-functional teams in a multicultural environment to deliver production-grade data solutions that are reliable, scalable, and cost-efficient. </p>\n<ul><li>Design, develop, and maintain scalable data pipelines using Databricks and Apache Spark.</li><li>Define data architectures that support batch and streaming processing.</li><li>Integrate data from multiple sources, including databases, APIs, and cloud storage.</li><li>Optimize data solutions for performance, reliability, and cost efficiency.</li><li>Collaborate closely with data science, analytics, and business teams.</li><li>Provide technical leadership and guidance on data engineering best practices.</li><li>Translate complex Databricks architectures and data solutions into clear, business-friendly explanations for technical and non-technical audiences.</li><li>Document data architectures, pipelines, and technical decisions.</li><li>Support production systems and troubleshoot data-related issues as needed.</li></ul>\n<ul><li>Experience designing enterprise-scale data platforms. </li><li>Experience building, supporting, and scaling production-grade data pipelines in enterprise environments. </li><li>Exposure to analytics, BI, or data science workloads. </li><li>Familiarity with CI/CD practices for data engineering. </li><li>Strong communication skills with both technical and non-technical stakeholders. Any certifications for Databricks or Apache are a plus.</li></ul>\n<p>• Competitive salary <br>• Flexible work environment<br>• Opportunities for growth and certifications<br>• Inclusive and collaborative team culture<br>• Access to cutting-edge tools and technologies</p>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-08-25",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

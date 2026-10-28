@@ -1,0 +1,18 @@
+{
+  "id": "arbeitnow-572275adac03d2",
+  "fuente": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/callista-group-ag/senior-test-data-quality-engineer-azure-databricks-frankfurt-239611",
+  "titulo": "Senior Test & Data Quality Engineer (Azure Databricks)",
+  "empresa": "Callista Group AG",
+  "descripcion_html": "<p>Für unseren Kunden, ein Versicherungsunternehmen im Großraum Frankfurt am Main, suchen wir im Rahmen des Aufbaus einer neuen dispositiven Datenplattform (Lakehouse) auf Basis von Microsoft Azure und Databricks eine/n erfahrene/n Test &amp; Data Quality Engineer. Du verantwortest Teststrategie, technische Tests und Datenvalidierung bis zum Go-live und stellst sicher, dass die Daten der neuen Plattform belastbar und abgestimmt sind.</p><p style=\"min-height: 1.7em;\"></p><p><strong>Aufgaben</strong></p><ul><li><p>Erstellung von Testkonzept, technischer Teststrategie und Testplan sowie Mitarbeit an messbaren Abnahmekriterien</p></li><li><p>Durchführung technischer Tests der Datenstrecken, Datenvalidierung und Reconciliation zwischen Quell- und Zielsystem</p></li><li><p>Test des Initialloads sowie Erstellung von Prüf- und Reconciliation-Berichten</p></li><li><p>Mitaufbau des Datenqualitätsframeworks: Regelwerk, Prüfroutinen, Monitoring und Qualitätsberichte</p></li><li><p>Automatisierung von Daten- und Regressionstests</p></li><li><p>Unterstützung der Fachbereiche bei UAT-Vorbereitung, Durchführung und Mängelmanagement</p></li><li><p>Mitarbeit an Go-live-Freigabe, Hypercare und Fehlerbehebung</p></li></ul><p style=\"min-height: 1.7em;\"></p> <br> <p><strong>Anforderungen</strong></p><ul><li><p>Mehrjährige Erfahrung in Test und Qualitätssicherung von Data-Warehouse- oder Lakehouse-Projekten</p></li><li><p>Sehr gute SQL-Kenntnisse, PySpark und Databricks von Vorteil</p></li><li><p>Erfahrung mit Testautomatisierung für Datenpipelines (z. B. pytest, Great Expectations, Databricks-Tests)</p></li><li><p>Erfahrung mit Datenqualitätsregeln, Reconciliation und Abnahmeprozessen</p></li><li><p>Erfahrung im Versicherungsumfeld von Vorteil</p></li><li><p>Strukturierte, gründliche Arbeitsweise und Kommunikationsstärke gegenüber Fachbereichen</p></li><li><p>Zertifizierung (z. B. ISTQB) von Vorteil</p></li><li><p>Verhandlungssichere Deutsch- und gute Englischkenntnisse</p></li></ul><p style=\"min-height: 1.7em;\"></p><p><strong>Generelle Rahmenbedingungen</strong></p><ul><li><p>Pensum: 50–80 %</p></li><li><p>Start: 02.11.2026</p></li><li><p>Dauer: bis 31.03.2027 mit Option auf Verlängerung (Folgephasen geplant bis Ende 2028)</p></li><li><p>Arbeitsort: Großraum Frankfurt am Main (Deutschland)</p></li><li><p>Onsite/Remote: In den ersten 2–3 Monaten hoher Onsite-Anteil (3–4 Tage pro Woche), danach ca. 2 Tage onsite, Rest remote</p></li><li><p>Kundengespräch: Verfügbarkeit für ein Vorstellungsgespräch beim Kunden am 22. oder 28.10.2026</p></li></ul><p style=\"min-height: 1.7em;\"></p><p>Find more <a href=\"https://www.arbeitnow.com/english-speaking-jobs\">English Speaking Jobs in Germany</a> on Arbeitnow</a>",
+  "ubicacion": "Frankfurt, Hessen, Germany",
+  "modalidad_origen": "",
+  "nivel_origen": "",
+  "etiquetas": [
+    "Engineering",
+    "Experienced",
+    "contract"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:35"
+}

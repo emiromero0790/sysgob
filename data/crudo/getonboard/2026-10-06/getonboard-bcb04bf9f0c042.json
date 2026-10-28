@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-bcb04bf9f0c042",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-a-de-integracion-y-seguridad-de-datos-bc-tecnologia-santiago",
+  "titulo": "Ingeniero/a de Integración y Seguridad de Datos",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<div>Experiencia en integración de sistemas. Manejo de APIs REST y/o SOAP. Conocimientos en seguridad de APIs. Experiencia en autenticación, autorización y gestión de accesos. Manejo de credenciales, secrets y políticas de acceso. Experiencia con logging, monitoreo y trazabilidad. Conocimientos de Python. Experiencia técnica en GCP y/o AWS. Conocimiento de Airflow. Manejo de Git. Experiencia en ambientes corporativos o regulados. Conocimientos de gobierno de datos. Experiencia trabajando con Data Lake y/o Datamarts.</div><div>Conocimientos</div><div>Experiencia con Talend. Conocimientos en protección de datos personales y privacidad. Experiencia implementando controles de acceso basados en roles, perfiles o funciones. Aplicación de principios de mínimo privilegio y minimización de exposición de datos. Experiencia en diseño de mecanismos de acceso controlado a información sensible. Conocimiento de prácticas de seguridad aplicadas a integraciones y plataformas de datos. Experiencia trabajando con metodologías Agile, cascada o híbridas.</div>\n<div>Buscamos un/a Ingeniero/a de Integración y Seguridad de Datos con experiencia en diseño e implementación de mecanismos seguros y controlados de acceso a información, integración de sistemas y aplicación de buenas prácticas de seguridad, trazabilidad y gobierno de datos.</div><div>El rol tendrá foco en reemplazar accesos directos a datos por mecanismos gobernados, mediante APIs, servicios o integraciones controladas, asegurando autenticación, autorización, trazabilidad y protección de la información sensible.</div>\n<div>Diseñar e implementar mecanismos controlados de acceso a datos. Reemplazar accesos directos a información por APIs, servicios o integraciones gobernadas, cuando corresponda. Implementar controles de autenticación, autorización, logging y trazabilidad. Aplicar principios de mínimo privilegio y restricción de acceso según perfiles o funciones. Reducir la exposición de información sensible entre sistemas y componentes. Apoyar la integración entre aplicativos, Data Lake, servicios internos y plataformas existentes. Participar en el diseño de mecanismos seguros de intercambio de información. Gestionar credenciales, secrets y configuraciones de acceso de forma segura. Coordinar con equipos de Arquitectura y Seguridad la correcta aplicación de patrones y estándares definidos. Apoyar iniciativas relacionadas con gobierno de datos, datalakes y datamarts. Documentar componentes desarrollados, integraciones, flujos y evidencias técnicas. Implementar mecanismos de monitoreo, logs y seguimiento de accesos. Participar en la identificación y mitigación de riesgos asociados al acceso y exposición de datos. Colaborar con equipos técnicos y de negocio bajo metodologías Agile, cascada o híbridas.</div>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Ciberseguridad"
+  ],
+  "fecha_publicacion": "2026-08-28",
+  "fecha_extraccion": "2026-10-06T15:58:23"
+}

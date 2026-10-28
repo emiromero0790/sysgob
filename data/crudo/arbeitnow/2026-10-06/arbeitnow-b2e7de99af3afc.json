@@ -1,0 +1,23 @@
+{
+  "id": "arbeitnow-b2e7de99af3afc",
+  "fuente": "arbeitnow",
+  "url": "https://www.arbeitnow.ch/jobs/companies/distran/senior-software-engineer-zurich-351156",
+  "titulo": "(Senior) Software Engineer",
+  "empresa": "Distran",
+  "descripcion_html": "<br><strong>About the role</strong><p>The software on our Ultrasound acoustic cameras is at the core of Distran technology, with focus on high quality, reliability, and real-time performance. Together with the software team, you will help Distran develop and innovate our acoustic cameras and help us further meet our customers' needs.<br><ul><li>Be part of a Scrum-driven cross-functional agile software team</li><li>Develop high-performance modern C++ and Python code</li><li>Implement fast and resource-aware video processing pipelines</li><li>Develop supporting services that empower real-time leak detection and quantification</li><li>Understand customer requirements and write technical requirements</li><li>Ensure the high reliability of the product</li><li>Automate, optimize, test, and document systems, processes, and business functionalities</li><li>Participate in the team effort in code review, testing, documentation, and task organization</li><li><span><span>Help shape how our team works with AI coding tools, from day to day practice to the conventions and guardrails that make the output reliable</span></span></li></ul></p><br><strong>Your profile</strong><p><strong>Requirements</strong><ul><li>Three years or more of experience in software development</li><li>Strong knowledge of modern C++ and Python</li><li>Comfortable with Linux command line tools</li><li><span><span>Works fluently with agentic AI coding tools such as Claude Code, and can explain where they speed things up and where they need close review</span></span></li><li>Interested in learning new technology stacks and working in a cross-functional environment</li></ul><strong>Good to have</strong><ul><li>Experience with CUDA or other GPU-accelerated computing</li><li>Embedded systems experience (e.g. Yocto, cross-compilation, resource-constrained devices)</li><li>Experience with Qt/QML</li><li>Messaging interfaces (e.g. ZMQ)</li><li>Experience writing pipelines with GStreamer</li><li>DevOps experience (Docker, Jenkins)</li></ul> <strong>Languages</strong><ul><li>Fluent English</li></ul>The list of tasks is not exhaustive. The job holder is expected to shift focus between them as required. This job description will be reviewed and adjusted as needed.</p><br><strong>What we offer</strong><p>Bringing groundbreaking innovative technology to a market best seller is a rewarding social and professional experience. This job is for you if you like to give meaning to your work and have a strong impact on a product, on a company and on your professional growth.</p><br><strong>Note to agencies</strong><p>Distran does not accept unsolicited resumes from any sources other than directly from a candidate. Distran will not pay a fee for any placement resulting from the receipt of an unsolicited offer, even in a situation where Distran employs the relevant candidate. Agencies must obtain advance written approval from Distran’s Human Resources team to submit resumes, and then only in conjunction with a valid fully executed agreement for service and in response to a specific job opening. Distran will not pay a fee to any Agency that does not have such agreement in place.</p><p>Find <a href=\"https://www.arbeitnow.ch\">Jobs in Switzerland</a> on Arbeitnow</a>",
+  "ubicacion": "Zürich",
+  "modalidad_origen": "",
+  "nivel_origen": "",
+  "etiquetas": [
+    "Software Engineer",
+    "Developer",
+    "Senior Software Engineer",
+    "Python Developer",
+    "C++ Developer",
+    "Experienced",
+    "Fixed term",
+    "Full time"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:35"
+}

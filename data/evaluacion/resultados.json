@@ -1,0 +1,317 @@
+{
+  "corte": 10,
+  "embeddings": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "documentos": 465,
+  "consultas_evaluadas": 13,
+  "consultas_omitidas": [
+    "java spring junior"
+  ],
+  "promedio": {
+    "hibrido": {
+      "precision": 0.3308,
+      "recall": 0.1384,
+      "map": 0.2482,
+      "ndcg": 0.3498
+    },
+    "semantico": {
+      "precision": 0.3,
+      "recall": 0.1478,
+      "map": 0.228,
+      "ndcg": 0.3356
+    },
+    "lexico": {
+      "precision": 0.2923,
+      "recall": 0.1074,
+      "map": 0.2057,
+      "ndcg": 0.3119
+    }
+  },
+  "detalle": [
+    {
+      "consulta": "programador de servicios web y APIs",
+      "relevantes": 20,
+      "hibrido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0513,
+        "ndcg": 0.0
+      },
+      "semantico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.055,
+        "ndcg": 0.0
+      },
+      "lexico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0217,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "consulta": "prácticas profesionales de desarrollo web",
+      "relevantes": 2,
+      "hibrido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.008,
+        "ndcg": 0.0
+      },
+      "semantico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.006,
+        "ndcg": 0.0
+      },
+      "lexico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0091,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "consulta": "trabajo desde casa creando aplicaciones para celulares",
+      "relevantes": 10,
+      "hibrido": {
+        "precision": 0.4,
+        "recall": 0.4,
+        "map": 0.3018,
+        "ndcg": 0.3317
+      },
+      "semantico": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "map": 0.3983,
+        "ndcg": 0.4983
+      },
+      "lexico": {
+        "precision": 0.1,
+        "recall": 0.1,
+        "map": 0.1598,
+        "ndcg": 0.0636
+      }
+    },
+    {
+      "consulta": "puesto para recién egresado en análisis de información y reportes",
+      "relevantes": 8,
+      "hibrido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0294,
+        "ndcg": 0.0
+      },
+      "semantico": {
+        "precision": 0.1,
+        "recall": 0.125,
+        "map": 0.1011,
+        "ndcg": 0.1596
+      },
+      "lexico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0045,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "consulta": "automatización de despliegues e infraestructura en la nube",
+      "relevantes": 46,
+      "hibrido": {
+        "precision": 0.8,
+        "recall": 0.1739,
+        "map": 0.3765,
+        "ndcg": 0.863
+      },
+      "semantico": {
+        "precision": 0.6,
+        "recall": 0.1304,
+        "map": 0.2921,
+        "ndcg": 0.6754
+      },
+      "lexico": {
+        "precision": 0.8,
+        "recall": 0.1739,
+        "map": 0.2708,
+        "ndcg": 0.863
+      }
+    },
+    {
+      "consulta": "maquetación de páginas e interfaces de usuario",
+      "relevantes": 8,
+      "hibrido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0569,
+        "ndcg": 0.0
+      },
+      "semantico": {
+        "precision": 0.2,
+        "recall": 0.25,
+        "map": 0.186,
+        "ndcg": 0.343
+      },
+      "lexico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0221,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "consulta": "pruebas de software y aseguramiento de calidad",
+      "relevantes": 23,
+      "hibrido": {
+        "precision": 0.7,
+        "recall": 0.3043,
+        "map": 0.5287,
+        "ndcg": 0.7752
+      },
+      "semantico": {
+        "precision": 0.7,
+        "recall": 0.3043,
+        "map": 0.3721,
+        "ndcg": 0.6067
+      },
+      "lexico": {
+        "precision": 0.6,
+        "recall": 0.2609,
+        "map": 0.4883,
+        "ndcg": 0.6759
+      }
+    },
+    {
+      "consulta": "desarrollador python remoto",
+      "relevantes": 54,
+      "hibrido": {
+        "precision": 0.2,
+        "recall": 0.037,
+        "map": 0.3751,
+        "ndcg": 0.2489
+      },
+      "semantico": {
+        "precision": 0.4,
+        "recall": 0.0741,
+        "map": 0.33,
+        "ndcg": 0.4545
+      },
+      "lexico": {
+        "precision": 0.1,
+        "recall": 0.0185,
+        "map": 0.3846,
+        "ndcg": 0.1389
+      }
+    },
+    {
+      "consulta": "protección de sistemas y análisis de vulnerabilidades",
+      "relevantes": 19,
+      "hibrido": {
+        "precision": 0.8,
+        "recall": 0.4211,
+        "map": 0.5209,
+        "ndcg": 0.8358
+      },
+      "semantico": {
+        "precision": 0.4,
+        "recall": 0.2105,
+        "map": 0.442,
+        "ndcg": 0.5638
+      },
+      "lexico": {
+        "precision": 0.8,
+        "recall": 0.4211,
+        "map": 0.4322,
+        "ndcg": 0.7878
+      }
+    },
+    {
+      "consulta": "modelos predictivos e inteligencia artificial",
+      "relevantes": 86,
+      "hibrido": {
+        "precision": 0.9,
+        "recall": 0.1047,
+        "map": 0.5343,
+        "ndcg": 0.9364
+      },
+      "semantico": {
+        "precision": 0.6,
+        "recall": 0.0698,
+        "map": 0.4246,
+        "ndcg": 0.662
+      },
+      "lexico": {
+        "precision": 1.0,
+        "recall": 0.1163,
+        "map": 0.486,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "consulta": "residencia profesional en sistemas con esquema mixto casa y oficina",
+      "relevantes": 1,
+      "hibrido": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0033,
+        "ndcg": 0.0
+      },
+      "semantico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0038,
+        "ndcg": 0.0
+      },
+      "lexico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0,
+        "ndcg": 0.0
+      }
+    },
+    {
+      "consulta": "remote backend engineer node",
+      "relevantes": 10,
+      "hibrido": {
+        "precision": 0.2,
+        "recall": 0.2,
+        "map": 0.2757,
+        "ndcg": 0.2985
+      },
+      "semantico": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "map": 0.0696,
+        "ndcg": 0.0
+      },
+      "lexico": {
+        "precision": 0.2,
+        "recall": 0.2,
+        "map": 0.2858,
+        "ndcg": 0.3301
+      }
+    },
+    {
+      "consulta": "administración de bases de datos relacionales",
+      "relevantes": 19,
+      "hibrido": {
+        "precision": 0.3,
+        "recall": 0.1579,
+        "map": 0.1651,
+        "ndcg": 0.2579
+      },
+      "semantico": {
+        "precision": 0.3,
+        "recall": 0.1579,
+        "map": 0.2835,
+        "ndcg": 0.4
+      },
+      "lexico": {
+        "precision": 0.2,
+        "recall": 0.1053,
+        "map": 0.1092,
+        "ndcg": 0.1952
+      }
+    }
+  ]
+}

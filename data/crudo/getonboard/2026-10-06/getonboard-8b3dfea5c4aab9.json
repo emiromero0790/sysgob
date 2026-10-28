@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-8b3dfea5c4aab9",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/analista-middleware-semi-senior-oracle-bc-tecnologia-santiago",
+  "titulo": "Analista Middleware Semi Senior (Oracle)",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li><strong>Oracle Service Bus y WebLogic:</strong> nivel avanzado.</li><li><strong>Linux:</strong> nivel medio.</li><li><strong>Productos Oracle (todos o algunos):</strong> OAG, OTD, Oracle Forms, SOA Suite (BPEL, OWM), Siebel IP19, OHS, Flexcube, BI Publisher, WebCenter Suite (Sites, Content), Fusion Middleware, OUD y OAM. También SAP BI y BO.</li></ul><p><strong>Deseables</strong></p><ul><li>Apigee.</li><li>Elastic para monitoreo de experiencia de usuario.</li><li>Plataformas cloud, idealmente GCP.</li></ul>\n<p>En BC Tecnología buscamos un Analista Middleware Semi Senior que se una a nuestro equipo para administrar y operar la plataforma Oracle, asegurando la continuidad operacional de los servicios críticos del negocio. Será responsable de instalar, monitorear y mantener componentes como Oracle Service Bus y WebLogic, además de aplicar acciones preventivas y correctivas para que la plataforma funcione de forma estable y eficiente. También será el punto de contacto con los proveedores de administración, dará soporte técnico a los equipos de desarrollo y gestionará los pasos entre ambientes. Trabajará junto a especialistas de otras tecnologías cloud, como GCP y AWS. Si te motiva la estabilidad de sistemas de alto impacto y quieres seguir creciendo en el ecosistema Oracle, ¡esta oportunidad es para ti!</p>\n<ul><li>Instalar, operar, monitorear y administrar la plataforma tecnológica, con acciones preventivas y correctivas para asegurar la continuidad operacional.</li><li>Gestionar requerimientos e incidencias con los proveedores de administración de plataformas y controlar que cumplan.</li><li>Elaborar reportes de salud de la plataforma y hacer tuning.</li><li>Dar soporte técnico a los equipos de desarrollo y gestionar los pasos entre ambientes.</li><li>Trabajar junto a los administradores de otras tecnologías cloud de la empresa (GCP, AWS, entre otras).</li></ul><p>.</p>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

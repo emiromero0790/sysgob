@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-f9dc820b791fda",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-qa-automatizador-lisit-remote",
+  "titulo": "Ingeniero QA Automatizador",
+  "empresa": "Lisit",
+  "descripcion_html": "<div><strong>Excluyente</strong></div><ul><li><strong>Playwright con TypeScript</strong> — requisito central del cliente, no negociable.</li><li><strong>Diseño de estrategia de pruebas</strong>: plan de certificación, matriz de casos trazable a requisitos, gestión de defectos.</li><li><strong>Pruebas de API (REST) automatizadas</strong>, no solo UI.</li><li><strong>SQL para validar datos</strong>: conciliación de volúmenes e integridad tras migraciones.</li><li><strong>Evidencia auditable</strong>: reportes de ejecución, capturas y logs; trabajará con formatos exigidos por un cliente estatal.</li></ul><div><strong>Colaboración esperada</strong></div><ul><li>Comunicar el avance del plan de certificación y el estado de defectos.</li><li>Producir evidencia consistente y trazable (ejecuciones, logs y capturas) para habilitar actas de entrega.</li><li>Construir una cobertura robusta considerando UI, mapas y flujos batch extremo a extremo.</li></ul>\n<div>En <strong>Lisit</strong> creamos, desarrollamos e implementamos servicios de software con foco constante en innovación y pasión por los desafíos. Nos propulsan herramientas de automatización y optimización para mejorar la operatividad de nuestros clientes mediante acompañamiento consultivo e implementación con una estrategia integral.</div><div>El proyecto para este rol apunta a la <strong>certificación</strong> de un sistema con <strong>suite automatizada</strong> y evidencia auditable. La tarea incluye diseñar el plan de certificación, construir pruebas automatizadas con cobertura ≥ 80% (incluyendo <strong>mapas</strong> y <strong>procesos batch</strong> de punta a punta), validar <strong>migración de datos</strong> y producir la evidencia formal requerida para habilitar cada acta de entrega, respetando formatos exigidos por un cliente estatal.</div>\n<div>Diseñar el plan de certificación, construir la suite automatizada con cobertura ≥ 80% (incluyendo mapas y procesos batch de punta a punta), probar la migración de datos y producir la evidencia formal que habilita cada acta de entrega.</div>\n<ul><li><strong>Pruebas de carga</strong> (k6 o JMeter): existe un SLA de 0,4 s bajo concurrencia que se certifica con pruebas.</li><li><strong>Experiencia probando aplicaciones con mapas / GIS</strong>: interacciones sobre canvas, capas.</li><li><strong>GitLab CI</strong>: suite corriendo en pipeline.</li><li><strong>Pruebas de procesos batch largos</strong>.</li></ul>\n<div>Trabajo <strong>100% remoto</strong>.</div><div>Buscamos profesionales que disfruten de la precisión, la trazabilidad y la calidad de la evidencia, para acompañar la certificación de punta a punta.</div>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-08-24",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

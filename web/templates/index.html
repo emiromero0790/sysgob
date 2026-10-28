@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SysJobs, buscador semántico de empleo y prácticas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+<body>
+  <aside class="riel">
+    <a class="marca" href="/" aria-label="SysJobs, inicio">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="9" cy="29" r="4" class="p1"/><circle cx="20" cy="11" r="4" class="p2"/><circle cx="31" cy="25" r="4" class="p1"/>
+        <path d="M9 29 20 11 31 25" fill="none" class="traza"/>
+      </svg>
+      <span>SysJobs</span>
+    </a>
+    <nav class="pestanas" aria-label="Secciones">
+      <button type="button" data-vista="buscar" class="activa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <span>Buscar</span>
+      </button>
+      <button type="button" data-vista="comparar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="7" height="16" rx="2"/><rect x="13.5" y="4" width="7" height="16" rx="2"/></svg>
+        <span>Comparar</span>
+      </button>
+      <button type="button" data-vista="corpus">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12.5 9 5 9-5"/><path d="m3 17 9 5 9-5"/></svg>
+        <span>Corpus</span>
+      </button>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="vista-buscar" class="vista">
+      <div class="portada">
+        <div class="portada-texto">
+          <h1>Describe el trabajo que buscas con tus propias palabras</h1>
+          <p class="bajada">SysJobs reúne vacantes y prácticas para Ingeniería en Sistemas de varios portales y las ordena por significado, no solo por palabras iguales.</p>
+          <form id="formulario" class="buscador" role="search">
+            <label class="oculto" for="consulta">Consulta</label>
+            <input id="consulta" name="q" type="search" autocomplete="off" placeholder="prácticas de desarrollo web con bases de datos, remoto">
+            <button type="submit">Buscar ofertas</button>
+          </form>
+          <div class="modos" role="radiogroup" aria-label="Forma de ordenar">
+            <span class="modos-titulo">Ordenar por</span>
+            <button type="button" role="radio" data-modo="hibrido" aria-checked="true">Híbrido</button>
+            <button type="button" role="radio" data-modo="semantico" aria-checked="false">Significado</button>
+            <button type="button" role="radio" data-modo="lexico" aria-checked="false">Palabras exactas</button>
+          </div>
+          <div class="ejemplos">
+            <span>Prueba con</span>
+            <button type="button" data-ejemplo="programador de servicios web y APIs">programador de servicios web y APIs</button>
+            <button type="button" data-ejemplo="trabajo desde casa creando apps para celular">trabajo desde casa creando apps para celular</button>
+            <button type="button" data-ejemplo="residencia profesional en análisis de datos">residencia profesional en análisis de datos</button>
+          </div>
+        </div>
+        <figure class="mapa" aria-label="Ilustración: la consulta se ubica junto a las ofertas de significado parecido">
+          <svg viewBox="0 0 420 300" role="img">
+            <defs>
+              <pattern id="rejilla" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" class="rejilla"/></pattern>
+            </defs>
+            <rect width="420" height="300" rx="18" fill="url(#rejilla)"/>
+            <g class="grupo-a"><circle cx="78" cy="70" r="7"/><circle cx="104" cy="52" r="5"/><circle cx="120" cy="84" r="6"/><circle cx="92" cy="98" r="4"/><circle cx="60" cy="96" r="5"/></g>
+            <text x="52" y="34" class="rotulo">datos</text>
+            <g class="grupo-b"><circle cx="330" cy="76" r="6"/><circle cx="352" cy="100" r="5"/><circle cx="314" cy="104" r="7"/><circle cx="362" cy="62" r="4"/></g>
+            <text x="308" y="42" class="rotulo">móvil</text>
+            <g class="grupo-c"><circle cx="96" cy="226" r="6"/><circle cx="126" cy="244" r="5"/><circle cx="70" cy="250" r="4"/><circle cx="112" cy="204" r="5"/></g>
+            <text x="56" y="282" class="rotulo">frontend</text>
+            <g class="vecinos">
+              <line x1="246" y1="186" x2="286" y2="158"/><line x1="246" y1="186" x2="296" y2="206"/><line x1="246" y1="186" x2="262" y2="232"/><line x1="246" y1="186" x2="214" y2="152"/>
+            </g>
+            <g class="grupo-d"><circle cx="286" cy="158" r="7"/><circle cx="296" cy="206" r="6"/><circle cx="262" cy="232" r="6"/><circle cx="214" cy="152" r="5"/><circle cx="324" cy="182" r="5"/><circle cx="300" cy="244" r="4"/></g>
+            <text x="318" y="230" class="rotulo">backend</text>
+            <circle cx="246" cy="186" r="15" class="halo"/>
+            <circle cx="246" cy="186" r="8" class="consulta-punto"/>
+            <g class="globo"><rect x="96" y="108" width="170" height="30" rx="15"/><text x="181" y="128" text-anchor="middle">“servicios web y APIs”</text></g>
+          </svg>
+        </figure>
+      </div>
+
+      <div class="zona">
+        <aside class="filtros" aria-label="Filtros">
+          <div class="filtros-cabeza">
+            <h2>Filtrar</h2>
+            <button type="button" id="limpiar" hidden>Quitar filtros</button>
+          </div>
+          <div id="grupos-filtro"></div>
+        </aside>
+        <div class="listado">
+          <p id="estado" class="estado" aria-live="polite"></p>
+          <div id="resultados"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vista-comparar" class="vista" hidden>
+      <div class="encabezado-vista">
+        <h1>La misma consulta, dos formas de ordenar</h1>
+        <p class="bajada">A la izquierda, coincidencia de palabras con BM25. A la derecha, similitud de significado con embeddings. Las ofertas marcadas solo aparecen en uno de los dos.</p>
+        <form id="formulario-comparar" class="buscador" role="search">
+          <label class="oculto" for="consulta-comparar">Consulta a comparar</label>
+          <input id="consulta-comparar" type="search" autocomplete="off" placeholder="ingeniero de APIs">
+          <button type="submit">Comparar</button>
+        </form>
+      </div>
+      <p id="estado-comparar" class="estado" aria-live="polite"></p>
+      <div class="duelo" id="duelo"></div>
+    </section>
+
+    <section id="vista-corpus" class="vista" hidden>
+      <div class="encabezado-vista">
+        <h1>De dónde salen los resultados</h1>
+        <p class="bajada">Radiografía del corpus acopiado, de los índices guardados en disco y de qué tan bien ordena cada estrategia.</p>
+      </div>
+      <div id="corpus"></div>
+    </section>
+  </main>
+
+  <dialog id="detalle" aria-labelledby="detalle-titulo">
+    <div id="detalle-contenido"></div>
+  </dialog>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

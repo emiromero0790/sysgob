@@ -1,0 +1,17 @@
+{
+  "id": "arbeitnow-c8f0a8aea2dc9e",
+  "fuente": "arbeitnow",
+  "url": "https://www.arbeitnow.com/jobs/companies/microagi/cloud-infrastructure-engineer-munich-196630",
+  "titulo": "Cloud Infrastructure Engineer",
+  "empresa": "Microagi",
+  "descripcion_html": "<p style=\"min-height:1.5em\">The next ten years of AI will not be won in software. They will be won in the physical world: in factories, hospitals, kitchens, fields, and homes. The companies that own that data will own the century.</p><p style=\"min-height:1.5em\">MicroAGI is building it. We are the data layer for physical AI.</p><p style=\"min-height:1.5em\">We capture petabytes of multimodal data from the physical world, and the volume is growing every week. As Cloud Infrastructure Engineer, you will build and run the infrastructure that ingests, processes, stores, and serves it.<br /></p><h2>What You Will Do</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design and operate our data infrastructure at petabyte scale: ingest, processing, storage, and serving.</p></li><li><p style=\"min-height:1.5em\">Build the pipelines that take raw capture data from device upload to training-ready dataset.</p></li><li><p style=\"min-height:1.5em\">Make the platform fast, cheap, and reliable as we scale from 3 PB to 30 PB and beyond.</p></li><li><p style=\"min-height:1.5em\">Work directly with the ML and device teams to remove every bottleneck between capture and training.</p></li><li><p style=\"min-height:1.5em\">Use AI coding tools as a core part of your workflow.<br /></p></li></ul><h2>Requirements</h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Production experience with large-scale data processing in the TB to PB range. You have done this, not read about it.</p></li><li><p style=\"min-height:1.5em\">Deep knowledge of distributed systems and modern data infrastructure: object storage, streaming, columnar formats, orchestration.</p></li><li><p style=\"min-height:1.5em\">Strong cloud fundamentals. You know what a workload should cost and how to get it there.</p></li><li><p style=\"min-height:1.5em\">High agency: you don't wait to be told what to do.</p></li><li><p style=\"min-height:1.5em\">Fluent in English.</p></li></ul><p>Find <a href=\"https://www.arbeitnow.com\">Jobs in Germany</a> on Arbeitnow</a>",
+  "ubicacion": "Munich",
+  "modalidad_origen": "",
+  "nivel_origen": "",
+  "etiquetas": [
+    "Microagi",
+    "Full Time"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:39"
+}

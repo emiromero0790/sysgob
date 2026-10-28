@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-9dd5df8d020c08",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/ingeniero-a-devops-cloud-gcp-aws-bc-tecnologia-santiago",
+  "titulo": "Ingeniero/a DevOps Cloud GCP/aWS",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<ul><li>GCP – principal</li><li>AWS</li><li>Kubernetes</li><li>Terraform / OpenTofu</li><li>GitHub Actions</li><li>Harness CI/CD</li><li>Helm</li><li>CI/CD</li><li>Infrastructure as Code – IaC</li><li>Observabilidad y monitoreo. Gestión de logs y trazas. Cloud Security y gestión de vulnerabilidades. Gestión y resolución de incidentes.</li></ul><div>La persona deberá contar con capacidad para trabajar de manera autónoma, resolver incidentes y acompañar técnicamente a equipos de desarrollo.</div>\n<div>Buscamos un/a <strong>Ingeniero/a DevOps</strong> con experiencia práctica en ambientes Cloud, automatización, infraestructura como código y operación de Kubernetes. La persona deberá contar con capacidad para trabajar de manera autónoma, resolver incidentes y acompañar técnicamente a equipos de desarrollo.</div><div>El foco principal del cargo estará en <strong>Google Cloud Platform (GCP)</strong>, complementado con conocimientos y experiencia en <strong>AWS</strong>, apoyando la evolución, automatización y operación confiable de la plataforma digital.</div><div><strong>Objetivo del cargo</strong></div><div>Profesional especializado en prácticas DevOps y plataformas Cloud, responsable de diseñar, implementar y mantener procesos de automatización, despliegue, infraestructura y operación, asegurando estabilidad, escalabilidad, observabilidad y seguridad en los ambientes tecnológicos.</div>\n<ul><li>Diseñar, implementar y mantener pipelines de CI/CD.</li><li>Trabajar con GitHub Actions y/o Harness CI/CD.</li><li>Gestionar infraestructura como código mediante Terraform / OpenTofu.</li><li>Administrar infraestructura Cloud sobre GCP y AWS.</li><li>Operar clústeres Kubernetes, incluyendo despliegues, configuraciones, escalabilidad y actualizaciones.</li><li>Trabajar con Helm y manifests para la gestión de despliegues.</li><li>Implementar y mantener soluciones de observabilidad, incluyendo métricas, dashboards, alertas, logs y trazas.</li><li>Apoyar técnicamente a equipos de desarrollo en integraciones, configuraciones y resolución de incidentes.</li><li>Analizar y resolver incidentes asociados a infraestructura, despliegues y componentes Cloud.</li><li>Identificar riesgos, vulnerabilidades y brechas técnicas en infraestructura Cloud y procesos de despliegue.</li><li>Proponer y documentar acciones de mitigación y mejoras técnicas.</li><li>Contribuir a la automatización y estandarización de procesos DevOps.</li><li>Promover buenas prácticas de seguridad, disponibilidad y confiabilidad de la plataforma.</li></ul>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "SysAdmin / DevOps / QA"
+  ],
+  "fecha_publicacion": "2026-08-28",
+  "fecha_extraccion": "2026-10-06T15:58:27"
+}

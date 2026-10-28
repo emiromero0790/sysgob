@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-4117befef2b37e",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/data-engineer-zaelot-remote",
+  "titulo": "Data Engineer",
+  "empresa": "Zaelot",
+  "descripcion_html": "<p>We are seeking a Data Engineer with a solid foundation in data engineering fundamentals and experience handling sensitive healthcare data.<br></p><ul><li>Senior-level, hands-on experience building and maintaining data pipelines using Databricks and/or Snowflake</li><li>Strong proficiency in SQL for querying, transforming, and validating data</li><li>Practical experience designing and implementing ETL/ELT processes end to end</li><li>Solid understanding of data pipeline architecture principles, including scalability, reliability, and maintainability</li><li>Strong attention to detail and commitment to data quality and accuracy</li><li>Ability to work independently and mentor other engineers on best practices</li></ul>\n<p>Our team is composed of top-notch professionals who bring creativity, vision, and a commitment to excellence to every project. We blend the talents of analysts, designers, and software engineers to create a highly productive and innovative environment. In the ever-evolving world of technology, we are dedicated to staying ahead of the curve by continually expanding our knowledge and skills. This drive for continuous improvement allows us to enhance both our products and our team's capabilities.</p><p>We're looking for a Data Engineer to join our team!</p>\n<p>We collaborate with cross-functional teams to deliver reliable, production-grade data pipelines that power analytics, AI, and reporting products.<br></p><ul><li>Build and maintain scalable data pipelines using Databricks and/or Snowflake</li><li>Design and implement robust ETL/ELT processes across multiple data sources</li><li>Apply data pipeline architecture best practices, including orchestration, data quality, and monitoring</li><li>Optimize pipeline performance, cost, and reliability in production environments</li><li>Collaborate with analytics, product, and engineering teams to ensure data availability and quality</li><li>Troubleshoot and resolve data pipeline issues as they arise</li></ul>\n<ul><li>Experience with dbt for data transformation and modeling</li><li>Experience with pipeline orchestration tools (Airflow, ADF, or similar)</li><li>Exposure to cloud-native data platforms (Azure, AWS, or GCP)</li><li>Experience with CI/CD for data pipelines</li><li>Familiarity with HIPAA/PHI regulations </li></ul>\n<ul><li>Paid vacations for 20 days after one year</li><li>Referrals program and finder's fee rewards</li><li>Training and certification programs</li><li>Work from home aid</li><li>English classes</li><li>Access to a fitness program</li><li>Profit sharing</li><li>Coaching sessions for personal development</li></ul>",
+  "ubicacion": "Remoto",
+  "modalidad_origen": "remoto",
+  "nivel_origen": "semi-senior",
+  "etiquetas": [
+    "Data Science / Analytics"
+  ],
+  "fecha_publicacion": "2026-08-11",
+  "fecha_extraccion": "2026-10-06T15:58:31"
+}

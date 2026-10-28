@@ -1,0 +1,16 @@
+{
+  "id": "getonboard-1b80d494c5274a",
+  "fuente": "getonboard",
+  "url": "https://www.getonbrd.com/jobs/desarrollador-a-android-senior-bc-tecnologia-santiago",
+  "titulo": "Desarrollador(a) Android Senior",
+  "empresa": "BC Tecnología",
+  "descripcion_html": "<div>3+ años de experiencia en desarrollo Android nativo con Kotlin.</div><div>Experiencia sólida desarrollando aplicaciones con Jetpack Compose.</div><div>Conocimientos de MVVM, Clean Architecture y patrones de diseño.</div><div>Experiencia en testing automatizado.</div><div>Manejo de Git y procesos CI/CD.</div><div>Experiencia trabajando con arquitecturas complejas y soluciones modulares.</div><div>Capacidad para trabajar colaborativamente en equipos ágiles.</div><div>Orientación a la calidad, buenas prácticas y mejora continua.</div>\n<div><strong>🎯 Objetivo del cargo</strong></div><div>Buscamos un(a) Desarrollador(a) Android Senior para integrarse a un equipo de tecnología y participar en el desarrollo y evolución de aplicaciones móviles modernas, utilizando Kotlin y Jetpack Compose.</div><div>El desafío contempla trabajar con arquitecturas escalables, soluciones modulares y buenas prácticas de desarrollo, asegurando altos estándares de calidad, mantenibilidad y una excelente experiencia de usuario.</div>\n<div>Desarrollar y mantener nuevas funcionalidades utilizando Kotlin y Jetpack Compose.</div><div>Diseñar y mantener soluciones bajo Clean Architecture y MVVM.</div><div>Integrar APIs, servicios y componentes modulares.</div><div>Trabajar en conjunto con el Design System, asegurando consistencia visual y funcional.</div><div>Implementar y mantener Unit Tests y UI Tests.</div><div>Incorporar funcionalidades de Analytics, Tracking y Localización.</div><div>Participar activamente en Code Reviews.</div><div>Apoyar técnicamente al equipo y promover buenas prácticas de desarrollo.</div><div>Proponer mejoras de arquitectura, performance y calidad de código.</div><div>Participar en la evolución y mantenimiento de aplicaciones de alta complejidad.</div>\n<div>Experiencia trabajando con arquitecturas modulares y manejo de dependencias.</div><div>Experiencia en aplicaciones de alto tráfico, e-commerce o plataformas digitales de gran escala.</div><div>Conocimiento de procesos de publicación y despliegue de aplicaciones en Google Play.</div><div>Experiencia con Analytics, Tracking y Localización.</div><div>Participación en decisiones y mejoras de arquitectura.</div><div>Orientación a la calidad de código, documentación y mejora continua.</div>",
+  "ubicacion": "Chile",
+  "modalidad_origen": "hibrido",
+  "nivel_origen": "senior",
+  "etiquetas": [
+    "Desarrollo Mobile"
+  ],
+  "fecha_publicacion": "2026-08-24",
+  "fecha_extraccion": "2026-10-06T15:58:29"
+}

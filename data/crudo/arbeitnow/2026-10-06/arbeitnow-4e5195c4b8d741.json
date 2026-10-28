@@ -1,0 +1,17 @@
+{
+  "id": "arbeitnow-4e5195c4b8d741",
+  "fuente": "arbeitnow",
+  "url": "https://www.arbeitnow.co.uk/jobs/companies/instil/senior-c-developer-contract-belfast-297140",
+  "titulo": "Senior C++ Developer (Contract)",
+  "empresa": "Instil",
+  "descripcion_html": "<p style=\"min-height:1.5em\">We are looking for a <strong>Senior C++ Developer</strong> with strong experience in Linux-based development environments and Microservices architecture. This role involves designing and building high-performance, scalable services in a distributed system, with a focus on reliability, maintainability, and performance on an embedded device.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Key Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Design, implement, and maintain C++ services in a microservices-based architecture.</p></li><li><p style=\"min-height:1.5em\">Develop and debug software in Linux environments, including scripting and system-level programming.</p></li><li><p style=\"min-height:1.5em\">Collaborate with cross-functional teams to define APIs, service contracts, and deployment strategies.</p></li><li><p style=\"min-height:1.5em\">Optimize system performance and ensure high availability in distributed systems.</p></li><li><p style=\"min-height:1.5em\">Contribute to CI/CD pipelines and automated testing frameworks.</p></li><li><p style=\"min-height:1.5em\">Participate in code reviews, architecture discussions.</p></li><li><p style=\"min-height:1.5em\">Ensure compliance with security, quality, and performance standards.</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Required Skills and Experience</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">7+ years of professional experience in C++ (C++14/17/20).</p></li><li><p style=\"min-height:1.5em\">Experience developing and debugging in Linux environments (e.g., shell scripting, system calls, process/thread management).</p></li><li><p style=\"min-height:1.5em\">Solid understanding of microservices architecture, RESTful APIs, and service orchestration.</p></li><li><p style=\"min-height:1.5em\">Experience with containerization and orchestration tools (Docker).</p></li><li><p style=\"min-height:1.5em\">Familiarity with inter-process communication (IPC), message queues, and gRPC.</p></li><li><p style=\"min-height:1.5em\">Proficiency in version control (Git) and CI/CD tools (e.g., Jenkins, GitLab CI).</p></li><li><p style=\"min-height:1.5em\">Experience with other languages (e.g., Python, Go).</p></li><li><p style=\"min-height:1.5em\">Strong analytical and debugging skills.</p><p style=\"min-height:1.5em\"></p></li></ul><p style=\"min-height:1.5em\"><strong>Location Requirements</strong></p><p style=\"min-height:1.5em\">This role is fully remote within the UK. Therefore, candidates can be based anywhere in the United Kingdom.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\">#InstilCareers #LI-PR1 </p><p>Find <a href=\"https://www.arbeitnow.co.uk\">Jobs in United Kingdom</a> on Arbeitnow</a>",
+  "ubicacion": "Belfast",
+  "modalidad_origen": "",
+  "nivel_origen": "",
+  "etiquetas": [
+    "Product Development",
+    "Contract"
+  ],
+  "fecha_publicacion": "2026-10-06",
+  "fecha_extraccion": "2026-10-06T15:58:35"
+}
